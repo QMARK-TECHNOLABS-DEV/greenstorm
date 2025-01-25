@@ -1,0 +1,166 @@
+.bg-light-one{ background-color: #F0F0F0; }
+.page-header {  }
+.page-header-border { width: 25%; margin: auto; display: block; border-bottom: 1px solid #45A735; }
+.page-header-subhead li {
+margin-right: 31px;
+font-weight: 500;
+font-family: 'Playfair Display', serif;
+line-height: 30px;
+}
+.votes_img_thumb { min-height: 250px; margin-bottom: 0px;}
+.modal_img_thumb {height: 450px; margin-bottom: 0px;}
+.votes_gallery_list li { list-style: none;}
+.votes_gallery_list .lupa > p {
+position: absolute;
+font-weight: 600;
+font-size: 16px;
+color: #fff;
+bottom: 10px;
+right: 20px;
+z-index: 1;
+font-family: 'Montserrat', sans-serif!important;
+}
+.votes_box {
+position: relative;
+}
+.votes_box:after {
+content: "";
+position: absolute;
+width: 100%;
+background: #00000029;
+left: 0px;
+height: 100%;
+bottom: 0px;
+z-index: 0;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.votes_box:hover:after {
+background: #000000a4;
+}
+.myModal .modal-body { background: #D9D9D9; padding: 0px;}
+.myModal .modal-body .p-dtls-content {
+color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;}
+.myModal .modal-body .p-dtls-head {
+color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight:700;
+line-height: 24px;}
+.modal-buttons { position: absolute; top: 50%; margin-top: -40px; z-index: 100; width: 100%; }
+.modal-buttons button:hover { }
+.modal-buttons button { color: #fff; font-size: 40px;}
+.modal-buttons button img { width: 25px;}
+.modal-buttons button.btn-prev {
+left: -80px;
+position: absolute;
+z-index: 100000000;
+border-radius: 0px;
+}
+.modal-buttons button.btn-next {
+right: -80px;
+position: absolute;
+z-index: 100000000;
+border-radius: 0px;
+}
+.myModal .modal-header  { padding: 0px;border: none;}
+.myModal .modal-header  .btn_close{
+position: absolute;
+right: -19px;
+width: 40px;
+height: 40px;
+background: #fff;
+border-radius: 50%;
+top: -15px;
+color: #000;
+z-index: 10;
+outline: none !important;
+border: none;
+}
+.like-btn-row p{
+font-family: 'Montserrat', sans-serif!important;
+color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 200% */
+text-transform: uppercase;}
+.like-btn-row button{ outline: none !important; border: none; background-color: transparent;  }
+
+.like-btn-row.active .outline-icon { display: none;}
+
+
+
+
+
+
+.current_winners_gallery_list li { list-style: none;}
+
+
+
+
+.current_winners_gallery_list.winner_info { align-items: center; margin-top: 70px;     justify-content: end;}
+
+.current_winners_gallery_list .winner_info  img { width: 80px!important; margin-right: 10px;}
+.current_winners_gallery_list .winner_info h4{     font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;}
+    .current_winners_gallery_list .winner_info span {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 20px;
+
+      text-align: left;
+      }
+
+
+
+.cwg_img_thumb { min-height: 400px;}
+.winner_img_box  .cwg_img_thumb { min-height: 650px;}
+.specialJur_img_box .cwg_img_thumb { min-height: 250px;}
+.cwg_header  h5 { font-weight: 400;}
+
+
+@media (max-width:991px) {
+    .cwg_header  { display: block !important;     text-align: start;}
+    .cwg_img_thumb { min-height:280px;}
+    .winner_img_box  .cwg_img_thumb { min-height: 280px;}
+    .specialJur_img_box .cwg_img_thumb { min-height: 280px;}
+    .current_winners_gallery_list .winner_info img {  width: 50px!important;}
+    .current_winners_gallery_list .winner_info h4 { font-size: 18px;}
+    .current_winners_gallery_list .winner_info span  { font-size: 15px;}
+}
+@media (max-width:767px) {
+    .current_winners_gallery_list .winner_info h4 { font-size: 16px;}
+    .current_winners_gallery_list .winner_info span  { font-size: 14px;}
+.like-btn-row  { text-align: left !important; }
+.like-btn-row p.text-center{ text-align: left !important; margin-right: 10px}
+.like-btn-row p {display: inline-block;}
+.res-order-1 { order: 1;}
+.res-order-2 { order: 2;}
+.res-order-3 { order: 3;}
+.res-order-4 { order: 4;}
+.res-order-5 { order: 5;}
+.current_winners_gallery_list .winner_info img {  width: 50px!important;}
+
+.cwg_img_thumb { min-height:250px;}
+.winner_img_box  .cwg_img_thumb { min-height: 250px;}
+.specialJur_img_box .cwg_img_thumb { min-height: 250px;}
+
+
+
+
+
+.modal_img_thumb {
+height: 218px;
+}
+.myModal .modal-header .btn_close { top: 0px; right: 0px;}
+.page-header-subhead{ display: block !important;}
+
+}
