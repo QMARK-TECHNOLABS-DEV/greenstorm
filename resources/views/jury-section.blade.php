@@ -6,8 +6,7 @@
             </div>
             <div class="col-xl-8 col-md-8 col-sm-12 wow animate__animated animate__fadeInRight"
                 data-wow-delay=".3s">
-                <p>The Greenstorm Global Photography Festival is privileged to host an esteemed international jury, comprising trailblazers in the realm of photography and environmental storytelling. Together, this jury embodies the fusion of art, conservation, and education, embodying the ethos of the Greenstorm Foundation.
-                </p>
+                <p>The Greenstorm Global Photography Festival proudly welcomes a distinguished Global jury, featuring pioneers in photography and environmental storytelling. These experts bring together the worlds of art, conservation, and education, reflecting the core values of the Greenstorm.</p>
             </div>
         </div>
     </div>
@@ -79,11 +78,11 @@
                     <div class=" team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img src="{{ asset('web/img/team/jury/len-metcalf.jpg') }}" alt="image">
+                                <img src="{{ asset('web/img/team/jury/nick.jpg') }}" alt="image">
                             </div>
                             <div class="content">
-                                <h3>Len Metcalf</h3>
-                                <span>Australia  </span>
+                                <h3>Nick</h3>
+                                <span>England  </span>
                                 <p class="text-center">
                                     <a data-bs-toggle="modal" data-bs-target="#teamFour" href="#"
                                         class="team-btn text-uppercase ">

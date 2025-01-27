@@ -62,6 +62,8 @@
                                     <li class="nav-item"> <a href="{{ route('about.g20') }}" class="nav-link">   About G20 Global  Land Initiative</a>   </li>
                                 </ul>
                             </li>
+
+                            {{--
                             <li class="nav-item">
                                 <a href="{{ route('contest') }}" class="nav-link {{  Request::segment(1) == 'contests' ? 'active' : '' }}">Exhibition
                                     <i class='ms-1 fa fa-chevron-down'></i>
@@ -73,6 +75,7 @@
                                 </ul>
                                
                             </li>
+                            --}}
                            
                             
                             <li class="nav-item">

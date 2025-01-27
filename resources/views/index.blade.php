@@ -147,7 +147,7 @@
                         data-wow-delay=".3s">
                         <div class="abt_content">
                             <h2 class="sec-ttl border_btm mb-md-5 mb-3 text-green">
-                                Celebrating 15 Years of <br> Inspiring Imagery
+                            Celebrating 16 Years of <br> Inspiring Imagery
                             </h2>
                         </div>
                     </div>
@@ -167,18 +167,18 @@
                             data-wow-delay=".3s">
                         </div>
                         <div class="col-xl-12 mt-3 mt-md-4">
-                            <p>Behind every photograph lies a story waiting to be told. The Greenstorm Global Photography Festival explores the marvels of nature, capturing the very essence of our planet. Since its inception in 2009, our mission has been resolute: to provide an exceptional platform for nature photographers worldwide, enabling them to showcase their extraordinary creations while igniting awareness about environmental conservation.
-                            </p>
-                            <p>           Over 15 years, the festival's impact has spanned more than 150 countries,
-                                influencing 12 million young minds. This global reach lets Greenstorm Foundation
-                                connect with diverse cultures and ecosystems, fostering holistic environmental education.
-                            </p>
-                            <p>
-                                In 2023, Greenstorm Foundation partnered with the United Nations G20 Global Land Initiative to organise the 15th edition of the Greenstorm Global Photography Festival with an aim to host the world’s most prestigious photography competition.
-                            </p>
-                            <p>
-                                Beyond visuals, the festival is a tribute to our planet's beauty and fragility—an invitation to join the conservation journey.
-                            </p>
+                        
+                        <p>Every photograph tells a story—and some stories have the power to transform. The Greenstorm Global Photography Festival celebrates the wonders of nature, capturing the essence of our planet through breathtaking visuals.</p>
+
+<p>Since 2009, we’ve been on a mission to create a world-class platform for nature photographers across the globe. It’s not just about showcasing their incredible talent but also about sparking conversations on environmental conservation.</p>
+
+<p>Over the past 16 years, the festival has reached over 150 countries, inspiring 12 million young minds to see, feel, and care for our planet. This global movement has connected us with diverse cultures and ecosystems, paving the way for holistic environmental education.</p>
+
+<p>In 2023, the 15th edition of the festival marked a significant milestone as Greenstorm joined hands with the United Nations G20 Global Land Initiative to host one of the world’s most prestigious photography competitions. As we celebrate the 16th edition in 2024, we’re proud to continue this impactful partnership, further amplifying our shared vision for conservation and sustainability.</p>
+
+<p>Beyond visuals, the festival is a tribute to our planet's beauty and fragility—an invitation to join the conservation journey.</p>
+
+
                             <p class="mt-md-5 mt-4 mb-md-5 mb-3 text-start text-md-start">
                                 <a href="{{ route('about.greenstorm') }}" class="default-btn btn-geen mt-5 mb-5">
                                 <span class="icon"> </span>
@@ -250,8 +250,11 @@
             data-wow-delay=".3s">
         <div class="entry_content ">
         <p>
-        Step into the spotlight at the 15th Greenstorm Global Photography Festival—an unparalleled opportunity to harness your lens for meaningful change. As the world's most prestigious photography competition, we're setting a new standard with an exceptional cash prize of 10,000 USD for the winning photograph. With an awe-inspiring total of 30,000 USD in cash awards, the festival celebrates beautiful landscapes captured with both DSLR/Mirrorless cameras and mobile phones. All age groups are welcome to join this creative expedition, with special attention given to our youngest participants. Your image has the power to make a difference. Be part of this remarkable journey.
-        </p>
+        The 16th Greenstorm Global Photography Festival invites you to capture the world through your lens and create a ripple of change.
+With a prize pool of 18,000 USD and an open category that welcomes photos taken with any equipment - DSLRs, mirrorless cameras, Drones or mobile phones - this is your moment to showcase your vision. Whether you’re a seasoned photographer or just starting out, your perspective matters.
+This festival isn’t just about competition; it’s a platform to amplify your voice and contribute to the global movement for environmental conservation. Your photograph could be the spark that inspires others to see the world in a new light.
+Your image has the power to make a difference.
+    </p>
         </div>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-12 pr-25 text-start wow animate__animated animate__fadeInLeft"
@@ -283,22 +286,17 @@
                                     Theme
                                 </h2>
                                 <div class="content-box mt-lg-5 mb-4 mb-lg-0">
-                                    <h3 class="sec-ttl-3"> Beautiful Landscapes
+                                    <h3 class="sec-ttl-3"> Beautiful Wetlands
                                     </h3>
-                                    {{--
-                                    <p> Aenean auctor vestibulum nisi, at tristique quam placerat in. Nunc a nunc rhoncus,
-                                        volutpat li
-                                        gula eu, porttitor justo. Suspendisse sollicitudin mauris pharetra leo ultricies, a
-                                        condimentum ris
-                                        us lobortis. Fusce pulvinar id libero in sodales. Phasellus.
-                                    </p>
-                                    --}}
-                                    <p>
-                                        "Beautiful Landscapes" serves as a visual celebration of our planet's diverse and captivating environments, where mountains stand tall, deserts whisper stories of resilience, water flows with grace, forests hum with life, and plains stretch as far as the eye can see. These enchanting terrains of inspiration beckon us to explore the wonders of nature and discover the extraordinary within our everyday world.
-                                    </p>
-                                    <p>
-                                        The delicate balance of our ecosystems is reflected in the beauty of our landscapes. By capturing and showcasing their magnificence, we emphasize the urgent need to take action to protect them. "Beautiful Landscapes" is a reminder to reflect on the interconnectedness of all living beings and the critical role we play in safeguarding our planet's natural heritage.
-                                    </p>
+                                   
+                                    <p>"Beautiful Wetlands" celebrates the serene and vital ecosystems that sustain life on our planet. From lush marshes and shimmering swamps to tranquil lagoons and dynamic river deltas, wetlands are nature's masterpieces, brimming with biodiversity and offering a lifeline to countless species.</p>
+
+<p>These extraordinary environments are not just visually captivating; they play a crucial role in maintaining ecological balance, purifying water, regulating climate, and protecting us from floods. By capturing the beauty of wetlands, we shine a spotlight on their significance and the pressing need to conserve these delicate habitats.</p>
+
+<p>"Beautiful Wetlands" reminds us of the intricate connections between water, land, and life, urging us to cherish and protect these for generations to come.</p>
+
+
+
                                 </div>
                             </div>
                         </div>
@@ -311,9 +309,9 @@
                     </div>
                     <div class="row mt-md-3 mt-5 wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
                         <div class="col-xxl-6 col-xl-6 col-lg-6 theame-sec-ttl">
-                            <h3 class="sec-ttl-3 mb-0"> Explore. Discover. Capture</h3>
+                            <h3 class="sec-ttl-3 mb-0">Explore, Connect, Inspire</h3>
                             <h3 class="sec-ttl-3">
-                                Click a frame for global fame!
+                            Be a part of the extraordinary
                             </h3>
                         </div>
                         <div class="col-xxl-6 col-xl-6 col-lg-6 ">
@@ -335,7 +333,9 @@
                         </div>
                     </div>
                     --}}
-                    <div class="container-fluid p-0 mt-lg-4">
+
+                    {{--
+                    <divA class="container-fluid p-0 mt-lg-4">
                         <!-- end row -->
                         <div class="row themes_categories_row">
                             <div class="col-xxl-4 col-lg-3 col-md-12 wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
@@ -371,7 +371,9 @@
                                 </div> -->
                         </div>
                         <!-- end row -->
-                    </div>
+                    </divA>
+                    --}}
+
                 </div>
             </div>
         </section>
@@ -1042,13 +1044,12 @@
             <div class="modal-content bg-green">
                 <a class="close" data-bs-dismiss="modal"> <i class="fa-solid fa-xmark"></i> </a>
                 <div class="modal-body">
-                    <h3 class="text-white">   Len Metcalf </h3>
+                    <h3 class="text-white"> Nick</h3>
                     <h6 class="text-white mb-5">
-                        Australia
+                        England
                     </h6>
                     <p class="text-white ">
-                        Growing up in Australia’s spectacular Blue Mountains provided Len with an endless array of incredible scenes to capture. He particularly loves the light and mood of misty wet landscapes, abundant in that region.
-                        His reunion with photography occurred at the conclusion of a three year lecturing tenure in the Middle East and he found that the love he had for photographing the natural world had flourished while he was otherwise engaged. In 2000 Len opened the Leonard Metcalf Gallery in Katoomba. Visitors to the gallery asked him to teach photography. Combining his flair for both education and photography made perfect sense and hence, Len’s School was created in 2000. Len has become renowned as a leading photographic educator through teaching, mentoring and facilitating innovative workshops and tours.
+                    Nick is a photographer and director from England, now based between an island near Seattle and Chicago. Known for his cinematic global advertising campaigns and human-nature documentary projects, he combines his background as a wildlife scientist with the needs of global brands like American Airlines, BMW, and Nespresso. His work, featured in magazines and billboards worldwide, has earned recognition from Luerzer’s Archive, the International Photography Awards, and Graphis Journal. Over the past 12 years, Nick has worked with environmental non-profits, documenting communities and places at the forefront of global change, including Alaska Native communities in Bristol Bay, helping to protect the world’s last great wild salmon run. With a thoughtful, immersive approach, Nick captures powerful imagery that celebrates our connection to each other and the natural world.
                     </p>
                 </div>
             </div>

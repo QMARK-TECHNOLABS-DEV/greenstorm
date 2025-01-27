@@ -167,6 +167,8 @@
                                             <label>Year <span class="required">* </span></label>
                                             <select class="form-select form-control bg-white" aria-label="" id="year" name="year">
                                                 <option value="">-Select Year-</option>
+                                                <option value="2025">2025</option>
+                                                <option value="2024">2024</option>
                                                 <option value="2023">2023</option>
                                                 <option value="2022">2022</option>
                                                 <option value="2021">2021</option>
@@ -245,16 +247,17 @@
                                     <ul>
                                         <h4 class="text-green" > Terms and Conditions</h4>
                                         <li><span>The photograph must be an original one taken by the contestant.</span></li>
-                                        <li><span>Plagiarising photos will be disqualified.</span></li>
-                                        <li><span>The entries should not have any identification details of the contestant.</span></li>
-                                        <li><span>The jury’s decision would be final and conclusive.</span></li>
-                                        <li><span>Digital manipulation, to a minimal extent, would be allowed. Gross manipulation/adding/deleting would call for the disqualification of images.</span></li>
-                                        <li><span>Candidates would be expected to submit RAW/ camera original images on request.</span></li>
-                                        <li><span>Participants agree that the image can be used by Greenstorm Foundation and G20 Global Land Initiative for non-commercial purposes and that it can be displayed or featured in any media, including social media and websites, at the discretion of G20 Global Land Initiative and GSF, giving due credit to the photographer.</span></li>
-                                        <li><span>Winning participants should be able to provide a valid bank account to which international deposits can be received.</span></li>
-                                        <li><span>There may be a tax imposed on the winning amount according to local rules as applicable from time to time.</span></li>
-                                        <li><span>Any dispute with regard to the global photography award would be subject to the legislation of India, where Greenstorm Foundation is based.</span></li>
-                                        <li><span>Only Photographs clicked between 1 January 2020 and 30th September 2023 can be submitted.</span></li>
+  <li><span>Plagiarising photos will be disqualified.</span></li>
+  <li><span>The entries should not have any identification details of the contestant.</span></li>
+  <li><span>The jury’s decision would be final and conclusive.</span></li>
+  <li><span>Digital manipulation, to a minimal extent, would be allowed. Gross manipulation/adding/deleting would call for the disqualification of images.</span></li>
+  <li><span>Candidates would be expected to submit RAW/camera original images on request.</span></li>
+  <li><span>Participants agree that the image can be used by Greenstorm Foundation and G20 Global Land Initiative for non-commercial purposes and that it can be displayed or featured in any media, including social media and websites, at the discretion of G20 Global Land Initiative and GSF, giving due credit to the photographer.</span></li>
+  <li><span>Winning participants should be able to provide a valid bank account to which international deposits can be received.</span></li>
+  <li><span>Participants from financially sanctioned countries will not be eligible to receive prize money due to compliance with international financial regulations.</span></li>
+  <li><span>Withholding taxes will be applied.</span></li>
+  <li><span>Any dispute with regard to the global photography award would be subject to the legislation of India, where Greenstorm Foundation is based.</span></li>
+  <li><span>Only photographs clicked between 1 January 2020 and 31st January 2025 can be submitted.</span></li>
                                     </ul>
                                 </div>
                             </div>
