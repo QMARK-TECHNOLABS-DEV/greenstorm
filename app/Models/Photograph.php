@@ -70,7 +70,14 @@ class Photograph extends Model
             $numericPart = preg_replace('/[^0-9]/', '', $record->photo_unique_id);
             return (int)$numericPart;
         });
+        if(!empty($sortedRecords->first()))
+        {
         $id = $sortedRecords->first()->photo_unique_id;
+        }
+        else
+        {
+            $id = 1;
+        }
         if ($id) {
             preg_match('/(\d+)$/', $id, $matches);
             if (isset($matches[1])) {
