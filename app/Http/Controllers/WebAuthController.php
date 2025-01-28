@@ -88,7 +88,8 @@ class WebAuthController extends Controller
 
             auth()->login($user);
             if ($request->ajax()) {
-                return redirect()->route('contest.voting');
+                //return redirect()->route('contest.voting');
+                return redirect()->route('profile');
             }
             // if ($request->ajax()) {
             //     return response()->json(['redirect' => route('profile.edit')], 200);
@@ -125,7 +126,8 @@ class WebAuthController extends Controller
         auth()->login($user);
         // dd($request->query('category'));
         // $category = $request->query('category', 1);
-        return redirect()->route('contest.voting', ['category' => $category]);
+        //return redirect()->route('contest.voting', ['category' => $category]);
+        return redirect()->route('profile');
         // if(Auth::user()->role == 'photographer'){
         //     return redirect()->route('profile.photograph.upload');
         // }else{

@@ -78,7 +78,15 @@
                         <div class="row mt-lg-5 mt-3">
                             <div class="category-select-btn mb-md-3 mb-0">
                                 <div class="row">
+
+                                @foreach ($photo_categories as $photo_category)
+                                <input type="hidden" name="photo_category" value="{{ $photo_category->id }}">
+                                @endforeach
+                                
+                                <?php /*
+                               
                                     <label class="fw-500 mb-3 ">Choose  Category <span class="required text-danger">* </span></label>
+                                   
                                     @foreach ($photo_categories as $photo_category)
                                         @php
                                             $is_exceed_limit = false;
@@ -107,7 +115,9 @@
                                             </label>
                                         </div>
                                     @endforeach
+                                    
                                     <div class="photo_category-error"></div>
+                                    */ ?>
                                     {{-- <div class="d-flex justify-content-center mt-2">Note: Participants can submit up to 3 entries in each category.</div> --}}
                                     <style>
                                         /* .submite_note { background: #96d48d; color: #000;padding: 5px;border-radius: 0px; width: 78%;margin: auto; font-size: 16px;} */
@@ -122,7 +132,7 @@
                                             }
                                     </style>
                                     <div class="d-flex justify-content-center my-4 submite_note">
-                                        <strong class="text-white text-center">     Note: Participants can submit up to 3 entries in each category.
+                                        <strong class="text-white text-center">     Note: Participants can submit up to 3 entries
                                         </strong>
                                     </div>
                                 </div>

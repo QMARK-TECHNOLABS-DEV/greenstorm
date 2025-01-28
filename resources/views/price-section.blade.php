@@ -16,23 +16,19 @@
             </div>
             <div class="col-lg-12">
                 <div class="row mt-md-5 mt-4">
-                    <div class="col-lg-6 col-md-6 col-sm-12  pe-lg-4 mb-lg-0 mb-4 wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
+                    <div class="col-lg-12 col-md-12 col-sm-12  pe-lg-4 mb-lg-0 mb-4 wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
                         <div class="single-pricing-table">
-                            <div class="pricing-header">
-                                <h3>Category 1</h3>
-                            </div>
+                           
+
                             <div class="price">
                                 <span> Winner </span>
-                                <h2> 10000 <sub> USD</sub> </h2>
+                                <h2> 10,000 <sub> USD</sub> </h2>
                             </div>
                             <div class="price">
-                                <span> First Runner-up </span>
+                                <span> Popular Choice </span>
                                 <h2> 5000 <sub> USD</sub> </h2>
                             </div>
-                            <div class="price">
-                                <span> Second Runner-up </span>
-                                <h2> 3000 <sub> USD</sub> </h2>
-                            </div>
+                           
                             <div class="price">
                                 <span> 3 Special Jury Mentions</span>
                                 <h2> 1000 <sub> USD each</sub> </h2>
@@ -40,6 +36,7 @@
                         </div>
                     </div>
                     <!-- col end -->
+                     {{--
                     <div class="col-lg-6 col-md-6 col-sm-12  ps-lg-4 mb-lg-0 mb-4 wow animate__animated animate__fadeInRight" data-wow-delay=".3s">
                         <div class="single-pricing-table bg-green-1">
                             <div class="pricing-header">
@@ -59,6 +56,7 @@
                             </div>
                         </div>
                     </div>
+                --}}
                     <!-- col end -->
                     <div class="col-lg-12 col-sm-12 mb-lg-4  mt-lg-5  mb-0 mt-3  wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
                         <div class="px-lg-5 p-4 bg-light-green text-center text-white student_text_box ">

@@ -4,7 +4,7 @@
         <div class="copyright-area ">
             <div class="row copyright-row align-items-center">
                 <div class="col-lg-6 text-start wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
-                    <span class="copyright-text"> © 2023 Copyright Greenstorm Foundation. All rights reserved.
+                    <span class="copyright-text"> © 2025 Copyright Greenstorm Foundation. All rights reserved.
                          </span>
                          <a href="{{ url('terms-and-conditions') }}"><span class="copyright-text">  T & C. Privacy Policy. </span></a>
                 </div>

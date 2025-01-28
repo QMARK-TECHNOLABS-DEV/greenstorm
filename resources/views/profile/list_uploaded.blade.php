@@ -40,7 +40,7 @@
                             <li> <span class="label__photo_id"><strong> Photo ID  :</strong> {{ $photograph->photo_unique_id }}</span> </li>
                             <li><strong> Device Used  :</strong> {{ $photograph->device }} </li>
                             <li><strong> Photo Captured Location :  </strong>  {{ $photograph->captured_location }} </li>
-                            <li><strong> Photo Category :  </strong>  {!! $photograph->photocategory->title !!} </li>
+                            {{--<li><strong> Photo Category :  </strong>  {!! $photograph->photocategory->title !!} </li>--}}
                             <li><strong> Year:  </strong> {{ $photograph->year }} </li>
                             <li><strong> Month : </strong>  {{ $photograph->month }} </li>                         
                             </ul>
