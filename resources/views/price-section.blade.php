@@ -58,6 +58,7 @@
                     </div>
                 --}}
                     <!-- col end -->
+                    {{--
                     <div class="col-lg-12 col-sm-12 mb-lg-4  mt-lg-5  mb-0 mt-3  wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
                         <div class="px-lg-5 p-4 bg-light-green text-center text-white student_text_box ">
                             <div class="row align-items-center ">
@@ -78,6 +79,8 @@
                             <!-- row end -->
                         </div>
                     </div>
+                    --}}
+
                     <h5 class="mt-2 mt-lg-3 submissions-date number-fontfamily mb-lg-3 mb-0 text-center">
                         {{-- Submissions end on 30<sup>th </sup> September 2023 </h5> --}}
                         {{-- Submission deadline extended to 15<sup>th</sup> October 2023 --}}

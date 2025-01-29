@@ -126,8 +126,8 @@ class WebAuthController extends Controller
         auth()->login($user);
         // dd($request->query('category'));
         // $category = $request->query('category', 1);
-        return redirect()->route('contest.voting', ['category' => $category]);
-        //return redirect()->route('profile');
+        //return redirect()->route('contest.voting', ['category' => $category]);
+        return redirect()->route('profile');
         // if(Auth::user()->role == 'photographer'){
         //     return redirect()->route('profile.photograph.upload');
         // }else{
