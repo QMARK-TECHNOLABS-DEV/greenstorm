@@ -25,7 +25,7 @@ class PhotographRepository
                                         ->where('photo_category',$request->photo_category)->count();
 
             if ($uploadedCount > $photoCatLimit) {
-                return response()->json(['message' => 'File upload failed! Your upload limit exceeded for this category! <br/> <span class="mt-2 badge bg-danger text-white"> Maximum Allowed Count: <b>'.$photoCatLimit.' Nos </b></span>'], 500);
+                return response()->json(['message' => 'File upload failed! Your upload limit exceeded! <br/> <span class="mt-2 badge bg-danger text-white"> Maximum Allowed Count: <b>'.$photoCatLimit.' Nos </b></span>'], 500);
             }
 
             // Handle the file upload
