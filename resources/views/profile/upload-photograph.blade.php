@@ -132,7 +132,8 @@
                                             }
                                     </style>
                                     <div class="d-flex justify-content-center my-4 submite_note">
-                                        <strong class="text-white text-center">     Note: Participants can submit up to 3 entries
+                                        <strong class="text-white text-center"> Note: The competition is open to all - submit up to three photos taken with any equipment.
+                    
                                         </strong>
                                     </div>
                                 </div>

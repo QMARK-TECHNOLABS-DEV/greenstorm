@@ -65,7 +65,7 @@ class PhotographRepository
                 $user->save();
 
                 $user->notify(new PhotographUploadedNotification($photograph->photo_unique_id));
-                return response()->json(['message' => 'Thank you for participating in the 15th edition of GGPF. Please also check your spam folder for any emails.']);
+                return response()->json(['message' => 'Thank you for participating in the 16th edition of GGPF. Please also check your spam folder for any emails.']);
             }
         } catch (\Throwable $th) {
             return response()->json(['message' => 'File upload failed'], 500);

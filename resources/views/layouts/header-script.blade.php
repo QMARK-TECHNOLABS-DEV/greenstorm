@@ -5,7 +5,7 @@
 {{-- <title>Greenstorm | Home</title>  --}}
 {{-- <title>15th edition of the Greenstorm Global Photography Festival </title> --}}
 @if(Request::segment(1) == 'about-greenstorm' || Request::segment(1) == 'about-g20')
-<title>15 years of Greenstorm</title>
+<title>16 years of Greenstorm</title>
 <meta name="title" content="Greenstorm Global Photography Festival: 15 Years of Photography, Nature, and Advocacy">
 <meta name="description" content="Explore the Greenstorm Global Photography Festival and its 15-year journey celebrating photography, nature, and environmental advocacy. Join us in capturing the essence of our passion for a sustainable future.">
 @elseif(Request::segment(1) == 'contests')
@@ -25,7 +25,7 @@
 <meta name="title" content="Get in Touch with Greenstorm" >
 <meta name="description" content="We'd love to hear from you! Whether you have questions, feedback, or inquiries, our team at Greenstorm is here to assist you.">
 @else
-<title>15th edition of the Greenstorm Global Photography Festival </title>
+<title>16th edition of the Greenstorm Global Photography Festival </title>
 @endif
 
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" as="style">

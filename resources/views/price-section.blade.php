@@ -8,10 +8,10 @@
             </div>
             <div class="col-lg-12 wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
                 <div class="d-none d-lg-block">
-                    <img width="100%" src="{{ asset('web/img/price-banner-mask-removed.svg') }}" alt="" />
+                    <img width="100%" src="{{ asset('web/img/price-banner.png') }}" alt="" />
                 </div>
                 <div class="d-block d-lg-none">
-                    <img width="100%" src="{{ asset('web/img/price-banner-mobile.svg') }}" alt="" />
+                    <img width="100%" src="{{ asset('web/img/price-banner.png') }}" alt="" />
                 </div>
             </div>
             <div class="col-lg-12">
