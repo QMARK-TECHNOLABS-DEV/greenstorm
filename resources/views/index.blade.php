@@ -1044,7 +1044,7 @@ Your image has the power to make a difference.
             <div class="modal-content bg-green">
                 <a class="close" data-bs-dismiss="modal"> <i class="fa-solid fa-xmark"></i> </a>
                 <div class="modal-body">
-                    <h3 class="text-white"> Nick</h3>
+                    <h3 class="text-white">Nick Hall</h3>
                     <h6 class="text-white mb-5">
                         England
                     </h6>

@@ -81,7 +81,7 @@
                                 <img src="{{ asset('web/img/team/jury/nick.jpg') }}" alt="image">
                             </div>
                             <div class="content">
-                                <h3>Nick</h3>
+                                <h3>Nick Hall</h3>
                                 <span>England  </span>
                                 <p class="text-center">
                                     <a data-bs-toggle="modal" data-bs-target="#teamFour" href="#"
