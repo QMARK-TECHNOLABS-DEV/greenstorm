@@ -17,7 +17,56 @@
         <div class="container-fluid">
             <div class="home-main-slides ">
                 <div class="home-slides owl-carousel owl-theme ">
+
+
+                    <div class="item">
+                        <div class=" d-none d-md-block">
+                            <img src="{{ asset('web/img/main-banners/n-slider-0.jpg') }}" class="banner_img" alt="images not found">
+                           <!--  <div class="cover">
+                                  <div class="container-fluid ">
+                                    <div class="row align-items-center justify-content-end">
+                                        <div class="main-banner-content text-center  col-xxl-7 col-xl-7 col-lg-7 col-md-9 wow animate__animated animate__fadeInRight"
+                                            data-wow-delay=".3s">
+                                            <div class="mbanner_thumb_img mb-md-4 ">
+                                                <img class="w-50 mx-auto" src="{{ asset('web/img/frame-white.svg') }}" alt="">
+                                            </div>
+                                            {{-- <h1 class="text-white mb-4 text-center">
+                                                The most coveted award in <br> nature photography
+                                            </h1> --}}
+                                            <h1 class="text-white mb-4 text-center">
+                                               
+                                                17716 entries from 153 countries.<br>
+                                                <h3 class="text-white">Stay tuned for the Award Ceremony on 22 April 2024,<br/> World Earth Day</h3>
+
+                                            </h1>
+                                            <p class="mt-lg-5 mt-3 text-center d-none"> <a href="#" class="slider_btn bg-green text-uppercase  ">
+                                                <img src="{{ asset('web/img/btn_white-arrow.svg') }}" alt="">
+                                                <span> @commonButtonDirective(false) </span>
+                                                </a>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+                            </div>-->
+                            <!-- cover end-->
+                        </div>
+                        <!-- mobile items -->
+                        <div class=" d-block d-md-none slider_mobile">
+                            <img src="{{ asset('web/img/main-banners/largest-01.jpg') }}" class="banner_img" alt="images not found">
+                            <p class="mt-md-5 mt-3 text-center d-none"> <a href="#" class="slider_btn bg-green text-uppercase  ">
+                                                <img src="{{ asset('web/img/btn_white-arrow.svg') }}" alt="">
+                                                <span> @commonButtonDirective(false) </span>
+                                                </a>
+                                            </p>
+                        </div>
+                    </div>
+
+
+
                     <!-- item one -->
+                    <?php /*
                     <div class="item">
                         <div class=" d-none d-md-block">
                             <img src="{{ asset('web/img/main-banners/n-slider-1.jpg') }}" class="banner_img" alt="images not found">
@@ -61,7 +110,10 @@
                                             </p>
                         </div>
                     </div>
+                    */ ?>
                     <!-- item two-->
+
+                    <?php /*
                     <div class="item">
                         <div class=" d-none d-md-block">
                             <img src="{{ asset('web/img/main-banners/n-slider-2.jpg') }}" class="banner_img" alt="images not found">
@@ -135,6 +187,8 @@
                             </p>
                         </div>
                     </div>
+                    */ ?>
+
                 </div>
             </div>
         </div>
