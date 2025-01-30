@@ -78,7 +78,7 @@
                     <div class=" team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img src="{{ asset('web/img/team/jury/nick.jpg') }}" alt="image">
+                                <img src="{{ asset('web/img/team/jury/nick.jpg') }}" alt="image" style="max-height:552px;">
                             </div>
                             <div class="content">
                                 <h3>Nick Hall</h3>
