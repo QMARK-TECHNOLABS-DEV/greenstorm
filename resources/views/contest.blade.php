@@ -119,6 +119,7 @@
                                     Photography Contest, Exhibition and Award ceremony
                                 </div>
                             </li>
+                            {{--
                             <li class="accordion-item">
                                 <a class="accordion-title" href="javascript:void(0)">
                                     <i class="fa-solid fa-plus"></i>
@@ -128,6 +129,7 @@
                                     ‘Beautiful Wetlands’
                                 </div>
                             </li>
+                            --}}
                             <li class="accordion-item">
                                 <a class="accordion-title" href="javascript:void(0)">
                                     <i class="fa-solid fa-plus"></i>
