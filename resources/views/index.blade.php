@@ -152,7 +152,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 abt_clm text-center wow animate__animated animate__fadeInRight" data-wow-delay=".3s">
-                        <img class="w-100 " src="{{ asset('web/img/frame.svg') }}">
+                        <img class="w-100 " src="{{ asset('web/img/16logo.png') }}">
                     </div>
                 </div>
                 <div class="row mt-3">
