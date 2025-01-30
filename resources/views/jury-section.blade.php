@@ -82,7 +82,7 @@
                             </div>
                             <div class="content">
                                 <h3>Nick Hall</h3>
-                                <span>England  </span>
+                                <span>USA</span>
                                 <p class="text-center">
                                     <a data-bs-toggle="modal" data-bs-target="#teamFour" href="#"
                                         class="team-btn text-uppercase ">
