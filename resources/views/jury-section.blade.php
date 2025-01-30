@@ -1,3 +1,12 @@
+<style>
+.jiimage
+{
+height:545px !important; 
+object-fit:cover;
+}
+    
+</style>
+
 <section class="team-area pt-60 pb-60">
     <div class="container">
         <div class="row">
@@ -17,7 +26,7 @@
                     <div class=" team_clm ">
                         <div class="single-team-box">
                             <div class="image">
-                                <img src="{{ asset('web/img/team/jury/charlie-waite.jpg') }}" alt="image">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/charlie-waite.jpg') }}" alt="image">
                             </div>
                             <div class="content">
                                 <h3>Charlie Waite  </h3>
@@ -58,7 +67,7 @@
                     <div class=" team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img src="{{ asset('web/img/team/jury/latika-nath.jpg') }}" alt="image">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/latika-nath.jpg') }}" alt="image">
                             </div>
                             <div class="content">
                                 <h3>Latika Nath </h3>
@@ -78,7 +87,7 @@
                     <div class=" team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img src="{{ asset('web/img/team/jury/nick.jpg') }}" alt="image" style="max-height:552px;">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/nick.jpg') }}" alt="image" style="">
                             </div>
                             <div class="content">
                                 <h3>Nick Hall</h3>
