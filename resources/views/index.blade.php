@@ -276,6 +276,8 @@ Your image has the power to make a difference.
         <!-- Start Team Area -->
         @include('jury-section')
         <!-- End Team Area -->
+
+        {{--
         <section class="contest-themes-area pt-60  pb-60 pb_mbl_0">
             <div class="container-fluid">
                 <div class="contest-themes-box">
@@ -373,10 +375,13 @@ Your image has the power to make a difference.
                         <!-- end row -->
                     </divA>
                     --}}
-
+                    {{--
                 </div>
             </div>
         </section>
+        --}}
+
+
         {{--
         <section class="contest-themes-area pt-60  pb-60 pb_mbl_0">
             <div class="container-fluid">
