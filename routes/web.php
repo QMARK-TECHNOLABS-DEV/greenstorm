@@ -9,6 +9,7 @@ use App\Http\Controllers\{
         NotificationController,
         CertificateController,
         EmailVerificationController,
+        AzureBlobController,
         admin\LoginController as AdminLoginController,
         Auth\ChangePasswordController as ChangePasswordController,
         admin\AdminController as AdminController,
@@ -57,6 +58,12 @@ use App\Http\Controllers\{
 | Web Routes
 |--------------------------------------------------------------------------
 */
+
+Route::get('/upload-sample-file', [AzureBlobController::class, 'createAndUploadSampleTextFile']);
+
+Route::get('/data-deletion',  function (){return view('data-deletion');});
+
+
 Route::get('/pre-login',[WebController::class, 'pre_login'])->name('pre.login');
 Route::post('/process-pre-login',[WebAuthController::class, 'process_pre_login'])->name('process.pre.login');
 // Route::middleware(['check_pre_login'])->group(function () {
@@ -275,5 +282,7 @@ Route::prefix('evaluator')->group(function () {
         Route::get('/load-stages/{competition}', [EvaluatorStageController::class,'get_stages'])->name('evaluator.get.stages');
         Route::post('/stage-levels/{competition}/{type}', [EvaluatorStageController::class,'stage_levels'])->name('evaluator.stage.levels');
         Route::post('/logout', [EvaluatorController::class, 'logout'])->name('evaluator.logout');
+
+        
     });
 });
