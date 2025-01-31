@@ -118,4 +118,13 @@
         </div>
     </div>
     </div>
+                            <div class="container mt-5 mb-5"> <!-- Added mb-5 for margin-bottom -->
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <a href="{{ url('profile/upload-photograph') }}" class="submit-btn" style="background: linear-gradient(45deg, #b0d232, #36b348); color: #fff; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-size: 18px; font-weight: bold; border: 3px solid #badcb2; box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);">
+                Submit Your Photo
+            </a>
+        </div>
+    </div>
+</div>
 </section>
