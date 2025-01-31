@@ -23,9 +23,9 @@
                         <div class=" d-none d-md-block">
                             <img src="{{ asset('web/img/main-banners/n-slider-0.jpg') }}" class="banner_img" alt="images not found">
                             <!-- CTA Button -->
-                            <div class="cta-button" style="position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                            <div class="cta-button" style="position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                                 <a href="{{url('profile/upload-photograph')}}" class="submit-btn" style="background-color: #36b348; color: #fff; padding: 15px 30px; border-radius: 5px; text-decoration: none; font-size: 18px; font-weight: bold;">
-                                    Submit Your Photo
+                                    Submit 
                                 </a>
                             </div>
                             <!-- End CTA Button -->
