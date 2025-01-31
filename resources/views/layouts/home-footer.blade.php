@@ -108,7 +108,7 @@
                     <div class="col-12 col-md-3 text-center text-lg-start">
                         <h6> Call Us: </h6>
                         {{-- <p> Lakshmi: +91 8714450501</p> --}}
-                        <p class="text-center text-lg-start"><span class="number-fontfamily"> +91 9961142800, +91 96459 43996 </span></p>
+                        <p class="text-center text-lg-start"><span class="number-fontfamily"> +91 9961142800, </br> +91 96459 43996 </span></p>
                     </div>
                     <div class="col-12 col-md-4 text-center text-lg-start">
                         <h6>Email Us: </h6>
