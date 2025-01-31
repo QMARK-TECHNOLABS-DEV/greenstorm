@@ -10,6 +10,13 @@
         margin-top: -235px;
         padding-top: 250px !important;
         }
+            /* Remove any arrow added via pseudo-elements */
+    .submit-btn::after,
+    .submit-btn::before {
+        content: none !important; /* Remove any content added via pseudo-elements */
+        display: none !important; /* Hide the pseudo-elements */
+    }
+</sty
     </style>
     <div class="cursor"></div>
 
