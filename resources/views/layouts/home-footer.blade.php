@@ -101,21 +101,21 @@
                 <div class="row">
                 <div class="col-md-5 text-center text-lg-start">
                 <h6> Address: </h6>
-                {{-- <p> Greenstorm Foundation,North Avenue, Lisie Jn. Kochi 682018. Kerala, IN</p> --}}
-                <p class="text-center text-lg-start">Greenstorm Foundation, GTWRA 31, Parthasarathy Temple Road, Changampuzha Park Rd, Kochi, Kerala 682024</p>
+                {{-- <p> Greenstorm Foundation,North Avenue, Lisie Jn. Kochi 682018. Kerala</p> --}}
+                <p class="text-center text-lg-start">Greenstorm Foundation, GTWRA 31, Parthasarathy Temple Road, Changampuzha Park, Kochi 682024 </br> Kerala, India </p>
                 </div>
 
                     <div class="col-12 col-md-3 text-center text-lg-start">
                         <h6> Call Us: </h6>
                         {{-- <p> Lakshmi: +91 8714450501</p> --}}
-                        <p class="text-center text-lg-start"><span class="number-fontfamily"> +91 9961142800 </span></p>
+                        <p class="text-center text-lg-start"><span class="number-fontfamily"> +91 9961142800, +91 96459 43996 </span></p>
                     </div>
                     <div class="col-12 col-md-4 text-center text-lg-start">
                         <h6>Email Us: </h6>
                         {{-- <p> green@greenstorm.green</p> --}}
                         <p class="text-center text-lg-start">
                             green@greenstorm.green <br>
-                            wwischnewski@unccd.int
+    
                         </p>
                     </div>
                 </div>
