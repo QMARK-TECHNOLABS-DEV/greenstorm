@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Requests\PhotographRequest;
 use App\Notifications\PhotographUploadedNotification;
-use Illuminate\Support\Str;
+use Illuminate\Support\Str; 
 class PhotographRepository
 {
     public function __construct()
@@ -16,7 +16,8 @@ class PhotographRepository
         //
     }
     public function processUploadPhotograph(PhotographRequest $request)
-    {
+    { 
+        
         try {
             $user = Auth::user();
             $photoCat = PhotoCategory::where('id',$request->photo_category)->first();
@@ -40,9 +41,32 @@ class PhotographRepository
             }
 
             if ($request->hasFile('image')) {
+                /*
                 $file = $request->file('image');
-                $path = $request->file('image')->store('images', 's3');
-                $imageURL = Storage::disk('s3')->url($path);
+                $path = $request->file('image')->store('images', 'azure');
+                $imageURL = Storage::disk('azure')->url($path);
+                */
+
+
+                $file = $request->file('image');
+                $filename = time() . '_' . $file->getClientOriginalName();
+                
+                // Read the file content and encode it in UTF-8
+                $fileContent = file_get_contents($file);
+                
+                // If file content is binary (e.g., image or other non-text file), skip encoding
+                if (mb_detect_encoding($fileContent, 'UTF-8', true) === false) {
+                    $fileContent = utf8_encode($fileContent);
+                }
+                
+                $path = Storage::disk('azure')->write('/' . $filename, $fileContent);
+                
+                if (!$path) {
+                    return response()->json(['error' => 'File upload failed!'], 500);
+                }
+                
+                $imageURL = env('AZURE_STORAGE_URL') . env('AZURE_STORAGE_CONTAINER') . '/' . $filename;
+                return response()->json(['image_url' => $imageURL]);
 
                 // Save photograph using the Photograph model
                 $photograph = new Photograph();
@@ -68,7 +92,17 @@ class PhotographRepository
                 return response()->json(['message' => 'Thank you for participating in the 16th edition of GGPF. Please also check your spam folder for any emails.']);
             }
         } catch (\Throwable $th) {
-            return response()->json(['message' => 'File upload failed'], 500);
+
+            //return response()->json(['message' => 'File upload failed'], 500);
+
+            return response()->json([
+                'message' => 'File upload failed!',
+                'error'   => $th->getMessage(),  // Shows the error message
+                'file'    => $th->getFile(),     // Shows the file where error occurred
+                'line'    => $th->getLine(),     // Shows the line number
+                'trace'   => $th->getTrace()     // Shows full stack trace
+            ], 500);
+
         }
     }
 }
