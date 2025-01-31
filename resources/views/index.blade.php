@@ -22,14 +22,13 @@
                     <div class="item">
                         <div class=" d-none d-md-block">
                             <img src="{{ asset('web/img/main-banners/n-slider-0.jpg') }}" class="banner_img" alt="images not found">
-                             <div class="col-xxl-6 col-xl-6 col-lg-6 ">
-                            <p class=" mt-lg-5 mt-3 mb-3 mb-lg-0 text-start text-md-end d-none">
-                                <a href="{{url('profile/upload-photograph')}}" class="submit-btn">
-                                <span class="icon"> <img src> </span>
-                                <span> @commonButtonDirective(false) </span>
+                            <!-- CTA Button -->
+                            <div class="cta-button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                                <a href="{{url('profile/upload-photograph')}}" class="submit-btn" style="background-color: #36b348; color: #fff; padding: 15px 30px; border-radius: 5px; text-decoration: none; font-size: 18px; font-weight: bold;">
+                                    Submit Your Photo
                                 </a>
-                            </p>
-                        </div>
+                            </div>
+                            <!-- End CTA Button -->
                            <!--  <div class="cover">
                                   <div class="container-fluid ">
                                     <div class="row align-items-center justify-content-end">
