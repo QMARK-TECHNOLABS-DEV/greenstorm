@@ -82,7 +82,7 @@
                 <div class="col-md-4 col-sm-6 footer_logo  text-center text-lg-center">
                     <img src="{{ asset('web/img/footer-logo.svg') }}" alt="">
                 </div>
-                <div class="col-md-2 col-sm-4 footer_logo  text-center text-lg-center">
+                <div class="col-md-2 col-sm-2 footer_logo  text-center text-lg-center">
                     <img src="{{ asset('web/img/footer-logo-3.svg') }}" alt="logo">
                 </div>
                 <div class="col-md-3 col-sm-6 footer_logo  text-center text-lg-center">
