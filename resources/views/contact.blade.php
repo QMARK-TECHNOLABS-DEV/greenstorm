@@ -18,8 +18,8 @@
                 <div class="row">
                     <div class="col-12 col-lg-12 mt-3 mt-lg-5">
                         <h5 class="text-green"> Call Us: </h5>
-                      <p> Lakshmi: +91 87144 50501</p> 
-                        <p><span class="number-fontfamily"> +91 99611 42800 </span> </p>
+                      <p> +91 99611 42800</p> 
+                        <p><span class="number-fontfamily">  </span> </p>
                     </div>
                     <div class="col-12 col-lg-12 mt-3 mt-lg-5">
                         <h5 class="text-green">Email Us: </h5>
