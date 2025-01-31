@@ -14,11 +14,12 @@
                 {{-- <p> Greenstorm Foundation, North Avenue, Lisie Jn. Kochi 682018. Kerala, IN</p> --}}
                 <p> Greenstorm Foundation, GTWRA 31, 
 <br>  Parthasarathy Temple Road,<br>
-                 Changampuzha Park, Kochi 682024  <span class="number-fontfamily"> Kerala,india </span> </p>
+                 Changampuzha Park, Kochi 682024 </br>  Kerala,india  <span class="number-fontfamily"> </span> </p>
                 <div class="row">
                     <div class="col-12 col-lg-12 mt-3 mt-lg-5">
                         <h5 class="text-green"> Call Us: </h5>
-                      <p> +91 99611 42800</p> 
+                      <p> +91 99611 42800</p>
+                        <p>+91 96459 43996</p>
                         <p><span class="number-fontfamily">  </span> </p>
                     </div>
                     <div class="col-12 col-lg-12 mt-3 mt-lg-5">
