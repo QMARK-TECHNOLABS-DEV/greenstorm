@@ -123,15 +123,24 @@
         <div class="col-lg-12 text-center">
             <!-- Submission Deadline -->
             <h5 class="mb-4" style="color: #333; font-size: 25px; font-weight: bold; margin-top: -45px; transform: translateY(-80px);">
-                Submission ends on 28 February 2025
+                Submission ends on 
+                <span style="font-family: 'Courier New', Courier, monospace; font-size: 30px; color: #b02d00;">
+                    28
+                </span> 
+                February 2025
             </h5>
             <!-- CTA Button -->
-            <a href="{{ url('profile/upload-photograph') }}" class="submit-btn" style="background: linear-gradient(45deg, #b0d232, #36b348); color: #fff; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-size: 18px; font-weight: bold; border: 3px solid #badcb2; box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5); transform: translateY(-100px); top: -50px;">
+            <a href="{{ url('profile/upload-photograph') }}" class="submit-btn" 
+               style="background: linear-gradient(45deg, #b0d232, #36b348); color: #fff; padding: 15px 30px; 
+                      border-radius: 50px; text-decoration: none; font-size: 18px; font-weight: bold; 
+                      border: 3px solid #badcb2; box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5); 
+                      position: relative; top: -80px;">
                 Submit
             </a>
         </div>
     </div>
 </div>
+
 
 
 </section>
