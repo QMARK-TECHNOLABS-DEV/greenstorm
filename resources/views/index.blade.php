@@ -24,7 +24,7 @@
                             <img src="{{ asset('web/img/main-banners/n-slider-0.jpg') }}" class="banner_img" alt="images not found">
                              <div class="col-xxl-6 col-xl-6 col-lg-6 ">
                             <p class=" mt-lg-5 mt-3 mb-3 mb-lg-0 text-start text-md-end d-none">
-                                <a href="#" class="submit-btn">
+                                <a href="{{url('profile/upload-photograph')}}" class="submit-btn">
                                 <span class="icon"> <img src> </span>
                                 <span> @commonButtonDirective(false) </span>
                                 </a>
