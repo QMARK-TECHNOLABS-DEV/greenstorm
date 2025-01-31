@@ -124,7 +124,7 @@
             <!-- Submission Deadline -->
             <h5 class="mb-4" style="color: #333; font-size: 25px; font-weight: bold; margin-top: -45px; transform: translateY(-80px);">
                 Submission ends on 
-                <span style="font-family: 'Courier New', Courier, monospace; font-size: 30px; color: #b02d00;">
+                <span style="font-family: 'Courier New', Courier, monospace; font-size: 30px; color: black;">
                     28
                 </span> 
                 February 2025
