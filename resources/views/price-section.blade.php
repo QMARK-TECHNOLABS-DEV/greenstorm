@@ -122,12 +122,10 @@
     <div class="row">
         <div class="col-lg-12 text-center">
             <!-- Submission Deadline -->
-            <h5 class="mb-4" style="color: #333; font-size: 25px; font-weight: bold; margin-top: -45px; transform: translateY(-80px);">
+            <h5 class="mb-4" style="color: #333;font-family:Raleway, sans-serif; font-size: 25px; font-weight: bold; margin-top: -45px; transform: translateY(-80px);">
                 Submission ends on 
-                <span style="font-family: 'Courier New', Courier, monospace; font-size: 30px; color: black;">
-                    28
-                </span> 
-                February 2025
+                <span style="font-family:Raleway, sans-serif; font-size: 30px; color: black;">28</span> 
+                February <span style="font-family:Raleway, sans-serif; font-size: 30px; color: black;">2025</span>
             </h5>
             <!-- CTA Button -->
             <a href="{{ url('profile/upload-photograph') }}" class="submit-btn" 
