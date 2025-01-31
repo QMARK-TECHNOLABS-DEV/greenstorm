@@ -122,7 +122,7 @@
     <div class="row">
         <div class="col-lg-12 text-center">
             <!-- Submission Deadline -->
-            <h5 class="mb-4" style="color: #333; font-size: 20px; font-weight: bold; margin-top: -15px;">
+            <h5 class="mb-4" style="color: #333; font-size: 23px; font-weight: bold; margin-top: -45px;">
                 Submission ends on <strong>28 February 2025</strong>
             </h5>
             <!-- CTA Button -->
