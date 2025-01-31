@@ -169,7 +169,7 @@ class WebAuthController extends Controller
             $user->save();
         }
         auth()->login($user);
-        return redirect('/voting');
+        return redirect()->route('profile.edit');
 
         // return redirect('/profile/#');
     }
