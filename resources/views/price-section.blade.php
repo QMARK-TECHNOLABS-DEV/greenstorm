@@ -118,11 +118,16 @@
         </div>
     </div>
     </div>
-                            <div class="container mt-5 mb-5"> <!-- Added mb-5 for margin-bottom -->
+    <div class="container mt-5 mb-5"> <!-- Added mb-5 for margin-bottom -->
     <div class="row">
         <div class="col-lg-12 text-center">
+            <!-- Note -->
+            <h5 class="mb-4" style="color: #333; font-size: 16px; font-weight: 500;">
+                Note: Submission ends on <strong>28 February 2025</strong>
+            </h5>
+            <!-- CTA Button -->
             <a href="{{ url('profile/upload-photograph') }}" class="submit-btn" style="background: linear-gradient(45deg, #b0d232, #36b348); color: #fff; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-size: 18px; font-weight: bold; border: 3px solid #badcb2; box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);">
-                Submit 
+                Submit
             </a>
         </div>
     </div>
