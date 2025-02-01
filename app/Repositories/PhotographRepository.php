@@ -46,8 +46,6 @@ class PhotographRepository
                 $path = $request->file('image')->store('images', 'azure');
                 $imageURL = Storage::disk('azure')->url($path);
                 */
-
-
                 $file = $request->file('image');
 
                 $filename = time() . 'azr_' . $file->getClientOriginalName();
@@ -58,7 +56,7 @@ class PhotographRepository
                 // Use the write() method to upload to Azure Blob Storage
                 Storage::disk('azure')->write('photo-uploads-2025/' . $filename, $fileContent);
             
-                $path = env('AZURE_STORAGE_URL') . '/' . env('AZURE_STORAGE_CONTAINER') . '/photo-uploads-2025/' . $filename;
+                $path = env('AZURE_STORAGE_URL').'photo-uploads-2025/' . $filename;
                 
                 if (!$path) {
                     return response()->json(['error' => 'File upload failed!'], 500);
