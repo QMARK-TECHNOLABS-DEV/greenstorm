@@ -34,7 +34,8 @@ class AppServiceProvider extends ServiceProvider
             $client = BlobRestProxy::createBlobService(
                 'DefaultEndpointsProtocol=https;AccountName='.$config['name'].
                 ';AccountKey='.$config['key'].';EndpointSuffix=core.windows.net'
-            );
+            
+            ); 
         
             return new Filesystem(new AzureBlobStorageAdapter($client, $config['container']));
         });
