@@ -49,24 +49,24 @@ class PhotographRepository
 
 
                 $file = $request->file('image');
-                $filename = time() . '_' . $file->getClientOriginalName();
+
+                $filename = time() . 'azr_' . $file->getClientOriginalName();
                 
                 // Read the file content and encode it in UTF-8
                 $fileContent = file_get_contents($file);
-                
-                // If file content is binary (e.g., image or other non-text file), skip encoding
-                if (mb_detect_encoding($fileContent, 'UTF-8', true) === false) {
-                    $fileContent = utf8_encode($fileContent);
-                }
-                
-                $path = Storage::disk('azure')->write('/' . $filename, $fileContent);
+
+                // Use the write() method to upload to Azure Blob Storage
+                Storage::disk('azure')->write('photo-uploads-2025/' . $filename, $fileContent);
+            
+                $path = env('AZURE_STORAGE_URL') . '/' . env('AZURE_STORAGE_CONTAINER') . '/photo-uploads-2025/' . $filename;
                 
                 if (!$path) {
                     return response()->json(['error' => 'File upload failed!'], 500);
                 }
-                
-                $imageURL = env('AZURE_STORAGE_URL') . env('AZURE_STORAGE_CONTAINER') . '/' . $filename;
-                return response()->json(['image_url' => $imageURL]);
+
+                $imageURL = $path;
+
+                //return response()->json(['image_url' => $imageURL]);
 
                 // Save photograph using the Photograph model
                 $photograph = new Photograph();
