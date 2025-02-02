@@ -27,13 +27,13 @@
                 <!-- Item 1 -->
                 <div class="item">
                     <div class="banner_slider">
-                        <img src="{{ asset('web/img/main-banners/gs252.jpg') }}" class="banner_img" alt="Image not found">
+                        <img src="{{ asset('web/img/main-banners/gs254.jpg') }}" class="banner_img" alt="Image not found">
                     </div>
                 </div>
                 <!-- Item 2 -->
                 <div class="item">
                     <div class="banner_slider">
-                        <img src="{{ asset('web/img/main-banners/gs254.jpg') }}" class="banner_img" alt="Image not found">
+                        <img src="{{ asset('web/img/main-banners/gs252.jpg') }}" class="banner_img" alt="Image not found">
                     </div>
                 </div>
                 <!-- Item 3 -->
