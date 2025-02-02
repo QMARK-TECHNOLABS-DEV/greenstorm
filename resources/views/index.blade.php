@@ -20,37 +20,43 @@
     </style>
     <div class="cursor"></div>
 
-    <section class="mainbanner main-banner-one ">
-        <div class="container-fluid">
-            <div class="home-main-slides ">
-                <div class="home-slides owl-carousel owl-theme ">
+   <section class="mainbanner main-banner-one">
+    <div class="container-fluid">
+        <div class="home-main-slides">
+            <div class="home-slides owl-carousel owl-theme">
+                <!-- Item 1 -->
+                <div class="item">
+                    <div class="banner_slider">
+                        <img src="{{ asset('web/img/main-banners/gs252.jpg') }}" class="banner_img" alt="Image not found">
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="item">
+                    <div class="banner_slider">
+                        <img src="{{ asset('web/img/main-banners/gs254.jpg') }}" class="banner_img" alt="Image not found">
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="item">
+                    <div class="banner_slider">
+                        <img src="{{ asset('web/img/main-banners/n-slider-2.jpg') }}" class="banner_img" alt="Image not found">
+                    </div>
+                    <!-- CTA Button -->
+                    <div class="cta-button" style="position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                        <a href="{{url('profile/upload-photograph')}}" class="submit-btn" style="background: linear-gradient(45deg, #b0d232, #36b348); color: #fff; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-size: 18px; font-weight: bold; border: 3px solid #badcb2; box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);">
+                            Submit
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
 
 
-                    <div class="item">
-                        <div class=" d-none d-md-block">
-  <div class="banner_slider">
-    <img src="{{ asset('web/img/main-banners/gs252.jpg') }}" class="banner_img" alt="Image not found">
-</div>  
 
-
-
-
-<div class="item">
-                        <div class=" d-none d-md-block">
-  <div class="banner_slider">
-   
-    <img src="{{ asset('web/img/main-banners/gs254.jpg') }}" class="banner_img" alt="Image not found">
-   
-</div>  
-
-
-
-
-<div class="item">
-                        <div class=" d-none d-md-block">
-  <div class="banner_slider">
-    <img src="{{ asset('web/img/main-banners/n-slider-2.jpg') }}" class="banner_img" alt="Image not found">
-</div>     <!-- CTA Button -->
+<!-- CTA Button -->
                           <div class="cta-button" style="position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
     <a href="{{url('profile/upload-photograph')}}" class="submit-btn" style="background: linear-gradient(45deg, #b0d232, #36b348); color: #fff; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-size: 18px; font-weight: bold; border: 3px solid #badcb2; box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);">
         Submit
