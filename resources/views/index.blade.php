@@ -73,13 +73,13 @@
                         <div id="carouselExample" class="carousel slide d-block d-md-none slider_mobile" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="{{ asset('web/img/main-banners/gs252') }}" class="banner_img w-100" alt="Slide 1">
+            <img src="{{ asset('web/img/main-banners/667x887-GS-Web-banner3.jpg') }}" class="banner_img w-100" alt="Slide 1">
         </div>
         <div class="carousel-item">
-            <img src="{{ asset('web/img/main-banners/gs254.jpg') }}" class="banner_img w-100" alt="Slide 2">
+            <img src="{{ asset('web/img/main-banners/667x887-GS-Web-banner2.jpg') }}" class="banner_img w-100" alt="Slide 2">
         </div>
         <div class="carousel-item">
-            <img src="{{ asset('web/img/main-banners/largest-03.jpg') }}" class="banner_img w-100" alt="Slide 3">
+            <img src="{{ asset('web/img/main-banners/667x887-GS-Web-banner1.jpg') }}" class="banner_img w-100" alt="Slide 3">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
