@@ -97,7 +97,7 @@
             <img src="{{ asset('web/img/main-banners/667x887-GS-Web-banner2.jpg') }}" class="banner_img w-100" alt="Slide 2">
         </div>
         <div class="carousel-item">
-            <img src="{{ asset('web/img/main-banners/667x887-GS-Web-banner1.jpg') }}" class="banner_img w-100" alt="Slide 3">
+            <img src="{{ asset('web/img/main-banners/667x887-GS-Web-banner4.jpg') }}" class="banner_img w-100" alt="Slide 3">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
