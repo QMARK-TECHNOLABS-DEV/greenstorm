@@ -70,14 +70,25 @@
                             <!-- cover end-->
                         </div>
                         <!-- mobile items -->
-                        <div class=" d-block d-md-none slider_mobile">
-                            <img src="{{ asset('web/img/main-banners/largest-01.jpg') }}" class="banner_img" alt="images not found">
-                            <p class="mt-md-5 mt-3 text-center d-none"> <a href="#" class="slider_btn bg-green text-uppercase  ">
-                                                <img src="{{ asset('web/img/btn_white-arrow.svg') }}" alt="">
-                                                <span> @commonButtonDirective(false) </span>
-                                                </a>
-                                            </p>
-                        </div>
+                        <div id="carouselExample" class="carousel slide d-block d-md-none slider_mobile" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ asset('web/img/main-banners/gs252') }}" class="banner_img w-100" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+            <img src="{{ asset('web/img/main-banners/gs254.jpg') }}" class="banner_img w-100" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+            <img src="{{ asset('web/img/main-banners/largest-03.jpg') }}" class="banner_img w-100" alt="Slide 3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+</div>
                     </div>
 
 
