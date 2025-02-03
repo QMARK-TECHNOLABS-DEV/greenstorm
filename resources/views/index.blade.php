@@ -87,7 +87,7 @@
                 <!-- Item 3 -->
                 <div class="item">
                     <div class="banner_slider">
-                        <img src="{{ asset('web/img/main-banners/n-slider-2.jpg') }}" class="banner_img" alt="Image not found">
+                        <img src="{{ asset('web/img/main-banners/gs253.jpg') }}" class="banner_img" alt="Image not found">
                     </div>
                     <!-- CTA Button -->
                     <div class="cta-button" style="position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
