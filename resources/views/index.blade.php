@@ -16,6 +16,28 @@
         content: none !important; /* Remove any content added via pseudo-elements */
         display: none !important; /* Hide the pseudo-elements */
     }
+        /* Default styles for larger screens */
+.submit-btn {
+    background: linear-gradient(45deg, #b0d232, #36b348);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid #badcb2;
+    box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);
+}
+
+/* Responsive styles for mobile view */
+@media (max-width: 768px) {
+    .submit-btn {
+        padding: 10px 20px; /* Smaller padding */
+        font-size: 14px;    /* Smaller font size */
+        border-radius: 30px; /* Smaller border radius */
+    }
+}
+
 </sty
     </style>
     <div class="cursor"></div>
