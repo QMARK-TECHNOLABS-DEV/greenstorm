@@ -29,18 +29,18 @@
     box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);
 }
 
-/* Responsive styles for mobile view */
-   @media (max-width: 768px) {
-        .cta-button .submit-btn {
-            padding: 5px 12px;
-            font-size: 6px;
-            border-radius: 20px;
-            border: 2px solid #badcb2;
-            box-shadow: none;
-            width: 150px;
-            text-align: center;
-            display: inline-block;
-        }
+@media (max-width: 768px) {
+    .cta-button .submit-btn {
+        padding: 3px 8px;   /* Reduce padding */
+        font-size: 8px;    /* Smaller font size */
+        border-radius: 15px; /* Reduce border radius */
+        border: 1px solid #badcb2; /* Thinner border */
+        width: 100px; /* Smaller width */
+        height: 25px; /* Set a small height */
+        text-align: center;
+        display: inline-block;
+        line-height: 25px; /* Center text vertically */
+    }
    }
 
 </sty
