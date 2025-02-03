@@ -49,7 +49,7 @@
         top: 91%;  /* Adjust button position */
     }
      .banner_slider {
-        height: 500px; /* Increase height for mobile screens */
+        height: 350px; /* Increase height for mobile screens */
     }
 
     .banner_slider img {
