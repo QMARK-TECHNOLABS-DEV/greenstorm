@@ -35,7 +35,7 @@
         font-size: 6px;    /* Smaller font */
         border-radius: 10px; /* Smaller border radius */
         border: 1px solid #badcb2; /* Thin border */
-        width: 80px;  /* Reduce width */
+        width: 280px;  /* Reduce width */
         height: 20px; /* Reduce height */
         text-align: center;
         display: flex;
@@ -46,7 +46,7 @@
     }
 
     .cta-button {
-        top: 85%;  /* Adjust button position */
+        top: 91%;  /* Adjust button position */
     }
 }
 
