@@ -30,13 +30,18 @@
 }
 
 /* Responsive styles for mobile view */
-@media (max-width: 768px) {
-    .submit-btn {
-        padding: 10px 20px; /* Smaller padding */
-        font-size: 14px;    /* Smaller font size */
-        border-radius: 30px; /* Smaller border radius */
-    }
-}
+   @media (max-width: 768px) {
+        .cta-button .submit-btn {
+            padding: 5px 12px;
+            font-size: 12px;
+            border-radius: 20px;
+            border: 2px solid #badcb2;
+            box-shadow: none;
+            width: 150px;
+            text-align: center;
+            display: inline-block;
+        }
+   }
 
 </sty
     </style>
