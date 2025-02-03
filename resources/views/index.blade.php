@@ -48,6 +48,15 @@
     .cta-button {
         top: 91%;  /* Adjust button position */
     }
+     .banner_slider {
+        height: 500px; /* Increase height for mobile screens */
+    }
+
+    .banner_slider img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures the image covers the entire area */
+    }
 }
 
 </sty
