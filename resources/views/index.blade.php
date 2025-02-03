@@ -33,7 +33,7 @@
    @media (max-width: 768px) {
         .cta-button .submit-btn {
             padding: 5px 12px;
-            font-size: 12px;
+            font-size: 6px;
             border-radius: 20px;
             border: 2px solid #badcb2;
             box-shadow: none;
