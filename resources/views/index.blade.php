@@ -31,17 +31,24 @@
 
 @media (max-width: 768px) {
     .cta-button .submit-btn {
-        padding: 3px 8px;   /* Reduce padding */
-        font-size: 8px;    /* Smaller font size */
-        border-radius: 15px; /* Reduce border radius */
-        border: 1px solid #badcb2; /* Thinner border */
-        width: 100px; /* Smaller width */
-        height: 25px; /* Set a small height */
+        padding: 2px 5px;  /* Reduce padding */
+        font-size: 6px;    /* Smaller font */
+        border-radius: 10px; /* Smaller border radius */
+        border: 1px solid #badcb2; /* Thin border */
+        width: 80px;  /* Reduce width */
+        height: 20px; /* Reduce height */
         text-align: center;
-        display: inline-block;
-        line-height: 25px; /* Center text vertically */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: normal; /* Remove extra spacing */
+        white-space: nowrap; /* Prevent text from wrapping */
     }
-   }
+
+    .cta-button {
+        top: 85%;  /* Adjust button position */
+    }
+}
 
 </sty
     </style>
