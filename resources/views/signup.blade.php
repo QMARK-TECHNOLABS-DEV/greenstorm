@@ -161,7 +161,7 @@ src="https://www.facebook.com/tr?id=928734065914549&ev=PageView&noscript=1"
                                             <div class="col-lg-4">
                                                 <p class="text-start text-md-end">
                                                   <button type="submit" class="default-btn default-btn btn-geen mt-md-0 mt-0 pe-0"
-        onclick="fbq('track', 'SignUp')">
+        >
     <span class="icon"> <img src> </span>
     <span id="sign_up_btn"> Sign Up </span>
 </button>
