@@ -3,7 +3,8 @@
     <head>
        
 
-        <!-- Meta Pixel Code -->
+
+<!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -20,6 +21,7 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=928734065914549&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+
 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -157,16 +159,12 @@ src="https://www.facebook.com/tr?id=928734065914549&ev=PageView&noscript=1"
                                             </div>
                                             <div class="col-lg-4">
                                                 <p class="text-start text-md-end">
-                                                    <button type="submit"  class="default-btn default-btn btn-geen mt-md-0 mt-0 pe-0
-                                                            {{-- g-recaptcha --}}
-                                                            "
-                                                            {{-- data-sitekey="6LcpKv4mAAAAALnrf4YoXRvC02sfcnF4eQHZjBGg"
-                                                            data-callback='onSubmit'
-                                                            data-action='submit' --}}
-                                                        >
-                                                        <span class="icon"> <img src> </span>
-                                                        <span id="sign_up_btn"> Sign Up </span>
-                                                    </button>
+                                                  <button type="submit" class="default-btn default-btn btn-geen mt-md-0 mt-0 pe-0"
+        onclick="fbq('track', 'SignUp')">
+    <span class="icon"> <img src> </span>
+    <span id="sign_up_btn"> Sign Up </span>
+</button>
+
                                                 </p>
                                             </div>
                                         </div>
