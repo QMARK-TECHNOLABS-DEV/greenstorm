@@ -1,6 +1,12 @@
 <x-app-layout>
              @push('head')
-
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PJ5MXFB3');</script>
+<!-- End Google Tag Manager -->
        <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -19,6 +25,10 @@ src="https://www.facebook.com/tr?id=928734065914549&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
     @endpush
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ5MXFB3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
    <section class="pt-70 pb-70">
       <div class="container content">
          <div class="row justify-content-center ">
