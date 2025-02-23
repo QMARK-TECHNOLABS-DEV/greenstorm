@@ -25,6 +25,10 @@ src="https://www.facebook.com/tr?id=928734065914549&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
     @endpush
+        <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ5MXFB3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <style>
       body { overflow-x: unset; }
         .main-wrapper { overflow-x: hidden;
