@@ -9,10 +9,7 @@
     <!-- End Google Tag Manager -->
 
     @endpush
-        <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ5MXFB3"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+   
     <style>
       body { overflow-x: unset; }
         .main-wrapper { overflow-x: hidden;
@@ -75,6 +72,10 @@
 
 </sty
     </style>
+         <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ5MXFB3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="cursor"></div>
 
    <section class="mainbanner main-banner-one">
