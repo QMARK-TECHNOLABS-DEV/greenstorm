@@ -22,9 +22,7 @@ document.getElementById('register-form').addEventListener('submit', function() {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data.min.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Email Verification</h1>
-    </header>
+
 
     <x-app-layout>
         @push('head')
