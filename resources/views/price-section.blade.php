@@ -124,8 +124,8 @@
             <!-- Submission Deadline -->
             <h5 class="mb-4" style="color: #333;font-family:Raleway, sans-serif; font-size: 25px; font-weight: bold; margin-top: -45px; transform: translateY(-80px);">
                 Submission ends on 
-                <span style="font-family:Raleway, sans-serif; font-size: 30px; color: black;">28</span> 
-                February <span style="font-family:Raleway, sans-serif; font-size: 30px; color: black;">2025</span>
+                <span style="font-family:Raleway, sans-serif; font-size: 30px; color: black;">22</span> 
+                March <span style="font-family:Raleway, sans-serif; font-size: 30px; color: black;">2025</span>
             </h5>
             <!-- CTA Button -->
             <a href="{{ url('profile/upload-photograph') }}" class="submit-btn" 
