@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-4 col-sm-4 col-sm-12 wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
-                <h2 class="sec-ttl border_btm text-green text-capitalize">Meet <br> the Jury</h2>
+                <h2 class="sec-ttl border_btm text-green text-capitalize">Meet <br> the Global Jury</h2>
             </div>
             <div class="col-xl-8 col-md-8 col-sm-12 wow animate__animated animate__fadeInRight" data-wow-delay=".3s">
                 <p>The Greenstorm Global Photography Festival proudly welcomes a distinguished Global jury, featuring pioneers in photography and environmental storytelling. These experts bring together the worlds of art, conservation, and education, reflecting the core values of the Greenstorm.</p>
@@ -89,7 +89,7 @@
     <div class="container-fluid pt-100 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
         <div class="row">
             <div class="col-12 mb-4">
-                <h2 class="sec-ttl border_btm text-green text-capitalize">Jury 1</h2>
+             <h2 class="sec-ttl border_btm text-green text-capitalize">Meet <br> the First Level Jury</h2>
             </div>
 
             <div class="team-slides owl-carousel owl-theme">
@@ -98,11 +98,11 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury11.avif') }}" alt="Jury 1">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury15.jpg') }}" alt="Jury 1">
                             </div>
                             <div class="content">
-                                <h3>Jury Member 1</h3>
-                                <span>Country 1</span>
+                                <h3>Alex Wides </h3>
+                                <span>Italy</span>
                             </div>
                         </div>
                     </div>
@@ -112,11 +112,11 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury12.jpeg') }}" alt="Jury 2">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury16.JPG') }}" alt="Jury 2">
                             </div>
                             <div class="content">
-                                <h3>Jury Member 2</h3>
-                                <span>Country 2</span>
+                                <h3>Anil Kumar</h3>
+                                <span>India</span>
                             </div>
                         </div>
                     </div>
@@ -126,11 +126,11 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury13.jpeg') }}" alt="Jury 3">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury11.avif') }}" alt="Jury 3">
                             </div>
                             <div class="content">
-                                <h3>Jury Member 3</h3>
-                                <span>Country 3</span>
+                                <h3>F Dilek Yurdakul</h3>
+                                <span>Turkey</span>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury15.jpg') }}" alt="Jury 5">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury13.jpeg') }}" alt="Jury 5">
                             </div>
                             <div class="content">
                                 <h3>Jury Member 5</h3>
@@ -168,7 +168,7 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury16.JPG') }}" alt="Jury 6">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury12.jpeg') }}" alt="Jury 6">
                             </div>
                             <div class="content">
                                 <h3>Jury Member 6</h3>
