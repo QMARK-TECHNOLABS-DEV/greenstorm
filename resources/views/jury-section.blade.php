@@ -140,11 +140,11 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury12.jpeg') }}" alt="Jury 4">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury17.jpg') }}" alt="Jury 4">
                             </div>
                             <div class="content">
-                                <h3>Jury Member 4</h3>
-                                <span>Country 4</span>
+                                <h3>Jaclyn Bringuez</h3>
+                                <span>USA</span>
                             </div>
                         </div>
                     </div>
