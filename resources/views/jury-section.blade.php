@@ -140,7 +140,7 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury14.jpeg') }}" alt="Jury 4">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury12.jpeg') }}" alt="Jury 4">
                             </div>
                             <div class="content">
                                 <h3>Jury Member 4</h3>
@@ -154,11 +154,11 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury13.jpeg') }}" alt="Jury 5">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury12.jpeg') }}" alt="Jury 5">
                             </div>
                             <div class="content">
-                                <h3>Jury Member 5</h3>
-                                <span>Country 5</span>
+                                <h3>Mr Thomas Onyango </h3>
+                                <span>Uganda</span>
                             </div>
                         </div>
                     </div>
@@ -168,11 +168,11 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury12.jpeg') }}" alt="Jury 6">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury14.jpeg') }}" alt="Jury 6">
                             </div>
                             <div class="content">
-                                <h3>Jury Member 6</h3>
-                                <span>Country 6</span>
+                                <h3>Sahar Al-Zarei</h3>
+                                <span>UAE</span>
                             </div>
                         </div>
                     </div>
