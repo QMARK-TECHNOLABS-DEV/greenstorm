@@ -98,7 +98,7 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury1.jpg') }}" alt="Jury 1">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury11.avif') }}" alt="Jury 1">
                             </div>
                             <div class="content">
                                 <h3>Jury Member 1</h3>
@@ -112,7 +112,7 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury2.jpg') }}" alt="Jury 2">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury12.jpeg') }}" alt="Jury 2">
                             </div>
                             <div class="content">
                                 <h3>Jury Member 2</h3>
@@ -126,7 +126,7 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury3.jpg') }}" alt="Jury 3">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury13.jpeg') }}" alt="Jury 3">
                             </div>
                             <div class="content">
                                 <h3>Jury Member 3</h3>
@@ -140,7 +140,7 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury4.jpg') }}" alt="Jury 4">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury14.jpeg') }}" alt="Jury 4">
                             </div>
                             <div class="content">
                                 <h3>Jury Member 4</h3>
@@ -154,7 +154,7 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury5.jpg') }}" alt="Jury 5">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury15.jpg') }}" alt="Jury 5">
                             </div>
                             <div class="content">
                                 <h3>Jury Member 5</h3>
@@ -168,7 +168,7 @@
                     <div class="team_clm">
                         <div class="single-team-box">
                             <div class="image">
-                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury6.jpg') }}" alt="Jury 6">
+                                <img class="jiimage" src="{{ asset('web/img/team/jury/jury16.JPG') }}" alt="Jury 6">
                             </div>
                             <div class="content">
                                 <h3>Jury Member 6</h3>
