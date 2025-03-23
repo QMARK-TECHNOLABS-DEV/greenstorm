@@ -87,11 +87,11 @@
                     <div class="banner_slider">
                         <img src="{{ asset('web/img/main-banners/newbanner.jpg') }}" class="banner_img" alt="Image not found">
                     </div>
-                       <div class="cta-button" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+<!--                        <div class="cta-button" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                         <a href="{{url('profile/upload-photograph')}}" class="submit-btn" style="background: linear-gradient(45deg, #b0d232, #36b348); color: #fff; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-size: 18px; font-weight: bold; border: 3px solid #badcb2; box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);">
                             Submit Your Entries Now
                         </a>
-                    </div>
+                    </div> -->
                 </div>
                 <!-- Item 2 -->
                 <div class="item">
@@ -105,11 +105,11 @@
                         <img src="{{ asset('web/img/main-banners/gs253.jpg') }}" class="banner_img" alt="Image not found">
                     </div>
                     <!-- CTA Button -->
-                    <div class="cta-button" style="position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+<!--                     <div class="cta-button" style="position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                         <a href="{{url('profile/upload-photograph')}}" class="submit-btn" style="background: linear-gradient(45deg, #b0d232, #36b348); color: #fff; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-size: 18px; font-weight: bold; border: 3px solid #badcb2; box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);">
                             Submit
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -120,11 +120,11 @@
 
 
 <!-- CTA Button -->
-                          <div class="cta-button" style="position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+<!--                           <div class="cta-button" style="position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
     <a href="{{url('profile/upload-photograph')}}" class="submit-btn" style="background: linear-gradient(45deg, #b0d232, #36b348); color: #fff; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-size: 18px; font-weight: bold; border: 3px solid #badcb2; box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);">
         Submit
     </a>
-</div>
+</div> -->
                             <!-- End CTA Button -->
                            <!--  <div class="cover">
                                   <div class="container-fluid ">
@@ -1345,7 +1345,7 @@ Your image has the power to make a difference.
     </style>
 
 
-    <div class="floatingButtonWrap">
+<!--     <div class="floatingButtonWrap">
         <div class="floatingButtonInner">
             <a href="{{url('profile/upload-photograph')}}" class="floatingButton">
                 <!--<i class="fa fa-plus icon-default"></i>-->
@@ -1353,7 +1353,7 @@ Your image has the power to make a difference.
             </a>
         </div>
     </div>
-
+ -->
 
 
     @section('scripts')
