@@ -84,13 +84,13 @@ src="https://www.facebook.com/tr?id=928734065914549&ev=PageView&noscript=1"
                             </span>
                         </p>
                         @endif
-                        @if($user->photographs && $hasReachedMaxUploadLimit)
+<!--                         @if($user->photographs && $hasReachedMaxUploadLimit)
                         <p> Apologies, but you have exceeded the maximum limit for uploads. <br>
                             <span class="">
                                 <a href="{{ route('list.uploaded.photographs') }}"> View Uploaded Photos </a>
                             </span>
                         </p>
-                        @endif
+                        @endif -->
                         <h2 class="sec-ttl-2 text-green text-center mt-md-0 mt-2 mb-4"> Upload Photograph </h2>
                     </div>
                     <form class="photographUploadForm" id="photographUploadForm" method="POST" enctype="multipart/form-data">
