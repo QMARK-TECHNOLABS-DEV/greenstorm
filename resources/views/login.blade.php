@@ -130,7 +130,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </div>
                                 </form>
 								<div class="justify-content-md-center text-start text-lg-center d-flex mt-2 mt-md-4">
-									<span class="text-dark text-grey fw-600"> Don't have an account? <a class="text-dark text-green" href="{{ route('signup') }}">Sign Up</a></span>
+									<span class="text-dark text-grey fw-600"> Don't have an account? <a class="text-dark text-green" href="{{ route('signup') }}"></a></span>
 								</div>
                             </div>
                         </div>
