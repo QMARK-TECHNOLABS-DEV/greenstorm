@@ -267,13 +267,13 @@ Route::prefix('evaluator')->group(function () {
         Route::post('/eliminate-photos', [EliminationController::class, 'eliminate_photos'])->name('evaluator.eliminate.photos');
         Route::post('/promote-photos', [EliminationController::class, 'promote_photos'])->name('evaluator.promote.photos');
         Route::post('/revert-eliminated-photos', [EliminationController::class, 'revert_eliminated_photos'])->name('evaluator.revert.eliminated.photos');
-        
+
         Route::get('/validation', [ValidationController::class, 'index'])->name('evaluator.validation');
         Route::get('/competitions/{id}/categories', [EvaluatorCompetitionController::class, 'getCategories'])->name('evaluator.competitions.categories');
         Route::get('/competitions', [EvaluatorCompetitionController::class, 'index'])->name('evaluator.competitions');
 
-        // ✅ This is the correct route for competition settings
-        Route::match(['get', 'post'], '/competition-settings/{competition}', 
+        // ✅ Ensure this route loads settings.blade.php
+        Route::get('/competition-settings/{competition}', 
             [EvaluatorCompetitionSettingsController::class, 'index'])
             ->name('evaluator.competition.manage.settings');
 
