@@ -274,6 +274,8 @@ Route::prefix('evaluator')->group(function () {
 Route::get('/evaluator/competitions/{competitionId}', 
     [CompetitionController::class, 'index'])
     ->name('evaluator.competition.index');
+Route::get('/evaluator/competition-photos/{competitionId}', [CompetitionController::class, 'getPhotos']);
+Route::post('/evaluator/eliminate-photo/{photoId}', [CompetitionController::class, 'eliminatePhoto']);
 
         // ✅ Ensure this route loads settings.blade.php
         Route::get('/competition-settings/{competitionid}', 
