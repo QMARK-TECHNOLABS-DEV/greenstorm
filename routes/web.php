@@ -270,6 +270,7 @@ Route::prefix('evaluator')->group(function () {
         Route::get('/competitions/{id}/categories', [EvaluatorCompetitionController::class, 'getCategories'])->name('evaluator.competitions.categories');
         Route::get('/competitions', [EvaluatorCompetitionController::class, 'index'])->name('evaluator.competitions');
         Route::match(['get','post'], '/competition-settings/{competition}', [EvaluatorCompetitionSettingsController::class, 'index'])->name('evaluator.competition.manage.settings');
+        Route::get('/competition-settings/{competition}', [EvaluatorCompetitionSettingsController::class, 'index'])->name('evaluator.competition.settings');
 
         Route::match(['get','post'], '/competition-settings/{competition}/stage/{stage}/eliminated', [EvaluatorCompetitionSettingsController::class, 'eliminated'])->name('evaluator.competition.stage.eliminated');
         Route::match(['get','post'], '/competition-settings/{competition}/stage/{stage}/promoted', [EvaluatorCompetitionSettingsController::class, 'promoted'])->name('evaluator.competition.stage.promoted');
