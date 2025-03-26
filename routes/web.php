@@ -311,6 +311,6 @@ Route::prefix('evaluator')->group(function () {
 
         Route::post('/logout', [EvaluatorController::class, 'logout'])->name('evaluator.logout');
     });
-});]
+});
 
 
