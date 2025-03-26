@@ -260,30 +260,55 @@ Route::prefix('admin')->group(function () {
 Route::prefix('evaluator')->group(function () {
     Route::get('/', [EvaluatorLoginController::class, 'index'])->name('evaluator.login');
     Route::post('/login', [EvaluatorLoginController::class, 'login'])->name('evaluator.login.submit');
-    Route::middleware('auth:evaluator','prevent-back-history')->group(function(){
+
+    Route::middleware(['auth:evaluator', 'prevent-back-history'])->group(function () {
         Route::get('/dashboard', [EvaluatorController::class, 'index'])->name('evaluator.dashboard');
         Route::get('/elimination', [EliminationController::class, 'index'])->name('evaluator.elimination');
         Route::post('/eliminate-photos', [EliminationController::class, 'eliminate_photos'])->name('evaluator.eliminate.photos');
         Route::post('/promote-photos', [EliminationController::class, 'promote_photos'])->name('evaluator.promote.photos');
         Route::post('/revert-eliminated-photos', [EliminationController::class, 'revert_eliminated_photos'])->name('evaluator.revert.eliminated.photos');
+        
         Route::get('/validation', [ValidationController::class, 'index'])->name('evaluator.validation');
         Route::get('/competitions/{id}/categories', [EvaluatorCompetitionController::class, 'getCategories'])->name('evaluator.competitions.categories');
         Route::get('/competitions', [EvaluatorCompetitionController::class, 'index'])->name('evaluator.competitions');
-        Route::match(['get','post'], '/competition-settings/{competition}', [EvaluatorCompetitionSettingsController::class, 'index'])->name('evaluator.competition.manage.settings');
-      
 
-        Route::match(['get','post'], '/competition-settings/{competition}/stage/{stage}/eliminated', [EvaluatorCompetitionSettingsController::class, 'eliminated'])->name('evaluator.competition.stage.eliminated');
-        Route::match(['get','post'], '/competition-settings/{competition}/stage/{stage}/promoted', [EvaluatorCompetitionSettingsController::class, 'promoted'])->name('evaluator.competition.stage.promoted');
+        // ✅ This is the correct route for competition settings
+        Route::match(['get', 'post'], '/competition-settings/{competition}', 
+            [EvaluatorCompetitionSettingsController::class, 'index'])
+            ->name('evaluator.competition.manage.settings');
 
-        Route::post('/competition-settings-ajax-action', [EvaluatorCompetitionSettingsController::class, 'ajax_page_action'])->name('evaluator.competition.ajax.page.action');
-        Route::post('/popup-exapand-data/{photo}', [EvaluatorCompetitionController::class,'image_details'])->name('evaluator.popup_exapand_data');
-        Route::post('/popup-slide-data/{photo}', [EvaluatorCompetitionController::class,'image_slide_details'])->name('evaluator.popup_slide_data');
-        Route::post('/assign-mark-for-photos', [EvaluatorCompetitionController::class,'assign_mark_photos'])->name('evaluator.assign.mark.photos');
+        Route::match(['get', 'post'], '/competition-settings/{competition}/stage/{stage}/eliminated', 
+            [EvaluatorCompetitionSettingsController::class, 'eliminated'])
+            ->name('evaluator.competition.stage.eliminated');
 
-        Route::get('/load-stages/{competition}', [EvaluatorStageController::class,'get_stages'])->name('evaluator.get.stages');
-        Route::post('/stage-levels/{competition}/{type}', [EvaluatorStageController::class,'stage_levels'])->name('evaluator.stage.levels');
+        Route::match(['get', 'post'], '/competition-settings/{competition}/stage/{stage}/promoted', 
+            [EvaluatorCompetitionSettingsController::class, 'promoted'])
+            ->name('evaluator.competition.stage.promoted');
+
+        Route::post('/competition-settings-ajax-action', 
+            [EvaluatorCompetitionSettingsController::class, 'ajax_page_action'])
+            ->name('evaluator.competition.ajax.page.action');
+
+        Route::post('/popup-exapand-data/{photo}', 
+            [EvaluatorCompetitionController::class, 'image_details'])
+            ->name('evaluator.popup_exapand_data');
+
+        Route::post('/popup-slide-data/{photo}', 
+            [EvaluatorCompetitionController::class, 'image_slide_details'])
+            ->name('evaluator.popup_slide_data');
+
+        Route::post('/assign-mark-for-photos', 
+            [EvaluatorCompetitionController::class, 'assign_mark_photos'])
+            ->name('evaluator.assign.mark.photos');
+
+        Route::get('/load-stages/{competition}', 
+            [EvaluatorStageController::class, 'get_stages'])
+            ->name('evaluator.get.stages');
+
+        Route::post('/stage-levels/{competition}/{type}', 
+            [EvaluatorStageController::class, 'stage_levels'])
+            ->name('evaluator.stage.levels');
+
         Route::post('/logout', [EvaluatorController::class, 'logout'])->name('evaluator.logout');
-
-        
     });
 });
