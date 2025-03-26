@@ -16,9 +16,10 @@ use Auth;
 
 class CompetitionController extends Controller
 {
-  public function index($competitionId = null)
+public function index($competitionId = null)
 {
-    dd('Competition Page Loaded'); // Debugging
+    // Remove this line after testing:
+    // dd('Competition Page Loaded'); 
 
     if (!$competitionId) {
         return redirect()->route('evaluator.dashboard')->with('error', 'Competition ID is required.');
