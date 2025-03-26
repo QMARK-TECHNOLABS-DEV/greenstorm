@@ -270,12 +270,7 @@ Route::prefix('evaluator')->group(function () {
 
         Route::get('/validation', [ValidationController::class, 'index'])->name('evaluator.validation');
         Route::get('/competitions/{id}/categories', [EvaluatorCompetitionController::class, 'getCategories'])->name('evaluator.competitions.categories');
-        
-        // ✅ Route for listing all competitions
         Route::get('/competitions', [EvaluatorCompetitionController::class, 'index'])->name('evaluator.competitions');
-        
-        // ✅ Route for showing competition details
-        Route::get('/competitions/{competition}', [EvaluatorCompetitionController::class, 'show'])->name('evaluator.competitions.show');
 
         // ✅ Ensure this route loads settings.blade.php
         Route::get('/competition-settings/{competition}', 
@@ -293,11 +288,10 @@ Route::prefix('evaluator')->group(function () {
         Route::post('/competition-settings-ajax-action', 
             [EvaluatorCompetitionSettingsController::class, 'ajax_page_action'])
             ->name('evaluator.competition.ajax.page.action');
-Route::get('/evaluator/competitions/{competitionId}', [CompetitionController::class, 'index']);
 
-      Route::post('/popup-expand-data/{photo}', 
-    [EvaluatorCompetitionController::class, 'image_details'])
-    ->name('evaluator.popup_expand_data');
+        Route::post('/popup-exapand-data/{photo}', 
+            [EvaluatorCompetitionController::class, 'image_details'])
+            ->name('evaluator.popup_exapand_data');
 
         Route::post('/popup-slide-data/{photo}', 
             [EvaluatorCompetitionController::class, 'image_slide_details'])
@@ -317,4 +311,6 @@ Route::get('/evaluator/competitions/{competitionId}', [CompetitionController::cl
 
         Route::post('/logout', [EvaluatorController::class, 'logout'])->name('evaluator.logout');
     });
-});
+});]
+
+
