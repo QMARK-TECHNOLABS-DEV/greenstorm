@@ -294,9 +294,9 @@ Route::prefix('evaluator')->group(function () {
             [EvaluatorCompetitionSettingsController::class, 'ajax_page_action'])
             ->name('evaluator.competition.ajax.page.action');
 
-        Route::post('/popup-exapand-data/{photo}', 
-            [EvaluatorCompetitionController::class, 'image_details'])
-            ->name('evaluator.popup_exapand_data');
+      Route::post('/popup-expand-data/{photo}', 
+    [EvaluatorCompetitionController::class, 'image_details'])
+    ->name('evaluator.popup_expand_data');
 
         Route::post('/popup-slide-data/{photo}', 
             [EvaluatorCompetitionController::class, 'image_slide_details'])
