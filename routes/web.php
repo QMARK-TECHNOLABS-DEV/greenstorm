@@ -293,6 +293,7 @@ Route::prefix('evaluator')->group(function () {
         Route::post('/competition-settings-ajax-action', 
             [EvaluatorCompetitionSettingsController::class, 'ajax_page_action'])
             ->name('evaluator.competition.ajax.page.action');
+Route::get('/evaluator/competitions/{competitionId}', [CompetitionController::class, 'index']);
 
       Route::post('/popup-expand-data/{photo}', 
     [EvaluatorCompetitionController::class, 'image_details'])
