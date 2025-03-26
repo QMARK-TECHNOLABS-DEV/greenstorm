@@ -271,9 +271,10 @@ Route::prefix('evaluator')->group(function () {
         Route::get('/validation', [ValidationController::class, 'index'])->name('evaluator.validation');
         Route::get('/competitions/{id}/categories', [EvaluatorCompetitionController::class, 'getCategories'])->name('evaluator.competitions.categories');
         Route::get('/competitions', [EvaluatorCompetitionController::class, 'index'])->name('evaluator.competitions');
-Route::get('/evaluator/competitions/{competitionId}', 
+Route::get('/competitions/{competitionId}', 
     [CompetitionController::class, 'index'])
     ->name('evaluator.competition.index');
+
 Route::get('/evaluator/competition-photos/{competitionId}', [CompetitionController::class, 'getPhotos']);
 Route::post('/evaluator/eliminate-photo/{photoId}', [CompetitionController::class, 'eliminatePhoto']);
 
