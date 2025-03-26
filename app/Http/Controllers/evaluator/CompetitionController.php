@@ -18,24 +18,25 @@ class CompetitionController extends Controller
 {
 public function index($competitionId = null)
 {
-    // Remove this line after testing:
-    // dd('Competition Page Loaded'); 
+    \Log::info("Competition Page Loaded with ID: " . ($competitionId ?? 'NULL'));
 
     if (!$competitionId) {
+        \Log::error("Competition ID is missing.");
         return redirect()->route('evaluator.dashboard')->with('error', 'Competition ID is required.');
     }
 
     $competition = Competition::with(['stages', 'categories'])->find($competitionId);
 
     if (!$competition) {
+        \Log::error("Competition not found for ID: " . $competitionId);
         return redirect()->route('evaluator.dashboard')->with('error', 'Competition not found.');
     }
 
     $stage = $competition->stages->first();
+    \Log::info("Competition found: " . $competition->title . " | Stage: " . ($stage->name ?? 'None'));
 
     return view('evaluator.competition.settings', compact('competition', 'stage'));
 }
-
 
     public function getCategories($id)
     {
