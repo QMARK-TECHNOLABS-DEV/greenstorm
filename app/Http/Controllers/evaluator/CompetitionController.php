@@ -16,19 +16,23 @@ use Auth;
 
 class CompetitionController extends Controller
 {
-    public function index($competitionId)
-    {
-        // Get competition with relationships or return 404 if not found
-        $competition = Competition::with(['stages', 'categories'])->findOrFail($competitionId);
-        
-        // Get the first active stage
-        $stage = $competition->stages->first();
-
-        return view('evaluator.competition.settings', [
-            'competition' => $competition,
-            'stage' => $stage,
-        ]);
+   public function index($competitionId = null)
+{
+    if (!$competitionId) {
+        return redirect()->route('evaluator.dashboard')->with('error', 'Competition ID is required.');
     }
+
+    $competition = Competition::with(['stages', 'categories'])->find($competitionId);
+
+    if (!$competition) {
+        return redirect()->route('evaluator.dashboard')->with('error', 'Competition not found.');
+    }
+
+    $stage = $competition->stages->first();
+
+    return view('evaluator.competition.settings', compact('competition', 'stage'));
+}
+
 
     public function getCategories($id)
     {
