@@ -271,6 +271,9 @@ Route::prefix('evaluator')->group(function () {
         Route::get('/validation', [ValidationController::class, 'index'])->name('evaluator.validation');
         Route::get('/competitions/{id}/categories', [EvaluatorCompetitionController::class, 'getCategories'])->name('evaluator.competitions.categories');
         Route::get('/competitions', [EvaluatorCompetitionController::class, 'index'])->name('evaluator.competitions');
+Route::get('/evaluator/competitions/{competitionId}', 
+    [CompetitionController::class, 'index'])
+    ->name('evaluator.competition.index');
 
         // ✅ Ensure this route loads settings.blade.php
         Route::get('/competition-settings/{competitionid}', 
