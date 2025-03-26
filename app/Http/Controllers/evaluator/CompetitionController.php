@@ -134,6 +134,29 @@ class CompetitionController extends Controller
 
         return response()->json(['html' => $html, 'photo_id' => $validation->photo_id, 'image' => $photo->image], 200);
     }
+public function getPhotos($competitionId)
+{
+    $competition = Competition::with('photographs')->find($competitionId);
+
+    if (!$competition) {
+        return response()->json(['error' => 'Competition not found'], 404);
+    }
+
+    return response()->json($competition->photographs);
+}
+
+public function eliminatePhoto(Request $request, $photoId)
+{
+    $photo = Photograph::find($photoId);
+
+    if (!$photo) {
+        return response()->json(['error' => 'Photo not found'], 404);
+    }
+
+    $photo->delete();
+
+    return response()->json(['message' => 'Photo eliminated successfully']);
+}
 
     public function assign_mark_photos(Request $request)
     {
