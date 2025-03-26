@@ -169,11 +169,11 @@
                             <img src="https://via.placeholder.com/500" alt="" class="wd-40 rounded-circle">
                             <div class="media-body mg-l-20">
                                 <div class="d-flex justify-content-between mg-b-10">
-                                    <div>
+<!--                                     <div>
                                         <h6 class="mg-b-2 tx-inverse tx-14">
                                             <a class="text-dark" href="{{ route('admin.photographers', ['photographer'=>$post->photographer,'type' => '']) }}">{{ $post->user ? ucwords($post->user->name).' '.ucwords($post->user->last_name) : '-' }}</a></h6>
                                         <span class="tx-12 tx-gray-500">{{ $post->user->email }}</span>
-                                    </div>
+                                    </div> -->
                                     <span class="tx-12">{{ $post->created_at ? $post->created_at->diffForHumans() : '-' }}</span>
                                 </div>  
                                 <div class="d-flex justify-content-between">
