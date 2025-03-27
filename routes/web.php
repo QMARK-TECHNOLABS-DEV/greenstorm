@@ -90,11 +90,11 @@ Route::post('/process-pre-login',[WebAuthController::class, 'process_pre_login']
     Route::get('/privacy-policy',[WebController::class, 'privacy_policy'])->name('privacy.policy');
     Route::get('/terms-and-conditions',[WebController::class, 'terms_and_conditions'])->name('terms.conditions');
     Route::post('/subscribe', [SubscriptionController::class, 'subscribe'])->name('subscribe');
-    
+
     //route created by joby-winners blade
      Route::get('/winners-2023/mobile',[WebController::class, 'getWinners'])->name('getWinners');
       Route::get('/winners-2023/camera',[WebController::class, 'getCamera'])->name('getCamera');
-    
+
     // signup and login
     Route::get('/login',[WebController::class, 'log_in'])->name('login');
     Route::post('/process-login',[WebAuthController::class, 'process_login'])->name('user.process_login');
@@ -271,7 +271,7 @@ Route::prefix('evaluator')->group(function () {
         Route::get('/validation', [ValidationController::class, 'index'])->name('evaluator.validation');
         Route::get('/competitions/{id}/categories', [EvaluatorCompetitionController::class, 'getCategories'])->name('evaluator.competitions.categories');
         Route::get('/competitions', [EvaluatorCompetitionController::class, 'index'])->name('evaluator.competitions');
-Route::get('/competitions/{competitionId}', 
+Route::get('/competitions/{competitionId}',
     [CompetitionController::class, 'index'])
     ->name('evaluator.competition.index');
 
@@ -279,15 +279,15 @@ Route::get('/evaluator/competition-photos/{competitionId}', [CompetitionControll
 Route::post('/evaluator/eliminate-photo/{photoId}', [CompetitionController::class, 'eliminatePhoto']);
 
         // ✅ Ensure this route loads settings.blade.php
-        Route::get('/competition-settings/{competitionid}', 
+        Route::get('/competition-settings/{competition:id}',
             [EvaluatorCompetitionSettingsController::class, 'index'])
             ->name('evaluator.competition.manage.settings');
 
-        Route::match(['get', 'post'], '/competition-settings/{competition}/stage/{stage}/eliminated', 
+        Route::match(['get', 'post'], '/competition-settings/{competition}/stage/{stage}/eliminated',
             [EvaluatorCompetitionSettingsController::class, 'eliminated'])
             ->name('evaluator.competition.stage.eliminated');
 
-        Route::match(['get', 'post'], '/competition-settings/{competition}/stage/{stage}/promoted', 
+        Route::match(['get', 'post'], '/competition-settings/{competition}/stage/{stage}/promoted',
             [EvaluatorCompetitionSettingsController::class, 'promoted'])
             ->name('evaluator.competition.stage.promoted');
 
