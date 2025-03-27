@@ -130,7 +130,7 @@
             method: 'POST',
             data:{
                 _token: "{{ csrf_token() }}",
-                stage: "{{ $stage->id }}",
+                stage: "{{ $stage?->id }}",
                 page: page,
                 @if(request()->has('action'))
                 action: "{{ request()->action }}",

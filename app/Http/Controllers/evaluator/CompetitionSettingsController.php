@@ -122,7 +122,7 @@ class CompetitionSettingsController extends Controller
             'elimination_tab' => '',
             'validation_tab' =>  '',
             'competition_id' => $competition->id,
-            'stage_id' => (isset($stage) && $stage->id) ? $stage->id : ''
+            'stage_id' => (isset($stage) && $stage?->id) ? $stage->id : ''
         ];
         return view('evaluator.competition.settings',compact('competition','all_photos','photo_categories', 'stage','params','total_photo_count','total_eliminated_photo_count','total_promoted_photo_count'));
     }
