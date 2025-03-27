@@ -16,27 +16,32 @@ use Auth;
 
 class CompetitionController extends Controller
 {
-public function index($competitionId = null)
-{
-    \Log::info("Competition Page Loaded with ID: " . ($competitionId ?? 'NULL'));
-
-    if (!$competitionId) {
-        \Log::error("Competition ID is missing.");
-        return redirect()->route('evaluator.dashboard')->with('error', 'Competition ID is required.');
+    public function index(CompetitionsDataTable $dataTable)
+    {
+        $photo_categories = PhotoCategory::get();
+        return $dataTable->render('evaluator.competition.index',compact('photo_categories'));
     }
+// public function index($competitionId = null)
+// {
+//     \Log::info("Competition Page Loaded with ID: " . ($competitionId ?? 'NULL'));
 
-    $competition = Competition::with(['stages', 'categories'])->find($competitionId);
+//     if (!$competitionId) {
+//         \Log::error("Competition ID is missing.");
+//         return redirect()->route('evaluator.dashboard')->with('error', 'Competition ID is required.');
+//     }
 
-    if (!$competition) {
-        \Log::error("Competition not found for ID: " . $competitionId);
-        return redirect()->route('evaluator.dashboard')->with('error', 'Competition not found.');
-    }
+//     $competition = Competition::with(['stages', 'categories'])->find($competitionId);
 
-    $stage = $competition->stages->first();
-    \Log::info("Competition found: " . $competition->title . " | Stage: " . ($stage->name ?? 'None'));
+//     if (!$competition) {
+//         \Log::error("Competition not found for ID: " . $competitionId);
+//         return redirect()->route('evaluator.dashboard')->with('error', 'Competition not found.');
+//     }
 
-    return view('evaluator.competition.settings', compact('competition', 'stage'));
-}
+//     $stage = $competition->stages->first();
+//     \Log::info("Competition found: " . $competition->title . " | Stage: " . ($stage->name ?? 'None'));
+
+//     return view('evaluator.competition.settings', compact('competition', 'stage'));
+// }
 
     public function getCategories($id)
     {
