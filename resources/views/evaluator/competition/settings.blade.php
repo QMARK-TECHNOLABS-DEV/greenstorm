@@ -115,7 +115,7 @@
 <script>
     var page = 1;
     var perPage = 1; // Assuming $perPage is available in your JavaScript context
-    var competitionId = {{ $competition->id }}; // Assuming $competition is available in your JavaScript context
+    // var competitionId = {{ $competition->id }}; // Assuming $competition is available in your JavaScript context
 
     $('#load-more-btn').on('click', function() {
         page++;
