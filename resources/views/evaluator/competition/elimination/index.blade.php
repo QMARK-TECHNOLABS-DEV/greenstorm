@@ -30,7 +30,8 @@
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="categoryFilterDropdown">
                   <!-- Dropdown items go here -->
                   <a class="dropdown-item " style="cursor:pointer;"  role="button" data-role="sub" href="{{ Request::url() }}" >All Entries</a>
-                  @foreach ($photo_categories->get() as $category)
+                 @foreach ($photo_categories as $category)
+
                   @php
                       $isActive = request('category') && request('category') == $category->id;
                   @endphp
