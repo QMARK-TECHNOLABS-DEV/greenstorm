@@ -145,25 +145,40 @@
     </div> --}}
     {{-- row start --}}
     <input type="hidden" name="" id="pageNumber" value="2">
-    <div class="row all_image_section">
-        @forelse ($all_photos as $photo)
-           <div class="col-2 mt-4">
-            <div class="card">
-                <div class="">
-                    <div class="form-check float-right">
-                    <input class="form-check-input img__checkbox" data-photo-id="{{$photo->id ?? '' }}" type="checkbox" id="cardCheckbox">
-                    </div>
-                </div>
-                <div class="card-body p-0">
-                    <img src="{{ $photo->image ?? '' }}"  data-image-id="{{$photo->id ?? '' }}" data-image-url="{{ $photo->image ?? '' }}"  class="img-fluid popup-trigger" alt="Photo">
+   <div class="row all_image_section">
+    @forelse ($all_photos as $photo)
+    <div class="col-2 mt-4">
+        <div class="card h-100"> <!-- Added h-100 for consistent height -->
+            <div class="card-header p-1 bg-light">
+                <div class="form-check float-right">
+                    <input class="form-check-input img__checkbox" 
+                           data-photo-id="{{ $photo->id }}" 
+                           type="checkbox" 
+                           id="cardCheckbox{{ $photo->id }}">
+                    <label class="form-check-label" for="cardCheckbox{{ $photo->id }}"></label>
                 </div>
             </div>
+            <div class="card-body p-0">
+                <!-- Updated image element -->
+                <img src="{{ $photo->image }}" 
+                     class="img-fluid popup-trigger cursor-pointer"
+                     data-image-id="{{ $photo->id }}"
+                     style="width: 100%; height: 180px; object-fit: cover;"
+                     alt="Photo Entry {{ $photo->id }}">
+            </div>
+            <div class="card-footer p-2 bg-white">
+                @if(isset($stage) && $stage->type == 'validation')
+                <small class="text-muted">Mark: {{ $photo->mark ?? 'N/A' }}</small>
+                @endif
+            </div>
         </div>
-        @empty
-        <div class="col-lg-12 text-center p-3"><i class="fas fa-exclamation-circle"></i> There are no photos currently available.</div>
-        @endforelse
-
     </div>
+    @empty
+    <div class="col-lg-12 text-center p-3">
+        <i class="fas fa-exclamation-circle"></i> There are no photos currently available.
+    </div>
+    @endforelse
+</div>
     {{-- end --}}
 </div>
 
