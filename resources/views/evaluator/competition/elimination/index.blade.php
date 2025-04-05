@@ -42,6 +42,8 @@
                         <button class="btn btn-success btn-sm ml-2" id="promoteButton">
                             <i class="fa fa-check-circle"></i> PROMOTE
                         </button>
+                <button onclick="$('#photoModal').modal('show')">Open Modal</button>
+
                     @elseif($params['sub_tab'] =='eliminated_entries')
                         <button class="btn btn-info btn-sm" id="revertEliminationButton">
                             <i class="fa fa-check-circle"></i> Revert Elimination
@@ -112,7 +114,7 @@
                         <button class="btn btn-success ml-2" id="modalValidateBtn">
                             <i class="fa fa-check-circle"></i> VALIDATE
                         </button>
-                        <button onclick="$('#photoModal').modal('show')">Open Modal</button>
+                       
 
                     </div>
                 </div>
