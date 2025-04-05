@@ -112,6 +112,8 @@
                         <button class="btn btn-success ml-2" id="modalValidateBtn">
                             <i class="fa fa-check-circle"></i> VALIDATE
                         </button>
+                        <button onclick="$('#photoModal').modal('show')">Open Modal</button>
+
                     </div>
                 </div>
             </div>
