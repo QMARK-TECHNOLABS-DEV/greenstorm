@@ -125,7 +125,7 @@
 </div>
 
 {{-- JavaScript --}}
-@push('scripts')
+<!-- @push('scripts')
 <script>
    $(document).ready(function () {
     $(document).on('click', '.popup-trigger', function () {
@@ -145,5 +145,36 @@
     });
 });
 
+</script>
+@endpush -->
+@push('scripts')
+<script>
+$(document).ready(function () {
+    console.log("DOM ready");
+
+    // Trigger on Open Modal Button
+    $('#openModalBtn').on('click', function () {
+        console.log("Open Modal button clicked");
+        $('#photoModal').modal('show');
+    });
+
+    // Event Delegation for Image
+    $(document).on('click', '.popup-trigger', function () {
+        const imageSrc = $(this).data('image-src');
+        const imageId = $(this).data('image-id');
+        console.log("Image clicked", imageId, imageSrc);
+
+        $('#modalImage').attr('src', imageSrc);
+        $('#photoModal').modal('show');
+
+        $('#modalEliminateBtn').off('click').on('click', function () {
+            alert('Eliminate photo ID: ' + imageId);
+        });
+
+        $('#modalValidateBtn').off('click').on('click', function () {
+            alert('Validate photo ID: ' + imageId);
+        });
+    });
+});
 </script>
 @endpush
