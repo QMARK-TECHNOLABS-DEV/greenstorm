@@ -79,8 +79,13 @@ class CompetitionController extends Controller
             $photo_action = optional($validation)->grade;
         }
 
-        $photoData = $photo->only(['id', 'captured_location', 'description', 'device', 'month', 'photo_category', 'photo_unique_id', 'year']);
-        $photoData['photocategory'] = $photo->photocategory;
+        //$photoData = $photo->only(['id', 'captured_location', 'description', 'device', 'month', 'photo_category', 'photo_unique_id', 'year']);
+        //$photoData['photocategory'] = $photo->photo_category;
+
+        $photoData  = Photograph::with('photocategory','user')->where('id',$photo->id)->first();
+        if (!$photoData) {
+            return response()->json(['error' => 'Photo not found'], 404);
+        }
 
         if (!$photoData) {
             return response()->json(['error' => 'Photo not found'], 404);

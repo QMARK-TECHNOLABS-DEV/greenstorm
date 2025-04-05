@@ -17,7 +17,7 @@ class CompetitionSettingsController extends Controller
         $this->photo_limit = 24;
     }
     public function index(Competition $competition, Request $request)
-    {
+    { 
         $page = request()->page ?? 1;
         $page = !filled($page) ? 1 : $page;
         $perPage = $this->photo_limit;
@@ -31,7 +31,9 @@ class CompetitionSettingsController extends Controller
                     ->where('competition_id', $competition->id)
                     ->latest()
                     ->first();
+
         if (request()->ajax()) {
+            
             if($stage->type== 'elimination') {
                 $all_photos = $stage
                             ->photosForReviewer($perPage,$page);
@@ -73,9 +75,11 @@ class CompetitionSettingsController extends Controller
         }
         if ($stage) {
             if($stage->type== 'elimination') {
-                $all_photos = $stage
-                            ->photosForReviewer($perPage,1);
+
+                
+                $all_photos = $stage->photosForReviewer($perPage,1);
                             // ->paginate($perPage);
+                            //print_r($all_photos); exit;
             }elseif($stage->type== 'validation') {
                 $firstCategory = $competition->categories()->first();
                 if ($firstCategory) {
@@ -168,7 +172,8 @@ class CompetitionSettingsController extends Controller
                                         ?  $promoted_photos->total()
                                         : 0;
 
-        $photo_categories   = $competition->categories();
+        $photo_categories   = $competition->categories;
+        
 
         return view('evaluator.competition.elimination.eliminated', compact('competition', 'stage', 'all_photos','photo_categories','total_photo_count','total_eliminated_photo_count' , 'total_promoted_photo_count'));
     }
@@ -214,7 +219,7 @@ class CompetitionSettingsController extends Controller
                                         ?  $all_photos->total()
                                         : 0;
 
-        $photo_categories   = $competition->categories();
+        $photo_categories   = $competition->categories;
         return view('evaluator.competition.elimination.promoted',compact('competition', 'stage', 'all_photos','photo_categories','total_photo_count','total_eliminated_photo_count' , 'total_promoted_photo_count'));
     }
     public function ajax_page_action(Request $request)

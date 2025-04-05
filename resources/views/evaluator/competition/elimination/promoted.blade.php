@@ -472,7 +472,7 @@
                 let currentImageIndex = 0;
                 $(document).on('click', '.popup-trigger', function () {
                     $('#imageModal').removeClass('shake');
-                    let image = $(this).data('image-url');
+                    let image = $(this).data('image-src');
                     $('#imageModal .popup-image').attr('src', image);
                     let photo_id = $(this).data('image-id');
 
