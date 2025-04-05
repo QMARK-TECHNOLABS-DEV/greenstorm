@@ -123,25 +123,23 @@
 {{-- JavaScript --}}
 @push('scripts')
 <script>
-    $(document).ready(function () {
-        $('.popup-trigger').click(function () {
-            const imageSrc = $(this).data('image-src');
-            const imageId = $(this).data('image-id');
+   $(document).ready(function () {
+    $(document).on('click', '.popup-trigger', function () {
+        const imageSrc = $(this).data('image-src');
+        const imageId = $(this).data('image-id');
 
-            $('#modalImage').attr('src', imageSrc);
-            $('#photoModal').modal('show');
+        $('#modalImage').attr('src', imageSrc);
+        $('#photoModal').modal('show');
 
-            // You can handle click events for Eliminate / Validate buttons here
-            $('#modalEliminateBtn').off('click').on('click', function () {
-                alert('Eliminate photo ID: ' + imageId);
-                // AJAX call or form submission logic goes here
-            });
+        $('#modalEliminateBtn').off('click').on('click', function () {
+            alert('Eliminate photo ID: ' + imageId);
+        });
 
-            $('#modalValidateBtn').off('click').on('click', function () {
-                alert('Validate photo ID: ' + imageId);
-                // AJAX call or form submission logic goes here
-            });
+        $('#modalValidateBtn').off('click').on('click', function () {
+            alert('Validate photo ID: ' + imageId);
         });
     });
+});
+
 </script>
 @endpush
