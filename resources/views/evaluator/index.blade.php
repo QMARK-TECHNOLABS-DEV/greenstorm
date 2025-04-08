@@ -23,7 +23,7 @@
                 @endif
                 <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal"></span> Evaluator's <span class="tx-white">Dashboard</span> <span class="tx-normal"></span></div>
                 <div class="d-flex justify-content-center p-4 mb-3">
-                    <img src="{{ asset('common/group-logo.svg') }}" alt="" height="75px">
+                    <img src="{{ asset('common/logo-2.svg') }}" alt="" height="75px">
                 </div>
                 {{-- <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal"></span> Green<span class="tx-info">storm</span> <span class="tx-normal"></span></div> --}}
                 {{-- <div class="tx-center mg-b-60"> -The Evaluator Dashboard- </div> --}}
