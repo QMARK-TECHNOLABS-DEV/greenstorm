@@ -785,37 +785,34 @@
                         <!-- dropdown-menu -->
                     </div> --}}
                     <!-- dropdown -->
-                    <div class="dropdown">
-                        <a href="" class="nav-link nav-link-profile" data-toggle="dropdown">
-                        <span class="logged-name hidden-md-down">{{ ucwords(Auth::guard('evaluator')->user()->role) }}</span>
-                        <img src="https://via.placeholder.com/500" class="wd-32 rounded-circle" alt="">
-                        <span class="square-10 bg-success"></span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-header wd-250">
-                            <div class="tx-center">
-                                <a href=""><img src="https://via.placeholder.com/500" class="wd-80 rounded-circle" alt=""></a>
-                                <h6 class="logged-fullname">{{ ucwords(Auth::guard('evaluator')->user()->name) }}</h6>
-                                <p>{{ Auth::guard('evaluator')->user()->email }}</p>
-                            </div>
-                            <hr>
-                            {{-- <div class="tx-center">
-                                <span class="profile-earning-label">Earnings After Taxes</span>
-                                <h3 class="profile-earning-amount">$13,230 <i class="icon ion-ios-arrow-thin-up tx-success"></i></h3>
-                                <span class="profile-earning-text">Based on list price.</span>
-                            </div> --}}
-                            <ul class="list-unstyled user-profile-nav">
-                                <li><a href=""><i class="icon ion-ios-person"></i> Edit Profile</a></li>
-                                <li><a href=""><i class="icon ion-ios-gear"></i> Settings</a></li>
-                                {{-- <li><a href=""><i class="icon ion-ios-download"></i> Downloads</a></li>
-                                <li><a href=""><i class="icon ion-ios-star"></i> Favorites</a></li>
-                                <li><a href=""><i class="icon ion-ios-folder"></i> Collections</a></li> --}}
-                                <li><a onclick="event.preventDefault(); document.getElementById('logout-form').submit();" ><i class="icon ion-power"></i> Sign Out</a>
-                                    <form id="logout-form" action="{{ route('evaluator.logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-                                </li>
-                            </ul>
-                        </div>
+                   <div class="dropdown">
+    <a href="#" class="nav-link nav-link-profile d-flex align-items-center" data-toggle="dropdown">
+        <img src="{{ asset('common/G20.png') }}" class="wd-32 rounded-circle mr-2" alt="jury-image">
+        <span class="logged-name hidden-md-down">{{ ucwords(Auth::guard('evaluator')->user()->role) }}</span>
+        <span class="square-10 bg-success ml-2"></span>
+    </a>
+    <div class="dropdown-menu dropdown-menu-header wd-250">
+        <div class="tx-center">
+            <a href="#"><img src="https://via.placeholder.com/500" class="wd-80 rounded-circle" alt=""></a>
+            <h6 class="logged-fullname">{{ ucwords(Auth::guard('evaluator')->user()->name) }}</h6>
+            <p>{{ Auth::guard('evaluator')->user()->email }}</p>
+        </div>
+        <hr>
+        <ul class="list-unstyled user-profile-nav">
+            <li><a href="#"><i class="icon ion-ios-person"></i> Edit Profile</a></li>
+            <li><a href="#"><i class="icon ion-ios-gear"></i> Settings</a></li>
+            <li>
+                <a href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                    <i class="icon ion-power"></i> Sign Out
+                </a>
+                <form id="logout-form" action="{{ route('evaluator.logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+            </li>
+        </ul>
+    </div>
+</div>
+
                         <!-- dropdown-menu -->
                     </div>
                     <!-- dropdown -->
