@@ -631,7 +631,7 @@
             <div class="br-header-left">
                 <div class="p-1">
                     <a href="">
-                        <img src="{{ asset('common/logo-2.svg') }}" alt="" >
+                        <img src="{{ asset('common/G20.png') }}" alt="" >
                     </a>
                 </div>
             </div>
