@@ -787,7 +787,7 @@
                     <!-- dropdown -->
                    <div class="dropdown">
     <a href="#" class="nav-link nav-link-profile d-flex align-items-center" data-toggle="dropdown">
-        <img src="{{ asset('common/G20.png') }}" class="wd-32 rounded-circle mr-2" alt="jury-image">
+        <img src="{{ asset('common/profile.jpg') }}" class="wd-32 rounded-circle mr-2" alt="jury-image">
         <span class="logged-name hidden-md-down">{{ ucwords(Auth::guard('evaluator')->user()->role) }}</span>
         <span class="square-10 bg-success ml-2"></span>
     </a>
