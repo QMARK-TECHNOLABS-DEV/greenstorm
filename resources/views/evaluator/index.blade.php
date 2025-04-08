@@ -22,9 +22,22 @@
                 </div>
                 @endif
                 <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal"></span> Evaluator's <span class="tx-white">Dashboard</span> <span class="tx-normal"></span></div>
-                <div class="d-flex justify-content-center p-4 mb-3">
-                    <img src="{{ asset('common/G20.png') }}" alt="" height="75px">
-                </div>
+                <div class="d-flex flex-column align-items-center p-4 mb-3">
+    <!-- Text above logos -->
+<div class="mb-1 text-center" style="transform: translate(-27px, 13px);">
+    <strong>In Association With</strong>
+</div>
+
+
+    <!-- Logos side by side -->
+    <div class="d-flex align-items-center justify-content-center gap-3">
+        <!-- New Left Logo -->
+        <img src="{{ asset('common/gs1.jpg') }}" alt="Partner Logo" height="75px">
+
+        <!-- Existing Logo -->
+        <img src="{{ asset('common/G20.png') }}" alt="G20 Logo" height="75px">
+    </div>
+</div>
                 {{-- <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal"></span> Green<span class="tx-info">storm</span> <span class="tx-normal"></span></div> --}}
                 {{-- <div class="tx-center mg-b-60"> -The Evaluator Dashboard- </div> --}}
 
