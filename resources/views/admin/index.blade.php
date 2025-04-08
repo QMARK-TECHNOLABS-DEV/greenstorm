@@ -24,7 +24,7 @@
                 <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal"></span> Admin <span class="tx-info">Dashboard</span> <span class="tx-normal"></span></div>
                <div class="d-flex flex-column align-items-center p-4 mb-3">
     <!-- Text above logos -->
-<div class="mb-1 text-center" style="transform: translate(-20px, 10px);">
+<div class="mb-1 text-center" style="transform: translate(-27px, 13px);">
     <strong>In Association With</strong>
 </div>
 
