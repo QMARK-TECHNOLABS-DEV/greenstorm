@@ -36,7 +36,7 @@
         <img src="{{ asset('common/gs1.jpg') }}" alt="Partner Logo" height="75px">
 
         <!-- Existing Logo -->
-        <img src="{{ asset('common/G20.png') }}" alt="G20 Logo" height="75px">
+        <img src="{{ asset('common/G2000.png') }}" alt="G20 Logo" height="75px">
     </div>
 </div>
                 {{-- <div class="signin-logo tx-center tx-28 tx-bold tx-inverse"><span class="tx-normal"></span> Green<span class="tx-info">storm</span> <span class="tx-normal"></span></div> --}}
