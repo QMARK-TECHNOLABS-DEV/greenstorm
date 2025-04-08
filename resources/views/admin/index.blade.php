@@ -31,7 +31,7 @@
     <!-- Logos side by side -->
     <div class="d-flex align-items-center justify-content-center gap-3">
         <!-- New Left Logo -->
-        <img src="{{ asset('common/YourNewLogo.png') }}" alt="Partner Logo" height="75px">
+        <img src="{{ asset('common/gs1.jpg') }}" alt="Partner Logo" height="75px">
 
         <!-- Existing Logo -->
         <img src="{{ asset('common/G20.png') }}" alt="G20 Logo" height="75px">
