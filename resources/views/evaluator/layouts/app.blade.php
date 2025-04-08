@@ -656,7 +656,7 @@
                                 <!-- loop starts here -->
                                 <a href="" class="media-list-link">
                                     <div class="media">
-                                        <img src="https://via.placeholder.com/500" alt="">
+                                      <img src="{{ asset('common/G20.png') }}" class="wd-32 rounded-circle" alt="Profile">
                                         <div class="media-body">
                                             <div>
                                                 <p>Donna Seay</p>
