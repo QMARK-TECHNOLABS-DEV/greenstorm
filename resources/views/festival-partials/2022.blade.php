@@ -1,12 +1,12 @@
 <ul class="gallery_list row mb-0 p-0">
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Alok-Avinash.jpg') }}" title="Alok-Avinash ">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Agnieszka-Florczyk.jpg') }}" title="Alok-Avinash ">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Alok-Avinash.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Agnieszka-Florczyk.jpg') }}" alt="" />
                 </figure>
                  <div class='lupa text-center'>
-                 <p class="phto_owner_name">Alok Avinash  </p>
+                 <p class="phto_owner_name">Agnieszka Florczyk  </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -14,13 +14,13 @@
         </a>
     </li>
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Amitava-Chandra.jpg') }}" title="Amitava-Chandra ">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Amar-Habeeb.jpg') }}" title="Amitava-Chandra ">
             <div class='box-4'>
                 <figure  >
-                    <img src="{{ asset('web/img/gallery/2021/Amitava-Chandra.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Amar-Habeeb.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Amitava Chandra   </p>
+                 <p class="phto_owner_name">Amar-Habeeb  </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -28,13 +28,13 @@
         </a>
     </li>
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Angel-M-Baby.jpg') }}" title="Angel-M-Baby ">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Amin-Malekzadeh.jpg') }}" title="Angel-M-Baby ">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Angel-M-Baby.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Amin-Malekzadeh.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Angel M Baby </p>
+                 <p class="phto_owner_name">Amin-Malekzadeh </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -42,13 +42,13 @@
         </a>
     </li>
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Arpan-Basu-Chowdhury.jpg') }}" title="Arpan-Basu-Chowdhury ">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Aung-Chan-Thar.jpg') }}" title="Arpan-Basu-Chowdhury ">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Arpan-Basu-Chowdhury.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Aung-Chan-Thar.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Arpan Basu Chowdhury  </p>
+                 <p class="phto_owner_name">Aung-Chan-Thar  </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -56,13 +56,13 @@
         </a>
     </li>
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Ashim-Kumar-Mukhopadhyay.jpg') }}" title="Ashim-Kumar-Mukhopadhyay">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Babak-Mehrafshar.jpg') }}" title="Ashim-Kumar-Mukhopadhyay">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Ashim-Kumar-Mukhopadhyay.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Babak-Mehrafshar.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Ashim Kumar Mukhopadhyay  </p>
+                 <p class="phto_owner_name">Babak-Mehrafshar  </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -70,13 +70,13 @@
         </a>
     </li>
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Binz-Jos.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Ehsan-Nikfarjam.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Binz-Jos.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Ehsan-Nikfarjam.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Binz Jos  </p>
+                 <p class="phto_owner_name">Ehsan-Nikfarjam  </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -84,13 +84,13 @@
         </a>
     </li>
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Emman-Foronda.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Guillaume-Petermann.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Emman-Foronda.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Guillaume-Petermann.jpg }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Emman Foronda   </p>
+                 <p class="phto_owner_name">Guillaume-Petermann   </p>
                  <p class="phto_owner_place"> Philippines </p>
                  </div> 
                        <!-- caption end -->
@@ -98,13 +98,13 @@
         </a>
     </li>
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Froilan-Robas.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Himadri-Bhuyan.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Froilan-Robas.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Himadri-Bhuyan.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Froilan Robas    </p>
+                 <p class="phto_owner_name">Himadri-Bhuyan    </p>
                  <p class="phto_owner_place"> Philippines </p>
                  </div> 
                        <!-- caption end -->
@@ -112,13 +112,13 @@
         </a>
     </li>
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Hadi-Dehghanpour.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Khanh-Bui-Phu.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Hadi-Dehghanpour.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Khanh-Bui-Phu.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Hadi Dehghanpour </p>
+                 <p class="phto_owner_name">Khanh-Bui-Phu </p>
                  <p class="phto_owner_place"> Iran </p>
                  </div> 
                        <!-- caption end -->
@@ -126,13 +126,13 @@
         </a>
     </li>
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Jophel-Botero-Ybiosa.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/KimCuongNguyen-Trang.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Jophel-Botero-Ybiosa.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/KimCuongNguyen-Trang.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Jophel Botero Ybiosa  </p>
+                 <p class="phto_owner_name">KimCuongNguyen-Trang  </p>
                  <p class="phto_owner_place"> Philippines </p>
                  </div> 
                        <!-- caption end -->
@@ -140,13 +140,13 @@
         </a>
     </li>
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Joy-Saha.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Kishore-Das.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Joy-Saha.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Kishore-Das.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Joy Saha  </p>
+                 <p class="phto_owner_name">Kishore-Das  </p>
                  <p class="phto_owner_place"> Bangladesh </p>
                  </div> 
                        <!-- caption end -->
@@ -154,13 +154,13 @@
         </a>
     </li>
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/K.A-Abdul-Khader.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Kyaw-Thet-Sint.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/K.A-Abdul-Khader.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Kyaw-Thet-Sint.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">K.A Abdul Khader  </p>
+                 <p class="phto_owner_name">Kyaw-Thet-Sint  </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -169,13 +169,13 @@
     </li>
     <!-- end -->
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Kallol-Mukherjee.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Kyaw-Zay-Yar-Lin.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Kallol-Mukherjee.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Kyaw-Zay-Yar-Lin.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Kallol Mukherjee  </p>
+                 <p class="phto_owner_name">Kyaw-Zay-Yar-Lin  </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -184,13 +184,13 @@
     </li>
     <!-- end -->
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Kyaw-Thu.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Lapshina-Vladlena.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Kyaw-Thu.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Lapshina-Vladlena.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Kyaw Thu  </p>
+                 <p class="phto_owner_name">Lapshina-Vladlena  </p>
                  <p class="phto_owner_place"> Myanmar </p>
                  </div> 
                        <!-- caption end -->
@@ -199,13 +199,13 @@
     </li>
     <!-- end -->
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Mahesh-Mallinath-Kamble.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Majid.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Mahesh-Mallinath-Kamble.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Majid.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Mahesh Mallinath Kamble   </p>
+                 <p class="phto_owner_name">Majid  </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -214,13 +214,13 @@
     </li>
     <!-- end -->
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Mohamad-Reza-Masoumi.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/MarkAnthonyAgtay.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Mohamad-Reza-Masoumi.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/MarkAnthonyAgtay.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Mohamad Reza Masoumi  </p>
+                 <p class="phto_owner_name">MarkAnthonyAgtay  </p>
                  <p class="phto_owner_place"> Iran </p>
                  </div> 
                        <!-- caption end -->
@@ -229,13 +229,13 @@
     </li>
     <!-- end -->
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Ratheesh-Narayanan.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Mehdi-Mohebi-Pour.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Ratheesh-Narayanan.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Mehdi-Mohebi-Pour.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Ratheesh Narayanan   </p>
+                 <p class="phto_owner_name">Mehdi-Mohebi-Pour   </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -244,13 +244,13 @@
     </li>
     <!-- end -->
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Shailie-Mehta.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Mohammad-Esteki.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Shailie-Mehta.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Mohammad-Esteki.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Shailie Mehta   </p>
+                 <p class="phto_owner_name">Mohammad-Esteki   </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -259,13 +259,13 @@
     </li>
     <!-- end -->
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Shibasish-Saha.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Mohammad-Reza-Masoumi.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Shibasish-Saha.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Mohammad-Reza-Masoumi.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Shibasish Saha </p>
+                 <p class="phto_owner_name">Mohammad-Reza-Masoumi </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -274,13 +274,13 @@
     </li>
     <!-- end -->
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Shyjith-Onden-Cheriyath.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/MuhammadAmdadHossain.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Shyjith-Onden-Cheriyath.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/MuhammadAmdadHossain.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Shyjith Onden Cheriyath </p>
+                 <p class="phto_owner_name">MuhammadAmdadHossain </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -289,13 +289,13 @@
     </li>
     <!-- end -->
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/sibin-bahuleyan.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Phan-Thi-Khanh.png') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/sibin-bahuleyan.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Phan-Thi-Khanh.png') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Sibin Bahuleyan </p>
+                 <p class="phto_owner_name">Phan-Thi-Khanh </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -304,13 +304,13 @@
     </li>
     <!-- end -->
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Sourav-Karmakar.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Rajeev-Mannayam.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Sourav-Karmakar.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Rajeev-Mannayam.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Sourav Karmakar   </p>
+                 <p class="phto_owner_name">Rajeev-Mannayam   </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
@@ -319,13 +319,13 @@
     </li>
     <!-- end -->
     <li class="col-lg-4 col-md-6 ">
-        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Sujit-Saha.jpg') }}" title="Binz-Jos">
+        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/Rashin-Karayi.jpg') }}" title="Binz-Jos">
             <div class='box-4'>
                 <figure >
-                    <img src="{{ asset('web/img/gallery/2021/Sujit-Saha.jpg') }}" alt="" />
+                    <img src="{{ asset('web/img/gallery/2022/Rashin-Karayi.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
-                 <p class="phto_owner_name">Sujit Saha  </p>
+                 <p class="phto_owner_name">Rashin-Karayi  </p>
                  <p class="phto_owner_place"> India </p>
                  </div> 
                        <!-- caption end -->
