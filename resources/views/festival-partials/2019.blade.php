@@ -15,7 +15,7 @@
     <li class="col-lg-4 col-md-6 ">
         <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2019/2--Pranab-Basak,-Kolkata.jpg') }}" title="Pranab Basak , Kolkata">
             <div class='box-4'>
-                <figure <!-- class="imgLiquidFill imgLiquid gallery_image_thumb"  --> >
+                <figure >
                     <img src="{{ asset('web/img/gallery/2019/2--Pranab-Basak,-Kolkata.jpg') }}" alt="" />
                 </figure>
               <div class='lupa text-center'>
