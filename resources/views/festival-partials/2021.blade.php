@@ -16,7 +16,7 @@
     <li class="col-lg-4 col-md-6 ">
         <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2021/Amitava-Chandra.jpg') }}" title="Amitava-Chandra ">
             <div class='box-4'>
-                <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                <figure <!-- class="imgLiquidFill imgLiquid gallery_image_thumb"  --> >
                     <img src="{{ asset('web/img/gallery/2021/Amitava-Chandra.jpg') }}" alt="" />
                 </figure>
                 <div class='lupa text-center'>
