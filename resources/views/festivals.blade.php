@@ -270,7 +270,7 @@
                             <li class="col-lg-4 col-md-6 votingListingImgSection_3635" data-photo-id="3635">
         <a class="imagePopupTriggerButton" data-photo-id="3635" data-photo-category="1" data-ggpf-id="GGPF-2023-3721" role="button">
             <div class="votes_box">
-                                <figure class=" imgLiquidFill imgLiquid votes_img_thumb imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/6zBFjWdIqYLHrNjDpZpAT8KFyqHbX9CDvFZTnF07.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                                <figure class="  imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/6zBFjWdIqYLHrNjDpZpAT8KFyqHbX9CDvFZTnF07.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     <img src="https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/6zBFjWdIqYLHrNjDpZpAT8KFyqHbX9CDvFZTnF07.jpg" alt="" style="display: none;">
                 </figure>
                 <div class="lupa text-center">
