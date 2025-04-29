@@ -206,7 +206,7 @@
                                     <li class="col-lg-4 col-md-6 ">
                                        <a class="image-popup-vertical-fit" href="{{ asset('web/img/gallery/2022/'.$image['name']) }}" title=" ">
                                            <div class='box-4'>
-                                               <figure   >
+                                               <figure class="imgLiquidFill imgLiquid votes_img_thumb"  >
                                                    <img src="{{ asset('web/img/gallery/2022/'.$image['name']) }}" alt="" />
                                                </figure>
                                                <div class='lupa text-center'>
