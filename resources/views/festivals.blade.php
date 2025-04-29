@@ -270,7 +270,7 @@
                             <li class="col-lg-4 col-md-6 votingListingImgSection_3635" data-photo-id="3635">
         <a class="imagePopupTriggerButton" data-photo-id="3635" data-photo-category="1" data-ggpf-id="GGPF-2023-3721" role="button">
             <div class="votes_box">
-                                <figure   class="imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/6zBFjWdIqYLHrNjDpZpAT8KFyqHbX9CDvFZTnF07.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                                <figure   class=" imgLiquidFill imgLiquid votes_img_thumb imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/6zBFjWdIqYLHrNjDpZpAT8KFyqHbX9CDvFZTnF07.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     <img src="https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/6zBFjWdIqYLHrNjDpZpAT8KFyqHbX9CDvFZTnF07.jpg" alt="" style="display: none;">
                 </figure>
                 <div class="lupa text-center">
@@ -298,7 +298,7 @@
             <li class="col-lg-4 col-md-6 votingListingImgSection_7337" data-photo-id="7337">
         <a class="imagePopupTriggerButton" data-photo-id="7337" data-photo-category="1" data-ggpf-id="GGPF-2023-7404" role="button">
             <div class="votes_box">
-                                <figure  class="  imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/sMCIBXsYx0HHDTKiA2GVFv5IpmE01UUtdK2nMhtS.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                                <figure  class=" imgLiquidFill imgLiquid votes_img_thumb imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/sMCIBXsYx0HHDTKiA2GVFv5IpmE01UUtdK2nMhtS.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     <img src="https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/sMCIBXsYx0HHDTKiA2GVFv5IpmE01UUtdK2nMhtS.jpg" alt="" style="display: none;">
                 </figure>
                 <div class="lupa text-center">
@@ -312,7 +312,7 @@
             <li class="col-lg-4 col-md-6 votingListingImgSection_17459" data-photo-id="17459">
         <a class="imagePopupTriggerButton" data-photo-id="17459" data-photo-category="1" data-ggpf-id="GGPF-2023-17437" role="button">
             <div class="votes_box">
-                                <figure  class="  imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/YYzUeAFgJezjPq9xzdHGcCH73FEgtxLJaEq9fn3w.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                                <figure  class=" imgLiquidFill imgLiquid votes_img_thumb  imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/YYzUeAFgJezjPq9xzdHGcCH73FEgtxLJaEq9fn3w.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     <img src="https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/YYzUeAFgJezjPq9xzdHGcCH73FEgtxLJaEq9fn3w.jpg" alt="" style="display: none;">
                 </figure>
                 <div class="lupa text-center">
@@ -326,7 +326,7 @@
             <li class="col-lg-4 col-md-6 votingListingImgSection_16991" data-photo-id="16991">
         <a class="imagePopupTriggerButton" data-photo-id="16991" data-photo-category="1" data-ggpf-id="GGPF-2023-16973" role="button">
             <div class="votes_box">
-                                <figure  class="  imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/n6bcvqroC3FZtkV1NjYV2PiaBLcjSKRK1KNS00fy.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                                <figure  class=" imgLiquidFill imgLiquid votes_img_thumb  imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/n6bcvqroC3FZtkV1NjYV2PiaBLcjSKRK1KNS00fy.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     <img src="https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/n6bcvqroC3FZtkV1NjYV2PiaBLcjSKRK1KNS00fy.jpg" alt="" style="display: none;">
                 </figure>
                 <div class="lupa text-center">
@@ -340,7 +340,7 @@
             <li class="col-lg-4 col-md-6 votingListingImgSection_1342" data-photo-id="1342">
         <a class="imagePopupTriggerButton" data-photo-id="1342" data-photo-category="1" data-ggpf-id="GGPF-2023-1440" role="button">
             <div class="votes_box">
-                                <figure  class="  imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/MQePYBbu3eBCnhqARbzhi4Suh3jNwVukelt1Tg5D.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                                <figure  class=" imgLiquidFill imgLiquid votes_img_thumb  imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/MQePYBbu3eBCnhqARbzhi4Suh3jNwVukelt1Tg5D.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     <img src="https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/MQePYBbu3eBCnhqARbzhi4Suh3jNwVukelt1Tg5D.jpg" alt="" style="display: none;">
                 </figure>
                 <div class="lupa text-center">
@@ -354,7 +354,7 @@
             <li class="col-lg-4 col-md-6 votingListingImgSection_970" data-photo-id="970">
         <a class="imagePopupTriggerButton" data-photo-id="970" data-photo-category="1" data-ggpf-id="GGPF-2023-1069" role="button">
             <div class="votes_box">
-                                <figure class=" imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/sjFzrMtCFKhA1FKcJXLwc4DZi0Rsgi4Ej4AQ90nm.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                                <figure class="imgLiquidFill imgLiquid votes_img_thumb imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/sjFzrMtCFKhA1FKcJXLwc4DZi0Rsgi4Ej4AQ90nm.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     <img src="https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/sjFzrMtCFKhA1FKcJXLwc4DZi0Rsgi4Ej4AQ90nm.jpg" alt="" style="display: none;">
                 </figure>
                 <div class="lupa text-center">
@@ -368,7 +368,7 @@
             <li class="col-lg-4 col-md-6 votingListingImgSection_7185" data-photo-id="7185">
         <a class="imagePopupTriggerButton" data-photo-id="7185" data-photo-category="1" data-ggpf-id="GGPF-2023-7254" role="button">
             <div class="votes_box">
-                                <figure class=" imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/sISUXyLdhfXc4s5FiuURXSaQeYS4y40HjpzSTj7o.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                                <figure class="imgLiquidFill imgLiquid votes_img_thumb imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/sISUXyLdhfXc4s5FiuURXSaQeYS4y40HjpzSTj7o.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     <img src="https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/sISUXyLdhfXc4s5FiuURXSaQeYS4y40HjpzSTj7o.jpg" alt="" style="display: none;">
                 </figure>
                 <div class="lupa text-center">
@@ -382,7 +382,7 @@
             <li class="col-lg-4 col-md-6 votingListingImgSection_7721" data-photo-id="7721">
         <a class="imagePopupTriggerButton" data-photo-id="7721" data-photo-category="1" data-ggpf-id="GGPF-2023-7788" role="button">
             <div class="votes_box">
-                                <figure class=" imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/fRhKnN0ySQo2GOHG7l8UmoHKfRSAae5fHJHsU2uc.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                                <figure class="imgLiquidFill imgLiquid votes_img_thumb imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/fRhKnN0ySQo2GOHG7l8UmoHKfRSAae5fHJHsU2uc.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     <img src="https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/fRhKnN0ySQo2GOHG7l8UmoHKfRSAae5fHJHsU2uc.jpg" alt="" style="display: none;">
                 </figure>
                 <div class="lupa text-center">
@@ -396,7 +396,7 @@
             <li class="col-lg-4 col-md-6 votingListingImgSection_4638" data-photo-id="4638">
         <a class="imagePopupTriggerButton" data-photo-id="4638" data-photo-category="1" data-ggpf-id="GGPF-2023-4720" role="button">
             <div class="votes_box">
-                                <figure class=" imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/0Rp6zZaMrF6wDXwRg4TXGCILYX7Z8ZIgqrC2rsWZ.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                                <figure class="imgLiquidFill imgLiquid votes_img_thumb imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/0Rp6zZaMrF6wDXwRg4TXGCILYX7Z8ZIgqrC2rsWZ.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     <img src="https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/0Rp6zZaMrF6wDXwRg4TXGCILYX7Z8ZIgqrC2rsWZ.jpg" alt="" style="display: none;">
                 </figure>
                 <div class="lupa text-center">
@@ -410,7 +410,7 @@
             <li class="col-lg-4 col-md-6 votingListingImgSection_1392" data-photo-id="1392">
         <a class="imagePopupTriggerButton" data-photo-id="1392" data-photo-category="1" data-ggpf-id="GGPF-2023-1490" role="button">
             <div class="votes_box">
-                                <figure class=" imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/S0eDqlfnhrTInO4ZCYRT6SVEujq8jgY7QquwXTXs.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                                <figure class="imgLiquidFill imgLiquid votes_img_thumb imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/S0eDqlfnhrTInO4ZCYRT6SVEujq8jgY7QquwXTXs.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     <img src="https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/S0eDqlfnhrTInO4ZCYRT6SVEujq8jgY7QquwXTXs.jpg" alt="" style="display: none;">
                 </figure>
                 <div class="lupa text-center">
@@ -424,7 +424,7 @@
             <li class="col-lg-4 col-md-6 votingListingImgSection_16447" data-photo-id="16447">
         <a class="imagePopupTriggerButton" data-photo-id="16447" data-photo-category="1" data-ggpf-id="GGPF-2023-16436" role="button">
             <div class="votes_box">
-                                <figure class=" imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/GyVVNCf93P4Cfy7lUzRr5pKKVJEMGYpfbkwlti5X.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                                <figure class="imgLiquidFill imgLiquid votes_img_thumb imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/GyVVNCf93P4Cfy7lUzRr5pKKVJEMGYpfbkwlti5X.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     <img src="https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/GyVVNCf93P4Cfy7lUzRr5pKKVJEMGYpfbkwlti5X.jpg" alt="" style="display: none;">
                 </figure>
                 <div class="lupa text-center">
@@ -438,7 +438,7 @@
             <li class="col-lg-4 col-md-6 votingListingImgSection_16703" data-photo-id="16703">
         <a class="imagePopupTriggerButton" data-photo-id="16703" data-photo-category="1" data-ggpf-id="GGPF-2023-16689" role="button">
             <div class="votes_box">
-                                <figure class=" imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/8LiMfFaAsfhe8P5EjOdLngZx35YSD0hRqgxG564c.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                                <figure class="imgLiquidFill imgLiquid votes_img_thumb imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/8LiMfFaAsfhe8P5EjOdLngZx35YSD0hRqgxG564c.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     <img src="https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/8LiMfFaAsfhe8P5EjOdLngZx35YSD0hRqgxG564c.jpg" alt="" style="display: none;">
                 </figure>
                 <div class="lupa text-center">
@@ -452,7 +452,7 @@
             <li class="col-lg-4 col-md-6 votingListingImgSection_6433" data-photo-id="6433">
         <a class="imagePopupTriggerButton" data-photo-id="6433" data-photo-category="1" data-ggpf-id="GGPF-2023-6508" role="button">
             <div class="votes_box">
-                                <figure class="imgLiquidFill imgLiquid votes_img_thumb imgLiquid_bgSize imgLiquid_ready" style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/PyLBdXl5tW6XKAE5d0F8USPBMbT9kVDRfAFR6Yfe.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+                                <figure class="imgLiquidFill imgLiquid votes_img_thumb " style="background-image: url(&quot;https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/PyLBdXl5tW6XKAE5d0F8USPBMbT9kVDRfAFR6Yfe.jpg&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
                     <img src="https://greenstorm-files.s3.ap-south-1.amazonaws.com/images/PyLBdXl5tW6XKAE5d0F8USPBMbT9kVDRfAFR6Yfe.jpg" alt="" style="display: none;">
                 </figure>
                 <div class="lupa text-center">
