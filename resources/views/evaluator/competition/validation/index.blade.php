@@ -50,18 +50,26 @@
     
 @foreach ($photo_categories as $category)
     @php
-        // Only display category 2, skip category 1
-        if ($category->id == 1) {
-            continue; // Skip category 1
+        // Only show category 2
+        if ($category->id != 2) {
+            continue;
         }
 
-        // Change the name of category 2 to 'All Entries'
-        $categoryTitle = ($category->id == 2) ? 'All Entries' : $category->title;
+        // Show "All Entries" as the title
+        $categoryTitle = 'All Entries';
 
-        $isActive = request('category') && in_array($category->id, (array)request('category'));
-        $url = request('evaluator') ? '?category=' . $category->id . '&evaluator=' . request('evaluator') : '?category=' . $category->id;
+        // Make it active by default if no category is selected
+        $isActive = !request('category') || in_array($category->id, (array)request('category'));
+
+        $url = request('evaluator') 
+            ? '?category=' . $category->id . '&evaluator=' . request('evaluator') 
+            : '?category=' . $category->id;
     @endphp
-    <a class="dropdown-item {{$isActive ? 'active' : ''}}" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() . $url }}" data-category-id="{{ $category->id ?? '' }}">
+
+    <a class="dropdown-item {{ $isActive ? 'active' : '' }}" 
+       style="cursor:pointer;" role="button" data-role="sub"
+       href="{{ Request::url() . $url }}" 
+       data-category-id="{{ $category->id }}">
         {!! $categoryTitle !!}
     </a>
 @endforeach
