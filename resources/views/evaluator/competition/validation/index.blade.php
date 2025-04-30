@@ -45,18 +45,19 @@
                     @endif
                 </button>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="categoryFilterDropdown">
-                     <a class="dropdown-item" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() }}">All Entries</a>
-                    @foreach ($photo_categories as $category)
-                        @php
-                            $isActive = request('category') && request('category') == $category->id;
-                            $url = request('evaluator') ? '?category=' . $category->id . '&evaluator=' . request('evaluator') : '?category=' . $category->id;
-                        @endphp
-                        <a class="dropdown-item {{$isActive ? 'active' : ''}}" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() . $url }}" data-category-id="{{ $category->id ?? '' }}">
-                            {!! $category->title ?? '' !!}
-                        </a>
-                    @endforeach
-                    <!-- Add more categories as needed -->
-                </div>
+    <a class="dropdown-item" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() }}">All Entries</a>
+    
+    @foreach ($photo_categories as $category)
+        @php
+            $isActive = request('category') && request('category') == $category->id;
+            $url = request('evaluator') ? '?category=' . $category->id . '&evaluator=' . request('evaluator') : '?category=' . $category->id;
+        @endphp
+        <a class="dropdown-item {{$isActive ? 'active' : ''}}" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() . $url }}" data-category-id="{{ $category->id ?? '' }}">
+            {!! $category->title ?? '' !!}
+        </a>
+    @endforeach
+</div>
+
             </div>
         </div>
     </div>
