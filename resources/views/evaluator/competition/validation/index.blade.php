@@ -45,7 +45,7 @@
                     @endif
                 </button>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="categoryFilterDropdown">
-                    {{-- <a class="dropdown-item" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() }}">All Entries</a> --}}
+                     <a class="dropdown-item" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() }}">All Entries</a>
                     @foreach ($photo_categories as $category)
                         @php
                             $isActive = request('category') && request('category') == $category->id;
