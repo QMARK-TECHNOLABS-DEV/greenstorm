@@ -48,21 +48,23 @@
     <!-- All Entries link that shows images from both categories -->
 <!--     <a class="dropdown-item" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() }}?category=1&category=2">All Entries</a> -->
     
-  @foreach ($photo_categories as $category)
+ @foreach ($photo_categories as $category)
     @php
         $isActive = request('category') && in_array($category->id, (array)request('category'));
         $url = request('evaluator') ? '?category=' . $category->id . '&evaluator=' . request('evaluator') : '?category=' . $category->id;
-        $categoryTitle = $category->title;
         
-        // Change the display name of "Camera" to "All Entries"
-        if ($category->title == 'Camera') {
+        // Change the category name for category with ID 1 to "All Entries"
+        if ($category->id == 1) {
             $categoryTitle = 'All Entries';
+        } else {
+            $categoryTitle = $category->title;
         }
     @endphp
     <a class="dropdown-item {{$isActive ? 'active' : ''}}" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() . $url }}" data-category-id="{{ $category->id ?? '' }}">
         {!! $categoryTitle !!}
     </a>
 @endforeach
+
 
 </div>
 
