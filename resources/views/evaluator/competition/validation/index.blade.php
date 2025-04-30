@@ -44,12 +44,13 @@
                         Filter by Category
                     @endif
                 </button>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="categoryFilterDropdown">
-    <a class="dropdown-item" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() }}">All Entries</a>
+               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="categoryFilterDropdown">
+    <!-- All Entries link that shows images from both categories -->
+    <a class="dropdown-item" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() }}?category=1&category=2">All Entries</a>
     
     @foreach ($photo_categories as $category)
         @php
-            $isActive = request('category') && request('category') == $category->id;
+            $isActive = request('category') && in_array($category->id, (array)request('category'));
             $url = request('evaluator') ? '?category=' . $category->id . '&evaluator=' . request('evaluator') : '?category=' . $category->id;
         @endphp
         <a class="dropdown-item {{$isActive ? 'active' : ''}}" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() . $url }}" data-category-id="{{ $category->id ?? '' }}">
@@ -57,6 +58,7 @@
         </a>
     @endforeach
 </div>
+
 
             </div>
         </div>
