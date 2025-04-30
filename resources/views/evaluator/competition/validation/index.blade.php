@@ -50,15 +50,15 @@
     
 @foreach ($photo_categories as $category)
     @php
-        // Only show category 2
+        // Skip category 1
         if ($category->id != 2) {
             continue;
         }
 
-        // Show "All Entries" as the title
+        // Rename category 2 to "All Entries"
         $categoryTitle = 'All Entries';
 
-        // Make it active by default if no category is selected
+        // Set active if no category is selected or this is the selected one
         $isActive = !request('category') || in_array($category->id, (array)request('category'));
 
         $url = request('evaluator') 
