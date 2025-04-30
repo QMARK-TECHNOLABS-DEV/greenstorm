@@ -55,13 +55,17 @@
             continue; // Skip category 1
         }
 
+        // Change the name of category 2 to 'All Entries'
+        $categoryTitle = ($category->id == 2) ? 'All Entries' : $category->title;
+
         $isActive = request('category') && in_array($category->id, (array)request('category'));
         $url = request('evaluator') ? '?category=' . $category->id . '&evaluator=' . request('evaluator') : '?category=' . $category->id;
     @endphp
     <a class="dropdown-item {{$isActive ? 'active' : ''}}" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() . $url }}" data-category-id="{{ $category->id ?? '' }}">
-        {!! $category->title ?? '' !!}
+        {!! $categoryTitle !!}
     </a>
 @endforeach
+
 
 
 
