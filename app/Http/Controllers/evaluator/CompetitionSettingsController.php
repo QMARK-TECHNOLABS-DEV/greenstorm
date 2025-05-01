@@ -28,7 +28,7 @@ class CompetitionSettingsController extends Controller
                         $query->where('users.id', $userId);
                     })
                     ->where('status', true)
-                    ->where('competition_id', $competition->id)
+                    ->where('competition_id',2)
                     ->latest()
                     ->first();
 
