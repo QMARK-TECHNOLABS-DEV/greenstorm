@@ -468,9 +468,9 @@ $(document).on('click','#load-more-button',function(){
             imagePopUpActions: function() {
                 let currentImageIndex = 0;
                 $(document).on('click', '.popup-trigger', function () {
-                    $('#imageModal').removeClass('shake');
-                    let image = $(this).data('image-url');
-                    $('#imageModal .popup-image').attr('src', image);
+                    $('#fullscreenImageModal').removeClass('shake');
+                    let image = $(this).data('image-src');
+                    $('body .popup-image').attr('src', image);
                     let photo_id = $(this).data('image-id');
 
                     $.post(EvaluatorURL + '/popup-exapand-data/' + photo_id,{

@@ -166,7 +166,7 @@ src="https://www.facebook.com/tr?id=928734065914549&ev=PageView&noscript=1"
                                 <legend class="visually-hidden">Image uploader</legend>
                                 <img width="50px" src="{{ asset('web/img/drag-photo-icon.svg') }}">
                                 <p class="text-center drop_head_info mb-1">
-                                    <input name="image" id="upload_image_background" data-post-name="image_background" data-post-url="https://someplace.com/image/uploads/backgrounds/" class="position-absolute invisible" type="file" accept="image/jpeg" />
+                                  <input name="image" id="upload_image_background" data-post-name="image_background" data-post-url="https://someplace.com/image/uploads/backgrounds/" class="position-absolute invisible" type="file" accept="image/jpeg" />  
                                      Drop your Photo here or <label class="btn btn-upload text-green " for="upload_image_background">Browse</label>
                                 </p>
                                 <p class="text-center note_maximum mt-0">

@@ -44,19 +44,44 @@
                         Filter by Category
                     @endif
                 </button>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="categoryFilterDropdown">
-                    {{-- <a class="dropdown-item" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() }}">All Entries</a> --}}
-                    @foreach ($photo_categories as $category)
-                        @php
-                            $isActive = request('category') && request('category') == $category->id;
-                            $url = request('evaluator') ? '?category=' . $category->id . '&evaluator=' . request('evaluator') : '?category=' . $category->id;
-                        @endphp
-                        <a class="dropdown-item {{$isActive ? 'active' : ''}}" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() . $url }}" data-category-id="{{ $category->id ?? '' }}">
-                            {!! $category->title ?? '' !!}
-                        </a>
-                    @endforeach
-                    <!-- Add more categories as needed -->
-                </div>
+               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="categoryFilterDropdown">
+    <!-- All Entries link that shows images from both categories -->
+<!--     <a class="dropdown-item" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() }}?category=1&category=2">All Entries</a> -->
+    
+@foreach ($photo_categories as $category)
+    @php
+        // Only allow category 2
+        if ($category->id != 2) {
+            continue;
+        }
+
+        // Set title for category 2
+        $categoryTitle = 'All Entries';
+
+        // Mark as active if no category is selected or this is category 2
+        $isActive = !request('category') || request('category') == 2;
+
+        // Build the URL
+        $url = request('evaluator') 
+            ? '?category=2&evaluator=' . request('evaluator') 
+            : '?category=2';
+    @endphp
+
+    <a class="dropdown-item {{ $isActive ? 'active' : '' }}" 
+       style="cursor:pointer;" role="button" data-role="sub"
+       href="{{ Request::url() . $url }}" 
+       data-category-id="2">
+        {{ $categoryTitle }}
+    </a>
+@endforeach
+
+
+
+
+
+</div>
+
+
             </div>
         </div>
     </div>
@@ -180,4 +205,14 @@
 </div> --}}
 </div>
 </div>
+ <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Check if the 'category' query parameter exists in the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            if (!urlParams.has('category')) {
+                // If not, redirect to the same page with category=2
+                window.location.search = '?category=2';
+            }
+        });
+    </script>
 </div>

@@ -39,7 +39,7 @@
                            <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('web/img/winner/2022/phan-thi-khanh-photo.jpg') }}" title="phan thi khanh ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('web/img/winner/2022/phan-thi-khanh-photo.jpg') }}" alt="" />
                                        </figure>
                                        <div class='lupa text-center'>
@@ -54,7 +54,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('web/img/winner/2022/amar-habeeb-photo.jpg') }}" title="Amar Habeeb ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('web/img/winner/2022/amar-habeeb-photo.jpg') }}" alt="" />
                                        </figure>
                                        <!-- caption -->
@@ -72,7 +72,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('web/img/winner/2022/kishore-das-photo.jpg') }}" title="Kishore Das  ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure>
                                           <img src="{{ asset('web/img/winner/2022/kishore-das-photo.jpg') }}" alt="" />
                                        </figure>
                                              <!-- caption -->
@@ -90,7 +90,7 @@
                <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('web/img/winner/2022/yuri-pritisk-photo.jpg') }}" title=" yuri-pritisk ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('web/img/winner/2022/yuri-pritisk-photo.jpg') }}" alt="" />
                                        </figure>
                                              <!-- caption -->
@@ -108,7 +108,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('web/img/winner/2022/soumya-ranjan-bhattacharyya-photo.jpg') }}" title=" soumya ranjan bhattacharyya  ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('web/img/winner/2022/soumya-ranjan-bhattacharyya-photo.jpg') }}" alt="" />
                                        </figure>
                                              <!-- caption -->
@@ -162,7 +162,7 @@
                         <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('web/img/winner/2021/Mohamad-Reza-Masoumi.jpg') }}" title="phan thi khanh ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('web/img/winner/2021/Mohamad-Reza-Masoumi.jpg') }}" alt="" />
                                        </figure>
                                                      <!-- caption -->
@@ -181,7 +181,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('web/img/winner/2021/Jophel-Botero-Ybiosa.jpg') }}" title="Kishore Das  ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('web/img/winner/2021/Jophel-Botero-Ybiosa.jpg') }}" alt="" />
                                        </figure>
                                    <!-- caption -->
@@ -199,7 +199,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('web/img/winner/2021/Hadi-Dehghanpour.jpg') }}" title="Amar Habeeb ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('web/img/winner/2021/Hadi-Dehghanpour.jpg') }}" alt="" />
                                        </figure>
                                                  <!-- caption -->
@@ -251,7 +251,7 @@
                         <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('web/img/winner/2020/Rakayet-Ul-Karim-Rakim.jpg') }}" title="phan thi khanh ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('web/img/winner/2020/Rakayet-Ul-Karim-Rakim.jpg') }}" alt="" />
                                        </figure>
                                                             <!-- caption -->
@@ -270,7 +270,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('web/img/winner/2020/Mohammad-Noufal.jpg') }}" title="Kishore Das  ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('web/img/winner/2020/Mohammad-Noufal.jpg') }}" alt="" />
                                        </figure>
                                        <!-- caption -->
@@ -289,7 +289,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('web/img/winner/2020/Kartikeya-Grover.jpeg') }}" title="Amar Habeeb ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('web/img/winner/2020/Kartikeya-Grover.jpeg') }}" alt="" />
                                        </figure>
                                             <!-- caption -->
@@ -343,7 +343,7 @@
                         <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('web/img/winner/2019/19-Dr-Indranil-Mitra,-KOLKATA.jpg') }}" title="Amar Habeeb ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('web/img/winner/2019/19-Dr-Indranil-Mitra,-KOLKATA.jpg') }}" alt="" />
                                        </figure>
                                                        <!-- caption -->
@@ -360,7 +360,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('web/img/winner/2019/13-Krishnakumar-Mechoor,-Kerala.jpg') }}" title="Amar Habeeb ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('web/img/winner/2019/13-Krishnakumar-Mechoor,-Kerala.jpg') }}" alt="" />
                                        </figure>
                                                 <!-- caption -->
@@ -378,7 +378,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('web/img/winner/2019/30-SUBIN-PULLAZHY,-Kerala.jpg') }}" title="Amar Habeeb ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure>
                                           <img src="{{ asset('web/img/winner/2019/30-SUBIN-PULLAZHY,-Kerala.jpg') }}" alt="" />
                                        </figure>
                                             <!-- caption -->
@@ -444,7 +444,7 @@
                         <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('winner/camera/1.jpg') }}" title="AUNG CHAN THAR ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('winner/camera/1.jpg') }}" alt="" />
                                        </figure>
                                                        <!-- caption -->
@@ -461,7 +461,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('winner/camera/2.jpg') }}" title="ROBERTO CORINALDESI ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('winner/camera/2.jpg') }}" alt="" />
                                        </figure>
                                                 <!-- caption -->
@@ -478,7 +478,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('winner/camera/3.jpg') }}" title="MYAT ZAW HEIN ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('winner/camera/3.jpg') }}" alt="" />
                                        </figure>
                                             <!-- caption -->
@@ -494,7 +494,7 @@
                                <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('winner/camera/4.jpg') }}" title="MORTEZA SALEHI">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('winner/camera/4.jpg') }}" alt="" />
                                        </figure>
                                             <!-- caption -->
@@ -510,7 +510,7 @@
                                <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('winner/camera/5.jpg') }}" title="ANDREA CURZI">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('winner/camera/5.jpg') }}" alt="" />
                                        </figure>
                                             <!-- caption -->
@@ -526,7 +526,7 @@
                             <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('winner/camera/6.jpg') }}" title="ANOOP KRISHNA">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('winner/camera/6.jpg') }}" alt="" />
                                        </figure>
                                             <!-- caption -->
@@ -543,7 +543,7 @@
                                <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('winner/camera/7.jpg') }}" title="IKER ZUBIZARRETA">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('winner/camera/7.jpg') }}" alt="" />
                                        </figure>
                                             <!-- caption -->
@@ -559,7 +559,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('winner/camera/8.jpg') }}" title="PYAE PHYO THET PAING">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('winner/camera/8.jpg') }}" alt="" />
                                        </figure>
                                             <!-- caption -->
@@ -591,7 +591,7 @@
                         <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('winner/mobile/1.jpg') }}" title="SADEK KHAFAGA ">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('winner/mobile/1.jpg') }}" alt="" />
                                        </figure>
                                                        <!-- caption -->
@@ -608,7 +608,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('winner/mobile/2.jpg') }}" title="ALEKSANDR RAZUMOV">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('winner/mobile/2.jpg') }}" alt="" />
                                        </figure>
                                                 <!-- caption -->
@@ -625,7 +625,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('winner/mobile/3.jpg') }}" title="SOUMYA NAIR">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('winner/mobile/3.jpg') }}" alt="" />
                                        </figure>
                                             <!-- caption -->
@@ -645,7 +645,7 @@
                                <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('winner/mobile/4.jpg') }}" title="JAN DRAGAN">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('winner/mobile/4.jpg') }}" alt="" />
                                        </figure>
                                             <!-- caption -->
@@ -661,7 +661,7 @@
                               <li class="col-lg-4 col-md-6 ">
                                  <a class="image-popup-vertical-fit" href="{{ asset('winner/mobile/5.jpg') }}" title="PHILIP LIJU">
                                     <div class='box-4'>
-                                       <figure class="imgLiquidFill imgLiquid gallery_image_thumb">
+                                       <figure >
                                           <img src="{{ asset('winner/mobile/5.jpg') }}" alt="" />
                                        </figure>
                                             <!-- caption -->
