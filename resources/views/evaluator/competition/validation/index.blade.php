@@ -50,29 +50,31 @@
     
 @foreach ($photo_categories as $category)
     @php
-        // Skip category 1
+        // Only allow category 2
         if ($category->id != 2) {
             continue;
         }
 
-        // Rename category 2 to "All Entries"
+        // Set title for category 2
         $categoryTitle = 'All Entries';
 
-        // Set active if no category is selected or this is the selected one
-        $isActive = !request('category') || in_array($category->id, (array)request('category'));
+        // Mark as active if no category is selected or this is category 2
+        $isActive = !request('category') || request('category') == 2;
 
+        // Build the URL
         $url = request('evaluator') 
-            ? '?category=' . $category->id . '&evaluator=' . request('evaluator') 
-            : '?category=' . $category->id;
+            ? '?category=2&evaluator=' . request('evaluator') 
+            : '?category=2';
     @endphp
 
     <a class="dropdown-item {{ $isActive ? 'active' : '' }}" 
        style="cursor:pointer;" role="button" data-role="sub"
        href="{{ Request::url() . $url }}" 
-       data-category-id="{{ $category->id }}">
-        {!! $categoryTitle !!}
+       data-category-id="2">
+        {{ $categoryTitle }}
     </a>
 @endforeach
+
 
 
 
