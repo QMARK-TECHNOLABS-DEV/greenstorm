@@ -45,7 +45,7 @@
                         Filter by Category
                     @endif
                     */ ?>
-                    ALl Entries
+                    All Entries
                 </button>
                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="categoryFilterDropdown">
     <!-- All Entries link that shows images from both categories -->
