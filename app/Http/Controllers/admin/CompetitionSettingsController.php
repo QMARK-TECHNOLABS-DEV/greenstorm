@@ -27,9 +27,10 @@ class CompetitionSettingsController extends Controller
         $photos = Photograph::where('competition_id', $competition->id)
                                 ->with(['user', 'photocategory'])
                                 ->latest();
-        if ($request->has('category')) {
+        /*if ($request->has('category')) {
             $photos->where('photo_category', $request->category);
-        }
+        }*/
+        $photos->where('photo_category',2);
         $photos             = $photos->paginate($perPage);
         $active_elimination_stage = Stage::where('type', 'elimination')
                                     ->where('status', true)
