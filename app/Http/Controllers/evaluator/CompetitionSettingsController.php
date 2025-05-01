@@ -28,7 +28,7 @@ class CompetitionSettingsController extends Controller
                         $query->where('users.id', $userId);
                     })
                     ->where('status', true)
-                    ->where('competition_id',2)
+                    ->where('competition_id',"2")
                     ->latest()
                     ->first();
 
@@ -84,7 +84,7 @@ class CompetitionSettingsController extends Controller
                 $firstCategory = $competition->categories()->first();
                 if ($firstCategory) {
                     if (!$request->has('category')){
-                        return redirect()->route('evaluator.competition.manage.settings', ['competition'=>$competition,'category' => $firstCategory->id]);
+                        return redirect()->route('evaluator.competition.manage.settings', ['competition'=>$competition,'category' => 2]);
                     }
                 }
 
