@@ -63,8 +63,9 @@
     @if($photo->user->is_student === 1) <span class="badge badge-info text-uppercase m-2 p-2"  ><strong><i class="far fa-bookmark"></i> STUDENT </strong></span> @endif
 
     <div class="col-12 mb-4 d-flex justify-content-between">
+        <?php /*
     <span class="card badge badge-success p-2 text-uppercase" style="height: 30px;"><strong>Photo Category: </strong> {!! $photoData['photocategory']->title !!} </span>
-
+        */ ?>
     <div class="d-flex justify-content-start">
         <ul>
             <li><strong>Entry ID: </strong> {{ $photoData->photo_unique_id }} </li>

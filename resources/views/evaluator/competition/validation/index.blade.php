@@ -38,11 +38,14 @@
             <div class="dropdown mt-2 text-end text-right mb-2 mr-2">
                 <button class="btn btn-secondary btn-sm dropdown-toggle " type="button" id="categoryFilterDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fas fa-filter"></i>
+                    <?php /*
                     @if(request('category'))
                         {!! $photo_categories->where('id', request('category'))->first()->title ?? 'Filter by Category' !!}
                     @else
                         Filter by Category
                     @endif
+                    */ ?>
+                    ALl Entries
                 </button>
                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="categoryFilterDropdown">
     <!-- All Entries link that shows images from both categories -->
