@@ -205,4 +205,14 @@
 </div> --}}
 </div>
 </div>
+ <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Check if the 'category' query parameter exists in the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            if (!urlParams.has('category')) {
+                // If not, redirect to the same page with category=2
+                window.location.search = '?category=2';
+            }
+        });
+    </script>
 </div>
