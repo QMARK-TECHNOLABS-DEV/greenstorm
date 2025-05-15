@@ -65,50 +65,36 @@ class WebController extends Controller
         return view('contest');
     }
 
-    public function voting(Request $request): View|RedirectResponse
-    {
-        // If no category specified, redirect to first category of current competition
-        if (!$request->has('category')) {
-            if (!$this->competition) {
-                // No active competition found, redirect somewhere or show error
-                return redirect()->route('contest')->with('error', 'No active competition available for voting.');
-            }
-
-            $competition = Competition::with('categories')->find($this->competition);
-            if ($competition) {
-                $category = $competition->categories()->first();
-                if ($category) {
-                    return redirect()->route('contest.voting', ['category' => $category->id]);
-                }
-            }
-            // fallback redirect to voting without category
-            return redirect()->route('contest.voting');
-        }
-
-        // Fetch voting photos for current competition and selected category (if any)
-        $votingPhotos = Voting::with([
-            'photograph' => function ($query) use ($request) {
-                $query->withCount('userVotes as user_votes_count');
-                if ($request->has('category')) {
-                    $query->where('photo_category', $request->input('category'));
-                }
-            },
-        ])
-        ->where('competition_id', $this->competition)
-        ->get();
-
-        // Filter out votes with missing photographs
-        $votingPhotos = $votingPhotos->filter(fn($vote) => !is_null($vote->photograph));
-
-        // Sort by votes count descending
-        $votingPhotos = $votingPhotos->sortByDesc(fn($vote) => $vote->photograph->user_votes_count ?? 0);
-
-        // Load competition with categories for the view
-        $competition = Competition::with('categories')->find($this->competition);
-        $photo_categories = $competition ? $competition->categories : collect();
-
-        return view('voting', compact('votingPhotos', 'photo_categories'));
+   public function voting(Request $request): View|RedirectResponse
+{
+    if (!$this->competition) {
+        // No active competition found, redirect somewhere or show error
+        return redirect()->route('contest')->with('error', 'No active competition available for voting.');
     }
+
+    // Fetch voting photos for current competition (all categories)
+    $votingPhotos = Voting::with([
+        'photograph' => function ($query) {
+            $query->withCount('userVotes as user_votes_count');
+            // Removed category filtering so all categories show together
+        },
+    ])
+    ->where('competition_id', $this->competition)
+    ->get();
+
+    // Filter out votes with missing photographs
+    $votingPhotos = $votingPhotos->filter(fn($vote) => !is_null($vote->photograph));
+
+    // Sort by votes count descending
+    $votingPhotos = $votingPhotos->sortByDesc(fn($vote) => $vote->photograph->user_votes_count ?? 0);
+
+    // Load competition with categories for the view (optional)
+    $competition = Competition::with('categories')->find($this->competition);
+    $photo_categories = $competition ? $competition->categories : collect();
+
+    // Return the view with all photos (combined categories)
+    return view('voting', compact('votingPhotos', 'photo_categories'));
+}
 
     public function votingLikeAction(Request $request)
     {
