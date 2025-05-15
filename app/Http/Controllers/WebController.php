@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
-use Illuminate\View\View;
+
 use Illuminate\Support\Facades\File;
 use App\Models\Voting;
 use App\Models\Photograph;
