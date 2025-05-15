@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
-
+use Illuminate\View\View;              // Use this one for return type hints related to views
 use Illuminate\Support\Facades\File;
 use App\Models\Voting;
 use App\Models\Photograph;
@@ -12,8 +12,8 @@ use App\Models\Competition;
 use App\Models\UserVote;
 use App\Models\PhotoCategory;
 use Illuminate\Pagination\Paginator;
-use Illuminate\Contracts\View\View;
 use Illuminate\Http\RedirectResponse;
+
 
 class WebController extends Controller
 {
