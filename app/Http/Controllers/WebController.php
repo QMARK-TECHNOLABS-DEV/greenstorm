@@ -4,16 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
-use Illuminate\View\View;              // Use this one for return type hints related to views
+use Illuminate\View\View;
 use Illuminate\Support\Facades\File;
 use App\Models\Voting;
 use App\Models\Photograph;
 use App\Models\Competition;
 use App\Models\UserVote;
 use App\Models\PhotoCategory;
-use Illuminate\Pagination\Paginator;
 use Illuminate\Http\RedirectResponse;
-
 
 class WebController extends Controller
 {
@@ -21,7 +19,14 @@ class WebController extends Controller
     private $commonButtonText;
 
     public function __construct() {
-        $this->competition = 1;
+        // Set the competition ID dynamically or hardcode here as per your requirement
+        // e.g., get the latest published competition
+        $competition = Competition::where('is_published_for_vote', 1)->latest()->first();
+        $this->competition = $competition ? $competition->id : null;
+
+        // Or if you want to hardcode it, use:
+        // $this->competition = 2;
+
         $this->commonButtonText = 'Submit Entry';
     }
 
@@ -60,57 +65,53 @@ class WebController extends Controller
         return view('contest');
     }
 
-   public function voting(Request $request): View|RedirectResponse
-
+    public function voting(Request $request): View|RedirectResponse
     {
+        // If no category specified, redirect to first category of current competition
         if (!$request->has('category')) {
-            $competition = Competition::where('is_published_for_vote', 1)->latest()->first();
+            if (!$this->competition) {
+                // No active competition found, redirect somewhere or show error
+                return redirect()->route('contest')->with('error', 'No active competition available for voting.');
+            }
+
+            $competition = Competition::with('categories')->find($this->competition);
             if ($competition) {
                 $category = $competition->categories()->first();
                 if ($category) {
                     return redirect()->route('contest.voting', ['category' => $category->id]);
                 }
             }
+            // fallback redirect to voting without category
             return redirect()->route('contest.voting');
         }
 
+        // Fetch voting photos for current competition and selected category (if any)
         $votingPhotos = Voting::with([
-            'photograph' => function ($query) {
+            'photograph' => function ($query) use ($request) {
                 $query->withCount('userVotes as user_votes_count');
-                if (request('category')) {
-                    $query->where('photo_category', request('category'));
+                if ($request->has('category')) {
+                    $query->where('photo_category', $request->input('category'));
                 }
             },
         ])
         ->where('competition_id', $this->competition)
         ->get();
 
-        $votingPhotos = $votingPhotos->filter(function ($vote) {
-            return !is_null($vote->photograph);
-        });
+        // Filter out votes with missing photographs
+        $votingPhotos = $votingPhotos->filter(fn($vote) => !is_null($vote->photograph));
 
-        $votingPhotos = $votingPhotos->sortByDesc(function ($vote) {
-            return $vote->photograph->user_votes_count ?? 0;
-        });
+        // Sort by votes count descending
+        $votingPhotos = $votingPhotos->sortByDesc(fn($vote) => $vote->photograph->user_votes_count ?? 0);
 
-        $competition = Competition::with('categories')
-            ->where('id', $this->competition)->first();
-        $photo_categories = $competition->categories;
+        // Load competition with categories for the view
+        $competition = Competition::with('categories')->find($this->competition);
+        $photo_categories = $competition ? $competition->categories : collect();
 
         return view('voting', compact('votingPhotos', 'photo_categories'));
     }
 
     public function votingLikeAction(Request $request)
     {
-        // Commenting out the early return to enable actual voting logic
-        /*
-        return response()->json([
-            'status' => false,
-            'message' => '<p>Thank you for your invaluable support and participation in the voting phase.
-            Stay tuned for the Award Ceremony on <b>22 April 2024, World Earth Day.</b></p> <p>Together, let\'s continue to make a positive impact for our planet.</p>'
-        ], 422);
-        */
-
         $photo_id = $request->photo_id;
         $photo = Photograph::find($photo_id);
         if (!$photo) {
