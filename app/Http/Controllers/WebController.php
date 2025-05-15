@@ -95,29 +95,16 @@ class WebController extends Controller
 
 
 
-   public function voting(Request $request)
-{
-    if (!$request->has('category')) {
-        // Fetch the most recent competition that is published for voting
-        $competition = Competition::where('is_published_for_vote', 1)->latest()->first();
-
-        // Check if the competition exists
-        if ($competition) {
-            // Get the first category associated with the competition
-            $category = $competition->categories()->first();
-
-            // Redirect to the voting page with the category ID, if it exists
-            if ($category) {
-                return redirect()->route('contest.voting', ['category' => $category->id]);
-            }
-        }
-
-        // If no category found, redirect to the general voting page
-        return redirect()->route('contest.voting');
-    }
-
-    // Your other logic for handling category-based voting goes here...
-}
+  public function voting(Request $request){
+        if (!$request->has('category')) {
+           $competition = Competition::find($this->competition);
+           $category = $competition->categories()->first();
+           if($category){
+               return redirect()->route('contest.voting', ['category' => $category->id]);
+           }else{
+            return redirect()->route('contest.voting');
+           }
+        } 
 
         $votingPhotos = Voting::with([
             'photograph' => function ($query) {
