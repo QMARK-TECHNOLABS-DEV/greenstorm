@@ -95,46 +95,16 @@ class WebController extends Controller
 
 
 
- public function voting(Request $request)
-{
-    if (!$request->has('category')) {
-        $competition = Competition::where('is_published_for_vote', 1)->latest()->first();
-
-        if ($competition) {
-            $category = $competition->categories()->first();
-
-            if ($category) {
-                return redirect()->route('contest.voting', ['category' => $category->id]);
-            }
-        }
-
-        return redirect()->route('contest.voting');
-    }
-
-    // Move the voting photos fetching code here:
-    $votingPhotos = Voting::with([
-        'photograph' => function ($query) {
-            $query->withCount('userVotes as user_votes_count');
-            if (request('category')) {
-                $query->where('photo_category', request('category'));
-            }
-        },
-    ])
-    ->where('competition_id', $this->competition)
-    ->get();
-
-    $votingPhotos = $votingPhotos->filter(function ($vote) {
-        return !is_null($vote->photograph);
-    });
-
-    $votingPhotos = $votingPhotos->sortByDesc(function ($vote) {
-        // your sorting logic here
-    });
-
-    // Continue your logic or return a view with $votingPhotos
-
-}
-
+public function voting(Request $request){
+        if (!$request->has('category')) {
+           $competition = Competition::find($this->competition);
+           $category = $competition->categories()->first();
+           if($category){
+               return redirect()->route('contest.voting', ['category' => $category->id]);
+           }else{
+            return redirect()->route('contest.voting');
+           }
+        } 
 
         $votingPhotos = Voting::with([
             'photograph' => function ($query) {
