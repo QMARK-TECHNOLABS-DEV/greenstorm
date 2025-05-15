@@ -99,11 +99,14 @@ class WebController extends Controller
 
     public function votingLikeAction(Request $request)
     {
+        // Commenting out the early return to enable actual voting logic
+        /*
         return response()->json([
             'status' => false,
             'message' => '<p>Thank you for your invaluable support and participation in the voting phase.
             Stay tuned for the Award Ceremony on <b>22 April 2024, World Earth Day.</b></p> <p>Together, let\'s continue to make a positive impact for our planet.</p>'
         ], 422);
+        */
 
         $photo_id = $request->photo_id;
         $photo = Photograph::find($photo_id);
@@ -129,7 +132,10 @@ class WebController extends Controller
                 })->first();
 
             if ($photoCategoryVotedCheck) {
-                $message = 'Please go back to the photo you voted for, deselect it, and then return here to vote for this selected photograph.';
+                return response()->json([
+                    'status' => false,
+                    'message' => 'Please go back to the photo you voted for, deselect it, and then return here to vote for this selected photograph.'
+                ]);
             } else {
                 UserVote::create(['user_id' => Auth::id(), 'photo_id' => $photo_id]);
                 $message = 'Vote added successfully.';
