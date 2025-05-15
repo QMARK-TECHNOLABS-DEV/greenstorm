@@ -12,6 +12,8 @@ use App\Models\Competition;
 use App\Models\UserVote;
 use App\Models\PhotoCategory;
 use Illuminate\Pagination\Paginator;
+use Illuminate\Contracts\View\View;
+use Illuminate\Http\RedirectResponse;
 
 class WebController extends Controller
 {
@@ -58,7 +60,8 @@ class WebController extends Controller
         return view('contest');
     }
 
-    public function voting(Request $request): View
+   public function voting(Request $request): View|RedirectResponse
+
     {
         if (!$request->has('category')) {
             $competition = Competition::where('is_published_for_vote', 1)->latest()->first();
