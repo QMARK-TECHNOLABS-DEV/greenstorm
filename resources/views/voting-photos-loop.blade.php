@@ -11,11 +11,27 @@
                 <figure class="imgLiquidFill imgLiquid votes_img_thumb">
                     <img src="{{ $voting->photograph->image }}" alt="" />
                 </figure>
-                <div class='lupa text-center'>
-                    <p class="votes-counter votingListing__{{ $voting->photo_id }}">
-                       {{-- <i class="fa-regular fa-thumbs-up" ></i>  Votes - <span> {{ $voting->photograph->user_votes_count }} </span> --}}
-                    </p>
-                </div>
+              <div class='lupa text-center'>
+    <p class="votes-counter votingListing__{{ $voting->photo_id }}">
+        <i class="fa-regular fa-thumbs-up"></i> 
+        Votes - <span>{{ $voting->photograph->user_votes_count }}</span>
+    </p>
+
+    @if(Auth::check())
+        @if(!$voting->photograph->userVoted(Auth::user()->id))
+            <form method="POST" action="{{ route('vote.photo') }}">
+                @csrf
+                <input type="hidden" name="photo_id" value="{{ $voting->photo_id }}">
+                <button type="submit" class="btn btn-primary mt-2">Vote</button>
+            </form>
+        @else
+            <p class="text-success mt-2">You already voted</p>
+        @endif
+    @else
+        <p class="text-muted mt-2">Please <a href="{{ route('login') }}">login</a> to vote</p>
+    @endif
+</div>
+
             </div>
         </a>
     </li>
