@@ -200,9 +200,16 @@ button.like_btn {
                     <button type="button" class="btn_close" data-bs-dismiss="modal" aria-label="Close">
                     <i class="fa-solid fa-xmark"></i></button>
                 </div>
-                <div class="modal-body p-relative content">
+               <div class="modal-body p-relative content text-center">
+    <!-- This is where your image and content go -->
+    <div id="popupImageContainer"></div>
 
-                </div>
+    <!-- Vote button -->
+    <button id="voteButton" class="btn btn-success mt-3">
+        <i class="fas fa-thumbs-up me-1"></i> Vote
+    </button>
+</div>
+
             </div>
         </div>
     </div>
