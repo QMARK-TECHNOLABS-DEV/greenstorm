@@ -12,10 +12,7 @@
                     <img src="{{ $voting->photograph->image }}" alt="" />
                 </figure>
               <div class='lupa text-center'>
-    <p class="votes-counter votingListing__{{ $voting->photo_id }}">
-        <i class="fa-regular fa-thumbs-up"></i> 
-        Votes - <span>{{ $voting->photograph->user_votes_count }}</span>
-    </p>
+  
 
     @if(Auth::check())
         @if(!$voting->photograph->userVoted(Auth::user()->id))
