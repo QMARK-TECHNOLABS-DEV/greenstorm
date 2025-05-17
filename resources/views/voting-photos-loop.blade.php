@@ -8,7 +8,7 @@
                     <span class="fa fa-thumbs-up"></span>
                 </div>
                 @endif
-                <figure class="imgLiquidFill imgLiquid votes_img_thumb">
+                <figure class="imgLiquidFill ">
                     <img src="{{ $voting->photograph->image }}" alt="" />
                 </figure>
               <div class='lupa text-center'>
