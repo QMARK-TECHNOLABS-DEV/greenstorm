@@ -333,28 +333,33 @@ button.like_btn {
               <div class="container" >
             <div class="row">
                 <div class="col-lg-10 mx-auto ">
-            <p class="first-paragraph text-start">Welcome to the 15th Greenstorm Global Photography Festival, where beautiful landscapes from around the world take center stage! We have received
-            <b class="number-fontfamily">17,716</b> entries from talented photographers across <b class="number-fontfamily">153</b> countries, each narrating a unique story of the world's wonders. We have two categories: Camera and Mobile Phones.</p>
-            <!--<div class="read-more-content">-->
-            <!--    <p class="text-start">As we unveil the finalists in each category, we invite you to be part of the celebration by casting your vote for your favorite photograph. Now, it's your opportunity to play a crucial role in determining the winners of the competition. The winners will emerge from the combined scores given by our esteemed jury and the votes received from the public during this exhibition.</p>-->
-            <!--    <p>-->
-            <!--        <b>Follow these instructions to cast your vote:</b>-->
-            <!--        {{-- <ul class="text-start">-->
-            <!--            <li>Click "Sign in" to access the voting platform.</li>-->
-            <!--            <li>Scroll through the exhibited photographs and click to enjoy the enlarged image and the story.</li>-->
-            <!--            <li>Vote (Like) for your favorite photograph. Voting rights are limited to only one entry for each category.</li>-->
-            <!--            <li>Share your favorite with your friends on social media handles and let nature's beauty inspire them too.</li>-->
-            <!--        </ul> --}}-->
-            <!--        <ul class="text-start">-->
-            <!--            <li>Scroll through the exhibited photographs, click to enjoy the enlarged image and read the accompanying stories.</li>-->
-            <!--            <li>Choose your favourite photograph and click on the like button.</li>-->
-            <!--            <li>Sign up with your email address, Google or Facebook.</li>-->
-            <!--            <li>Vote (Like) for your favourite photograph. Please note that voting rights are limited to only one entry for each category.</li>-->
-            <!--            <li>Share your favorite with your friends on social media handles and let nature's beauty inspire them too.</li>-->
-            <!--        </ul>-->
-            <!--    </p>-->
-            <!--</div>-->
-            <!--<p class="read-more-btn text-green text-start fw-700 m-0 p-0 up cursor-pointer" onclick="toggleReadMore()" role="button"> Read More <i class="fas fa-angle-down"></i></p>-->
+            <p class="first-paragraph text-start">Welcome to the 16th Greenstorm Photo Festival!
+
+This edition celebrates the breathtaking beauty of wetlands from across the world With
+            <b class="number-fontfamily">11,835</b> entries from <b class="number-fontfamily">155</b> countries, each photograph tells a powerful story of nature’s wonder and fragility.
+</p>
+            <div class="read-more-content">
+               <p class="text-start">From this incredible collection, a panel of experts carried out a multi-level jury process to curate our finalists.
+
+Now, it’s your turn to be part of this global celebration of photography and nature. Vote for the image that speaks to you the most!
+</p>-->
+              <p>
+                 <b>How to Vote:
+</b>
+               <ul class="text-start">
+                 <li>Step 1: Click on any thumbnail to view the story and full-size image. Use the arrows to explore all finalist entries.</li>
+                  <li>Step 2: Click the 👍 Vote button on your favorite photograph.</li>
+                  <li>Step 3: Log in to confirm and cast your vote.</li>
+                     <li>Step 4: Love what you see? Click Grab Link and share it to gather more support!.</li>
+                </ul> 
+                <ul class="text-start">
+                      <li>Let the stories of our wetlands move you.</li>
+                      <li>#Votography – Because Every Vote Tells a Story</li>
+                 
+                </ul>
+                </p>
+            </div>
+            <p class="read-more-btn text-green text-start fw-700 m-0 p-0 up cursor-pointer" onclick="toggleReadMore()" role="button"> Read More <i class="fas fa-angle-down"></i></p>
         </div>
         </div> </div>
     </section>
