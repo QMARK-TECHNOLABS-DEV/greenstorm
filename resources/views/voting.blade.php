@@ -371,12 +371,12 @@ button.like_btn {
                             <li class="nav-item">
                               <a class="nav-link" href="#">Much longer nav link</a>
                             </li> --}}
-                            @foreach ($photo_categories as $category)
+<!--                             @foreach ($photo_categories as $category)
                                 @php
-<!--                                     $isActive = request('category') && request('category') == $category->id; -->
+                                   $isActive = request('category') && request('category') == $category->id; 
                                 @endphp
                                 <a class="rounded-0 border border-green fw-600 nav-link {{$isActive ? 'active bg-green text-white' : 'text-green'}}" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() . '?category=' . $category->id }}" data-category-id="{{ $category->id ?? '' }}">{!! $category->title ?? '' !!}</a>
-                            @endforeach
+                            @endforeach -->
                         </ul>
                     </div>
                     {{-- <div class="d-flex justify-content-end py-2 pb-4">
