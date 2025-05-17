@@ -373,7 +373,7 @@ button.like_btn {
                             </li> --}}
                             @foreach ($photo_categories as $category)
                                 @php
-                                    $isActive = request('category') && request('category') == $category->id;
+<!--                                     $isActive = request('category') && request('category') == $category->id; -->
                                 @endphp
                                 <a class="rounded-0 border border-green fw-600 nav-link {{$isActive ? 'active bg-green text-white' : 'text-green'}}" style="cursor:pointer;" role="button" data-role="sub" href="{{ Request::url() . '?category=' . $category->id }}" data-category-id="{{ $category->id ?? '' }}">{!! $category->title ?? '' !!}</a>
                             @endforeach
