@@ -320,7 +320,7 @@ button.like_btn {
                     <span class="page-header-border "> </span>
                     <h4 class="text-center m-0 fs-4 lh-lg pb-0">
                         <!--From Vistas to Victors: <br>   Cast Your Vote for the Ultimate Landscape Today!-->
-                        15th Greenstorm Global Photography Festival
+                        16th Greenstorm Global Photography Festival
                         </h4>
                 </div>
             </div>
