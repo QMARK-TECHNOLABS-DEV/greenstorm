@@ -23,11 +23,11 @@
     </p>
     @if(Auth::check())
         @if(!$voting->photograph->userVoted(Auth::user()->id))
-            <form method="POST" action="{{ route('vote.photo') }}">
+<!--             <form method="POST" action="{{ route('vote.photo') }}">
                 @csrf
                 <input type="hidden" name="photo_id" value="{{ $voting->photo_id }}">
                 <button type="submit" class="btn btn-primary mt-2">Vote</button>
-            </form>
+            </form> -->
         @else
             <p class="text-success mt-2">You already voted</p>
         @endif
