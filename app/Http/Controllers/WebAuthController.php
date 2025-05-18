@@ -129,7 +129,7 @@ class WebAuthController extends Controller
 
     // Redirect based on user role
     if ($user->role === 'photographer') {
-        return redirect()->route('profile.photograph.upload');
+        return redirect()->route('contest.exhibition');
     } else {
         return redirect()->route('contest.exhibition');
     }
