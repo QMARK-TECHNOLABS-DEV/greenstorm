@@ -88,9 +88,9 @@ class WebAuthController extends Controller
 
             auth()->login($user);
             if ($request->ajax()) {
-                //return redirect()->route('contest.voting');
-                return response()->json([
-        'redirect' => redirect()->intended(route('profile.edit'))->getTargetUrl()
+                return redirect()->route('contest.voting');
+        //         return response()->json([
+        // 'redirect' => redirect()->intended(route('profile.edit'))->getTargetUrl()
     ]);
             }
             // if ($request->ajax()) {
