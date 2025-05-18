@@ -84,8 +84,8 @@
                          Elevate Your Favorite Photographs to the Top &nbsp; </span>
 
                         </a>
-                    <a class="btn_top_head" href="{{ route('contest.voting') }}">
-                        Vote Now </a>
+                   <a class="btn_top_head" href="{{ route('contest.exhibition') }}">Vote Now</a>
+
                     </span>
                 </p>
             </div>
