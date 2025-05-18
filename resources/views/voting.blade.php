@@ -315,12 +315,12 @@ button.like_btn {
         <div class="container" >
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center header-desc py-4">
-                    <!--<h2 class="mb-0  text-center sec-ttl-2 ">#Votography</h2>-->
-                    <h2 class="mb-0  text-center sec-ttl-2 ">Finalists</h2>
+                    <h2 class="mb-0  text-center sec-ttl-2 ">#Votography</h2>
+<!--                     <h2 class="mb-0  text-center sec-ttl-2 ">Finalists</h2> -->
                     <span class="page-header-border "> </span>
                     <h4 class="text-center m-0 fs-4 lh-lg pb-0">
                         <!--From Vistas to Victors: <br>   Cast Your Vote for the Ultimate Landscape Today!-->
-                        16th Greenstorm Global Photography Festival
+                        16th Greenstorm Photo Festival
                         </h4>
                 </div>
             </div>
