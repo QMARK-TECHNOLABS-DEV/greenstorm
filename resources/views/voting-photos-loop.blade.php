@@ -33,7 +33,7 @@
         @endif
     @else
 <p class="mt-2 text-white">
-   <a href="{{ route('login') }}" class="underline text-white"> Please login</a> to vote
+   <a href="{{ route('login') }}" class="underline text-white"> Please login to vote</a> 
 </p>
 
 
