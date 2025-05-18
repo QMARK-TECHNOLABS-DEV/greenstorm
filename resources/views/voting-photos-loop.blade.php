@@ -18,7 +18,9 @@
                 </figure>
               <div class='lupa text-center'>
   
-
+  <p class="text-white text-sm mt-1">
+        Total Votes: {{ $voting->photograph->votes()->count() }}
+    </p>
     @if(Auth::check())
         @if(!$voting->photograph->userVoted(Auth::user()->id))
             <form method="POST" action="{{ route('vote.photo') }}">
