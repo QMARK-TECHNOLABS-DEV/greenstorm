@@ -266,7 +266,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         window.location.href = "{{ route('profile.photograph.upload') }}";
                     }else{
                         // window.location.href = "{{ route('profile.edit') }}";
-                        window.location.href = "{{ route('contest.voting') }}";
+                        window.location.href = "{{ route('contest.exhibition') }}";
                     }
 
 				},
