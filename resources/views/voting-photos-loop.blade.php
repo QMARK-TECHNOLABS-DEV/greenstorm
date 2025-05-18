@@ -30,7 +30,10 @@
             <p class="text-success mt-2">You already voted</p>
         @endif
     @else
-        <p class="text-muted mt-2">Please <a href="{{ route('login') }}">login</a> to vote</p>
+      <p class="text-muted mt-2" style="color: white;">
+  Please <a href="{{ route('login') }}" style="color: white;">login</a> to vote
+</p>
+
     @endif
 </div>
 
