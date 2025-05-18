@@ -58,7 +58,7 @@
     <body>
         @include('meta.google-tag-body')
         <!-- Start Preloader Area -->
-        @if(request()->url() != url('/voting'))
+        @if(request()->url() != url('/exhibition'))
         <div class="preloader-area">
             <div class="spinner">
 
@@ -172,7 +172,7 @@
             $('html').find("span:contains('Vote Now')").each(function(){
                 $(this).closest('a').click(function(e){
                     e.preventDefault();
-                    window.location.href ="{{ route('contest.voting') }}";
+                    window.location.href ="{{ route('contest.exhibition') }}";
                     // Swal.fire({
                     //     title: 'Sorry!',
                     //     text: "The entry process for the competition is now closed.",
