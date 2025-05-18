@@ -27,7 +27,7 @@
                 <hr style="border: 1px solid #a3a3a3;">
                 <p class="mb-0">If you would like to view your uploads, please <a href="{{route('list.uploaded.photographs')}}">click here</a>.</p>
                 <br>
-                <p class="mb-0"> <a href="{{ route('contest.voting') }}" class="btn btn-success text-white">VOTE NOW</a></p>
+                <p class="mb-0"> <a href="{{ route('contest.exhibition') }}" class="btn btn-success text-white">VOTE NOW</a></p>
             </div>
         </div>
     </section>
