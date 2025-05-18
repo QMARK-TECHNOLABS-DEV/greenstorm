@@ -559,7 +559,7 @@ Now, it’s your turn to be part of this global celebration of photography and n
                 // }else{
                 let photoCategory = "{{ request()->input('category') ?? 1 }}";
                 if(photoCategory) {
-                    window.location.href = "{{ route('contest.voting') }}?category="+photoCategory;
+                    window.location.href = "{{ route('contest.exhibition') }}?category="+photoCategory;
                 }
                 // }
 
