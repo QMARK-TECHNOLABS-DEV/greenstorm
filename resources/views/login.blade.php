@@ -260,13 +260,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				data: formData,
 				success: function(response) {
     $('#login-text').html('Login');
-    if(response.role == 'photographer') {
-        // Redirect photographer as before, or change if needed
-        window.location.href = "{{ route('profile.photograph.upload') }}";
-    } else {
-        // Redirect everyone else to voting page instead of exhibition
-        window.location.href = "{{ route('contest.exhibition') }}";
-    }
+    window.location.href = "{{ route('contest.exhibition') }}";
 }
 
 
