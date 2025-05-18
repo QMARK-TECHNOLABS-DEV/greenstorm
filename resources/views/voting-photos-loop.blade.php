@@ -30,9 +30,10 @@
             <p class="text-success mt-2">You already voted</p>
         @endif
     @else
- <p class="mt-2 text-white">
-  Please <a href="{{ route('login') }}" class="underline">login</a> to vote
+<p class="mt-2 text-white">
+  Please <a href="{{ route('login') }}" class="underline text-white">login</a> to vote
 </p>
+
 
 
     @endif
