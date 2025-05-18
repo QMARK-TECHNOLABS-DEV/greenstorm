@@ -335,28 +335,27 @@ button.like_btn {
                 <div class="col-lg-10 mx-auto ">
             <p class="first-paragraph text-start">Welcome to the 16th Greenstorm Photo Festival!
 
-This edition celebrates the breathtaking beauty of wetlands from across the world With
+ThisVotographyelebrates the breathtaking beauty of wetlands from across the world With
             <b class="number-fontfamily">11,835</b> entries from <b class="number-fontfamily">155</b> countries, each photograph tells a powerful story of nature’s wonder and fragility.
 </p>
             <div class="read-more-content">
                <p class="text-start">From this incredible collection, a panel of experts carried out a multi-level jury process to curate our finalists.
-
 Now, it’s your turn to be part of this global celebration of photography and nature. Vote for the image that speaks to you the most!
-</p>-->
+</p>
               <p>
                  <b>How to Vote:
 </b>
                <ul class="text-start">
-                 <li>Step 1: Click on any thumbnail to view the story and full-size image. Use the arrows to explore all finalist entries.</li>
-                  <li>Step 2: Click the 👍 Vote button on your favorite photograph.</li>
-                  <li>Step 3: Log in to confirm and cast your vote.</li>
+                 <li>Step 1: Log in with your email ID / Google</li>
+                  <li>Step 2: Click on any thumbnail to view the story and full-size image. Use the arrows to explore all finalist entries.</li>
+                  <li>Step 3: Click the 👍 Vote button on your favourite photograph.</li>
                      <li>Step 4: Love what you see? Click Grab Link and share it to gather more support!.</li>
                 </ul> 
-                <ul class="text-start">
-                      <li>Let the stories of our wetlands move you.</li>
-                      <li>#Votography – Because Every Vote Tells a Story</li>
+                <div class="text-start">
+                      <p></p>Let the stories of our wetlands move you.</p>
+                      <p>#Votography – Because Every Vote Tells a Story</p>
                  
-                </ul>
+                </div>
                 </p>
             </div>
             <p class="read-more-btn text-green text-start fw-700 m-0 p-0 up cursor-pointer" onclick="toggleReadMore()" role="button"> Read More <i class="fas fa-angle-down"></i></p>
