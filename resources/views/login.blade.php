@@ -265,7 +265,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         window.location.href = "{{ route('profile.photograph.upload') }}";
     } else {
         // Redirect everyone else to voting page instead of exhibition
-        window.location.href = "{{ route('contest.voting') }}";
+        window.location.href = "{{ route('contest.exhibition') }}";
     }
 }
 
