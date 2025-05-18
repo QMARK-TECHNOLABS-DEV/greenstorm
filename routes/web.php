@@ -131,7 +131,7 @@ Route::post('/process-pre-login',[WebAuthController::class, 'process_pre_login']
     // Route::get('/email/verify', [EmailVerificationController::class, 'sendVerificationEmail'])->name('verification.send');
     Route::get('/email/verify/{token}', [EmailVerificationController::class, 'verifyEmail'])->name('verification.verify');
     Route::get('/verification/error', [EmailVerificationController::class, 'error'])->name('verification.error');
-    Route::post('/vote', [VotingController::class, 'vote'])->name('vote.photo');
+    Route::post('/exhibition', [VotingController::class, 'vote'])->name('vote.photo');
 
 
 
