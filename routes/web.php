@@ -73,7 +73,7 @@ Route::post('/process-pre-login',[WebAuthController::class, 'process_pre_login']
     Route::get('/contests',[WebController::class, 'contest'])->name('contest');
     // Route::get('/quintavious-maximilian-abernathy-thornton-voting',[WebController::class, 'voting'])->name('contest.voting');
     // Route::middleware(['check_pre_login'])->group(function () {
-        Route::get('exhibition',[WebController::class, 'voting'])->name('contest.voting');
+        Route::get('exhibition',[WebController::class, 'voting'])->name('contest.exhibition');
         Route::post('/pop-up-details',[WebController::class, 'popup_image_details'])->name('voting.popup.image');
     // });
     Route::get('/sign-up',[WebController::class, 'sign_up'])->name('signup');
