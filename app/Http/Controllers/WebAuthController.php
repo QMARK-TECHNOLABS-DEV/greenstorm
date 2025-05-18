@@ -110,33 +110,31 @@ class WebAuthController extends Controller
     }
 
     public function handle_google_callback(Request $request)
-    {
-        $category = $request->session()->pull('category');
-        $googleUser = Socialite::driver('google')->stateless()->user();
-        $user = User::where('email', $googleUser->email)->first();
-        if (!$user) {
-            $user = new User();
-            $user->name = $googleUser->name;
-            $user->last_name = $googleUser->user['family_name'] ?? '';
-            $user->avatar = $googleUser->avatar;
-            $user->email = $googleUser->email;
-            $user->password = $googleUser->id;
-            $user->signup_through = 'google';
-            $user->email_verified_at = time();
-            $user->save();
-        }
-        auth()->login($user);
-        // dd($request->query('category'));
-        // $category = $request->query('category', 1);
-        //return redirect()->route('contest.voting', ['category' => $category]);
-        return redirect()->route('profile.edit');
-        // if(Auth::user()->role == 'photographer'){
-        //     return redirect()->route('profile.photograph.upload');
-        // }else{
-        //     // return redirect()->route('profile.edit');
-        //     return redirect()->route('contest.voting');
-        // }
+{
+    $category = $request->session()->pull('category');
+    $googleUser = Socialite::driver('google')->stateless()->user();
+    $user = User::where('email', $googleUser->email)->first();
+    if (!$user) {
+        $user = new User();
+        $user->name = $googleUser->name;
+        $user->last_name = $googleUser->user['family_name'] ?? '';
+        $user->avatar = $googleUser->avatar;
+        $user->email = $googleUser->email;
+        $user->password = $googleUser->id;
+        $user->signup_through = 'google';
+        $user->email_verified_at = now(); // Use now() instead of time() for Laravel
+        $user->save();
     }
+    auth()->login($user);
+
+    // Redirect based on user role
+    if ($user->role === 'photographer') {
+        return redirect()->route('profile.photograph.upload');
+    } else {
+        return redirect()->route('contest.exhibition');
+    }
+}
+
     public function process_pre_login(Request $request)
     {
         $password = $request->input('password');
