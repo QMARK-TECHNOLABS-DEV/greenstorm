@@ -594,7 +594,7 @@ Now, it’s your turn to be part of this global celebration of photography and n
        let photoID =  $(this).data('photo-id');
        let photoCategoryID =  $(this).data('photo-category');
        let __this = $(this);
-       let CopyURL = "{{ route('contest.voting') }}"+'?category=' +photoCategoryID+ '&ggpfImageId='+photoID;
+       let CopyURL = "{{ route('contest.exhibition') }}"+'?category=' +photoCategoryID+ '&ggpfImageId='+photoID;
         navigator.clipboard.writeText(CopyURL)
             .then(() => {
                 __this.html(`<i class="fa-solid fa-clipboard"></i>  Link Copied`);
@@ -626,7 +626,7 @@ Now, it’s your turn to be part of this global celebration of photography and n
         let photoID =  $(this).data('photo-id');
         let photoCategoryID =  $(this).data('photo-category');
         let __this = $(this);
-        let shareURL = "{{ route('contest.voting') }}"+'?category=' +photoCategoryID+ '&ggpfImageId='+photoID;
+        let shareURL = "{{ route('contest.exhibition') }}"+'?category=' +photoCategoryID+ '&ggpfImageId='+photoID;
         handleShareButtonClick(shareURL);
      });
 
@@ -658,7 +658,7 @@ Now, it’s your turn to be part of this global celebration of photography and n
 
     //     function fetch_data(page, category) {
     //         $.ajax({
-    //             url: '{{ route("contest.voting") }}?page=' + page + '&category=' + category,
+    //             url: '{{ route("contest.exhibition") }}?page=' + page + '&category=' + category,
     //             method: 'GET',
     //             success: function (data) {
     //                 if (data.votingPhotos.data.length > 0) {
