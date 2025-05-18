@@ -259,15 +259,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				type: 'POST',
 				data: formData,
 				success: function(response) {
-                    $('#login-text').html('Login');
-					// Redirect to profile page upon successful login
-					// window.location.href = siteURL+'/profile'; // Update with the correct URL for your profile page
-                    if(response.role == 'photographer') {
-                        window.location.href = "{{ route('profile.photograph.upload') }}";
-                    }else{
-                        // window.location.href = "{{ route('profile.edit') }}";
-                        window.location.href = "{{ route('contest.exhibition') }}";
-                    }
+    $('#login-text').html('Login');
+    if(response.role == 'photographer') {
+        // Redirect photographer as before, or change if needed
+        window.location.href = "{{ route('profile.photograph.upload') }}";
+    } else {
+        // Redirect everyone else to voting page instead of exhibition
+        window.location.href = "{{ route('contest.voting') }}";
+    }
+}
+
 
 				},
 				error: function(xhr) {
