@@ -18,13 +18,14 @@
             </div>
 
             {{-- Login message (force visible) --}}
-            @if(true)
-                <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-white text-sm z-10">
-                    <a href="#" class="underline text-white">
-                        Please login to vote
-                    </a>
-                </div>
-            @endif
+           @if(!Auth::check())
+    <div class="absolute top-4 left-1/2 transform -translate-x-1/2 text-white text-sm mb-2 z-10">
+        <a href="{{ route('login') }}?intended={{ url('/exhibition') }}" class="underline text-white">
+            Please login to vote
+        </a>
+    </div>
+@endif
+
         </div>
     </a>
 </li>
