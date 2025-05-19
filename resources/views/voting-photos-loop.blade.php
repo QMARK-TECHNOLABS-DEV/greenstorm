@@ -1,46 +1,30 @@
 @foreach ($votingPhotos as $voting)
     @if($voting->photograph)
-    <li class="col-lg-4 col-md-6 votingListingImgSection_{{ $voting->photo_id }}" data-photo-id="{{ $voting->photo_id }}" >
-       <a class="imagePopupTriggerButton" 
-   data-photo-id="{{ $voting->photo_id }}" 
-   {{-- data-photo-category="{{ $voting->photograph->photo_category }}" --}}
-   data-ggpf-id="{{ $voting->photograph->photo_unique_id }}" 
-   role="button">
+   <li class="col-lg-4 col-md-6 votingListingImgSection_{{ $voting->photo_id }} p-0 m-0" data-photo-id="{{ $voting->photo_id }}">
+    <a class="imagePopupTriggerButton block w-full h-full" 
+       data-photo-id="{{ $voting->photo_id }}"
+       data-ggpf-id="{{ $voting->photograph->photo_unique_id }}"
+       role="button">
 
-      <div class='votes_box relative'>
-    @if(Auth::check() && $voting->photograph->userVoted(Auth::user()->id))
-        <div class="corner-badge">
-            <span class="fa fa-thumbs-up"></span>
-        </div>
-    @endif
+        <div class="relative w-full h-full overflow-hidden">
+            <img src="{{ $voting->photograph->image }}" alt="" class="w-full h-auto block" />
 
-    <figure class="imgLiquidFill">
-        <img src="{{ $voting->photograph->image }}" alt="" />
-    </figure>
-
-    <div class="lupa absolute inset-0 flex flex-col items-center justify-end p-2">
-        <p class="text-white text-sm">
-            Total Votes: {{ $voting->photograph->votes()->count() }}
-        </p>
-
-        @if(Auth::check())
-            @if(!$voting->photograph->userVoted(Auth::user()->id))
-                {{-- Optionally show a vote button --}}
+            @if(Auth::check())
+                @if($voting->photograph->userVoted(Auth::user()->id))
+                    <div class="absolute top-0 right-0 m-2 bg-green-600 text-white text-xs px-2 py-1 rounded">
+                        <i class="fa fa-thumbs-up"></i>
+                    </div>
+                @endif
             @else
-                <p class="text-success text-sm">You already voted</p>
+                <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-white text-sm text-center">
+                    <a href="{{ route('login') }}?intended={{ url('/exhibition') }}" class="underline text-white">
+                        Please login to vote
+                    </a>
+                </div>
             @endif
-        @else
-            <p class="text-white text-sm mt-1">
-                <a href="{{ route('login') }}?intended={{ url('/exhibition') }}" class="underline text-white">
-                    Please login to vote
-                </a>
-            </p>
-        @endif
-    </div>
-</div>
+        </div>
+    </a>
+</li>
 
-
-        </a>
-    </li>
     @endif
 @endforeach 
