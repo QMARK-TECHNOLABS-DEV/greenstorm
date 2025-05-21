@@ -21,22 +21,26 @@
                     </div>
                 @endif
 
-                <!-- Overlay Message -->
-                <div class="absolute bottom-0 left-0 w-full bg-black/70 text-white text-center text-sm px-2 py-2">
-                    <p>Total Votes: {{ $voting->photograph->votes()->count() }}</p>
+                <!-- Votes Count -->
+                <div class="absolute bottom-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">
+                    Total Votes: {{ $voting->photograph->votes()->count() }}
+                </div>
 
-                    @if(Auth::check())
-                        @if(!$voting->photograph->userVoted(Auth::user()->id))
-                            {{-- Optional vote button --}}
-                        @else
-                            <p class="text-green-300 mt-1">You already voted</p>
-                        @endif
-                    @else
-                        <a href="{{ route('login') }}?intended={{ url('/exhibition') }}" class="underline block mt-0 text-black">
+                <!-- Login link (bottom-right) -->
+                @if(!Auth::check())
+                    <div class="absolute bottom-2 right-2 bg-white text-black text-xs px-2 py-1 rounded shadow">
+                        <a href="{{ route('login') }}?intended={{ url('/exhibition') }}" class="underline">
                             Please login to vote
                         </a>
-                    @endif
-                </div>
+                    </div>
+                @endif
+
+                <!-- Optional voted message -->
+                @if(Auth::check() && $voting->photograph->userVoted(Auth::user()->id))
+                    <div class="absolute bottom-2 right-2 bg-white text-green-600 text-xs px-2 py-1 rounded shadow">
+                        You already voted
+                    </div>
+                @endif
 
             </div>
         </a>
