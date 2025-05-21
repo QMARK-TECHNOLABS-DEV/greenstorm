@@ -13,11 +13,11 @@
                 </div>
                 @endif
 
-                <!-- Image wrapper with zero gap -->
-                <div class="w-full h-[300px] overflow-hidden">
+                <!-- IMAGE BLOCK with LOWER HEIGHT -->
+                <div class="w-full h-[250px] overflow-hidden">
                     <img src="{{ $voting->photograph->image }}"
                          alt=""
-                         class="w-full h-full object-cover block align-top" />
+                         class="w-full h-full object-cover block" />
                 </div>
 
                 <div class="lupa text-center mt-2">
@@ -27,7 +27,7 @@
 
                     @if(Auth::check())
                         @if(!$voting->photograph->userVoted(Auth::user()->id))
-                            {{-- Voting form (optional) --}}
+                            {{-- Vote button or logic can go here --}}
                         @else
                             <p class="text-success mt-2">You already voted</p>
                         @endif
