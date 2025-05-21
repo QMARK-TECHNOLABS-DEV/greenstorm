@@ -6,7 +6,7 @@
            data-ggpf-id="{{ $voting->photograph->photo_unique_id }}"
            role="button">
 
-            <div class="votes_box p-0 m-0 bg-transparent">
+            <div class="votes_box p-0 h-[150px] m-0 bg-transparent">
                 @if(Auth::check() && $voting->photograph->userVoted(Auth::user()->id))
                 <div class="corner-badge">
                     <span class="fa fa-thumbs-up"></span>
