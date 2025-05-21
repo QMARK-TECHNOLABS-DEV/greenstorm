@@ -6,38 +6,36 @@
            data-ggpf-id="{{ $voting->photograph->photo_unique_id }}"
            role="button">
 
-            <div class="votes_box p-0 m-0 bg-transparent">
+            <!-- Image Container with Overlay -->
+            <div class="relative w-full h-[200px] overflow-hidden rounded-md">
 
-                <!-- IMAGE AREA with overlay content -->
-                <div class="relative w-full h-[600px] overflow-hidden rounded-md">
-                    <img src="{{ $voting->photograph->image }}"
-                         alt=""
-                         class="w-full h-full object-cover block" />
+                <!-- Image -->
+                <img src="{{ $voting->photograph->image }}"
+                     alt=""
+                     class="w-full h-full object-cover block" />
 
-                    <!-- Badge on top corner -->
-                    @if(Auth::check() && $voting->photograph->userVoted(Auth::user()->id))
-                        <div class="absolute top-2 right-2 bg-white text-green-600 text-xs px-2 py-1 rounded shadow">
-                            <i class="fa fa-thumbs-up"></i>
-                        </div>
-                    @endif
-
-                    <!-- Overlay info at bottom -->
-                    <div class="absolute bottom-0 left-0 w-full bg-black/60 text-white text-center text-sm p-2">
-                        <p>Total Votes: {{ $voting->photograph->votes()->count() }}</p>
-
-                        @if(Auth::check())
-                            @if(!$voting->photograph->userVoted(Auth::user()->id))
-                                {{-- Optionally show a vote button or message --}}
-                            @else
-                                <p class="text-green-300 mt-1">You already voted</p>
-                            @endif
-                        @else
-                            <a href="{{ route('login') }}?intended={{ url('/exhibition') }}"
-                               class="underline text-white mt-1 block">
-                                Please login to vote
-                            </a>
-                        @endif
+                <!-- Corner Badge if voted -->
+                @if(Auth::check() && $voting->photograph->userVoted(Auth::user()->id))
+                    <div class="absolute top-2 right-2 bg-white text-green-600 text-xs px-2 py-1 rounded shadow">
+                        <i class="fa fa-thumbs-up"></i>
                     </div>
+                @endif
+
+                <!-- Overlay Message -->
+                <div class="absolute bottom-0 left-0 w-full bg-black/70 text-white text-center text-sm px-2 py-2">
+                    <p>Total Votes: {{ $voting->photograph->votes()->count() }}</p>
+
+                    @if(Auth::check())
+                        @if(!$voting->photograph->userVoted(Auth::user()->id))
+                            {{-- Optional vote button --}}
+                        @else
+                            <p class="text-green-300 mt-1">You already voted</p>
+                        @endif
+                    @else
+                        <a href="{{ route('login') }}?intended={{ url('/exhibition') }}" class="underline block mt-1 text-white">
+                            Please login to vote
+                        </a>
+                    @endif
                 </div>
 
             </div>
