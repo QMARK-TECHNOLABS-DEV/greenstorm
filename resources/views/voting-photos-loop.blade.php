@@ -22,7 +22,7 @@
                 @endif
 
                 <!-- Votes Count -->
-                <div class="absolute bottom-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">
+                <div class="absolute bottom-2 left-2 bg-black/60 text-black text-xs px-2 py-1 rounded">
                     Total Votes: {{ $voting->photograph->votes()->count() }}
                 </div>
 
