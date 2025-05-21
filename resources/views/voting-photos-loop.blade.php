@@ -32,7 +32,7 @@
                             <p class="text-green-300 mt-1">You already voted</p>
                         @endif
                     @else
-                        <a href="{{ route('login') }}?intended={{ url('/exhibition') }}" class="underline block mt-1 text-black">
+                        <a href="{{ route('login') }}?intended={{ url('/exhibition') }}" class="underline block mt-0 text-black">
                             Please login to vote
                         </a>
                     @endif
