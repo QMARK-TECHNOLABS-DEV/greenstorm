@@ -9,7 +9,7 @@
             <div class="votes_box p-0 m-0 bg-transparent">
 
                 <!-- IMAGE AREA with overlay content -->
-                <div class="relative w-full h-[200px] overflow-hidden rounded-md">
+                <div class="relative w-full h-[300px] overflow-hidden rounded-md">
                     <img src="{{ $voting->photograph->image }}"
                          alt=""
                          class="w-full h-full object-cover block" />
