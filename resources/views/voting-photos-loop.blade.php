@@ -14,7 +14,7 @@
                 @endif
 
                 <!-- IMAGE BLOCK with LOWER HEIGHT -->
-                <div class="w-full h-[200px] overflow-hidden">
+                <div class="w-full h-[150px] overflow-hidden">
                     <img src="{{ $voting->photograph->image }}"
                          alt=""
                          class="w-full h-full object-cover block" />
