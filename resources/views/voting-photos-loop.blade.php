@@ -13,11 +13,11 @@
                 </div>
                 @endif
 
-                <!-- Image fully filling the container without gaps -->
-                <div class="w-full aspect-[4/3] relative overflow-hidden">
-                    <img src="{{ $voting->photograph->image }}" 
-                         alt="" 
-                         class="absolute top-0 left-0 w-full h-full object-cover" />
+                <!-- Image wrapper with zero gap -->
+                <div class="w-full h-[300px] overflow-hidden">
+                    <img src="{{ $voting->photograph->image }}"
+                         alt=""
+                         class="w-full h-full object-cover block align-top" />
                 </div>
 
                 <div class="lupa text-center mt-2">
@@ -27,7 +27,7 @@
 
                     @if(Auth::check())
                         @if(!$voting->photograph->userVoted(Auth::user()->id))
-                            {{-- Vote button (disabled as per current logic) --}}
+                            {{-- Voting form (optional) --}}
                         @else
                             <p class="text-success mt-2">You already voted</p>
                         @endif
