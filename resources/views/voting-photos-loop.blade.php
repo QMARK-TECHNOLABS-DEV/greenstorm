@@ -34,7 +34,7 @@
                     @else
                         <p class="mt-2">
                             <a href="{{ route('login') }}?intended={{ url('/exhibition') }}" class="underline text-white">
-                                Please login to vote
+                                Please 
                             </a>
                         </p>
                     @endif
