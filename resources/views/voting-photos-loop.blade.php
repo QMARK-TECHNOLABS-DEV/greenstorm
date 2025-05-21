@@ -1,13 +1,13 @@
 @foreach ($votingPhotos as $voting)
     @if($voting->photograph)
-    <li class="col-lg-4 col-md-6 votingListingImgSection_{{ $voting->photo_id }}" bg-black data-photo-id="{{ $voting->photo_id }}" >
+    <li class="col-lg-4 col-md-6 votingListingImgSection_{{ $voting->photo_id }}"  data-photo-id="{{ $voting->photo_id }}" >
        <a class="imagePopupTriggerButton" 
    data-photo-id="{{ $voting->photo_id }}" 
    {{-- data-photo-category="{{ $voting->photograph->photo_category }}" --}}
    data-ggpf-id="{{ $voting->photograph->photo_unique_id }}" 
    role="button">
 
-            <div class='votes_box bg-black'>
+            <div class='votes_box '>
                 @if(Auth::check() && $voting->photograph->userVoted(Auth::user()->id))
                 <div class="corner-badge">
                     <span class="fa fa-thumbs-up"></span>
@@ -32,7 +32,7 @@
             <p class="text-success mt-2">You already voted</p>
         @endif
     @else
-<p class="mt-2 text-white">
+<p class="mt-2 text-black">
    <a href="{{ route('login') }}?intended={{ url('/exhibition') }}" class="underline text-white">
     Please login to vote
 </a>
