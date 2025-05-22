@@ -78,6 +78,7 @@ Route::post('/process-pre-login',[WebAuthController::class, 'process_pre_login']
     // });
     Route::get('/sign-up',[WebController::class, 'sign_up'])->name('signup');
     Route::get('/login',[WebController::class, 'log_in'])->name('login');
+Route::post('/login', [WebAuthController::class, 'login'])->name('login.post');
 
     Route::post('/register',[WebAuthController::class, 'register'])->name('user.register');
     Route::post('/process-login',[WebAuthController::class, 'process_login'])->name('user.process_login');
