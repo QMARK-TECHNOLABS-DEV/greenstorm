@@ -29,9 +29,7 @@
                 <!-- Login link (bottom-right) -->
                 @if(!Auth::check())
                     <div class="absolute bottom-4 right-2 bg-white text-black text-xs px-2 py-1 rounded shadow">
-      <a href="{{ route('login') }}?intended={{ urlencode(url('/exhibition')) }}" class="text-black absolute bottom-2 right-2 text-xs bg-white px-2 py-1 rounded">
-    Please login to vote
-</a>
+     <a href="{{ route('login') }}" class="underline text-white"> Please login to vote</a> 
 
 
                     </div>
