@@ -74,8 +74,8 @@ src="https://www.facebook.com/tr?id=928734065914549&ev=PageView&noscript=1"
             </div>
             @empty
             <div class="mt-5 alert" role="alert">
-                <h3 class="alert-heading">YOU HAVE NOT UPLOADED ANY PHOTOGRAPHS </h3>
-                <p>R</p>
+                <h3 class="alert-heading">you havo not uploaded yet </h3>
+                <p></p>
                 <hr>
                 <p class="mb-0">Want to upload some, Please <a href="{{route('profile.photograph.upload')}}">Click Here</a>.</p> 
             </div>
