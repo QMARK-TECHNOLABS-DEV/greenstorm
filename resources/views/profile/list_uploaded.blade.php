@@ -74,10 +74,10 @@ src="https://www.facebook.com/tr?id=928734065914549&ev=PageView&noscript=1"
             </div>
             @empty
             <div class="mt-5 alert" role="alert">
-                <h3 class="alert-heading">you have not uploaded yet </h3>
-                <p></p>
+                <h3 class="alert-heading">EVALUATION UNDER PROGRESS </h3>
+                <p>Results Will Be Declared Soon</p>
                 <hr>
-                <p class="mb-0">Want to upload some, Please <a href="{{route('profile.photograph.upload')}}">Click Here</a>.</p> 
+<!--                 <p class="mb-0">Want to upload some, Please <a href="{{route('profile.photograph.upload')}}">Click Here</a>.</p>  -->
             </div>
             @endforelse 
         </div>
