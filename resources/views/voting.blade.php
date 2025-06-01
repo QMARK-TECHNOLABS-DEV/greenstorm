@@ -614,9 +614,9 @@ Now, it’s your turn to be part of this global celebration of photography and n
     $('.read-more-btn').click(function() {
         $(this).prev().slideToggle();
         if ($(this).hasClass('up')) {
-            $(this).removeClass('up').html('Read More <i class="fas fa-angle-up"></i>');
+            $(this).removeClass('up').html('Read Less <i class="fas fa-angle-up"></i>');
         } else {
-            $(this).addClass('up').html('Read Less <i class="fas fa-angle-down"></i>');
+            $(this).addClass('up').html('Read More <i class="fas fa-angle-down"></i>');
         }
     });
 </script>
