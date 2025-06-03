@@ -335,15 +335,19 @@ button.like_btn {
     <section class="page-header vote-page-header text-white py-3  bg-light-one" style="background-image: url('{{ asset('web/img/voting-sub-banner.jpg') }}'); background-size: cover; background-position: center;">
         <div class="container" >
             <div class="row">
-                <div class="col-lg-8 mx-auto text-center header-desc py-4">
-                    <h2 class="mb-0  text-center sec-ttl-2 ">#Votography</h2>
-<!--                     <h2 class="mb-0  text-center sec-ttl-2 ">Finalists</h2> -->
-                    <span class="page-header-border "> </span>
-                    <h4 class="text-center m-0 fs-4 lh-lg pb-0">
-                        <!--From Vistas to Victors: <br>   Cast Your Vote for the Ultimate Landscape Today!-->
-                        16th Greenstorm Photo Festival
-                        </h4>
-                </div>
+               <div class="col-lg-8 mx-auto text-center py-5">
+  <h2 class="text-uppercase fw-bold text-primary display-5 mb-2">#Votography</h2>
+
+  <!-- Optional subtitle (if needed) -->
+  <!-- <h2 class="fw-bold text-dark mb-2">Finalists</h2> -->
+
+  <div class="divider mx-auto mb-3" style="width: 80px; height: 4px; background-color: #28a745; border-radius: 2px;"></div>
+
+  <h4 class="text-dark fw-normal fs-5 lh-base mb-0">
+    16th Greenstorm Photo Festival
+  </h4>
+</div>
+
             </div>
         </div>
     </section>
