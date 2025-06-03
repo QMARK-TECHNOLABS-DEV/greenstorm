@@ -1,14 +1,31 @@
+@php
+    $normalImages = [];
+    $tallImages = [];
+
+    foreach ($votingPhotos as $voting) {
+        if ($voting->photograph) {
+            $height = $voting->photograph->height ?? 0; // adjust if your height is stored differently
+            if ($height > 400) {
+                $tallImages[] = $voting;
+            } else {
+                $normalImages[] = $voting;
+            }
+        }
+    }
+
+    $allPhotosOrdered = array_merge($normalImages, $tallImages);
+@endphp
+
 <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-@foreach ($votingPhotos as $voting)
-    @if($voting->photograph)
+@foreach ($allPhotosOrdered as $voting)
     <li class="votingListingImgSection_{{ $voting->photo_id }}" data-photo-id="{{ $voting->photo_id }}">
         <a class="imagePopupTriggerButton"
            data-photo-id="{{ $voting->photo_id }}"
            data-ggpf-id="{{ $voting->photograph->photo_unique_id }}"
            role="button">
 
-            <!-- Image Container with fixed height -->
-            <div class="relative w-full h-[250px] overflow-hidden rounded-md">
+            <!-- Fixed size container 300x300 -->
+            <div class="relative w-[300px] h-[300px] overflow-hidden rounded-md mx-auto">
 
                 <img src="{{ $voting->photograph->image }}"
                      alt=""
@@ -43,6 +60,5 @@
             </div>
         </a>
     </li>
-    @endif
 @endforeach
 </ul>
