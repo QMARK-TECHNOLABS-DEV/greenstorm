@@ -4,15 +4,24 @@
 
         /* Enable box-sizing */
 
-.vote-image {
-  width: 100%; /* Makes it responsive inside the container */
-  max-width: 400px; /* Set a max width for uniformity */
-  height: 300px; /* Fixed height for consistency */
-  object-fit: cover; /* Ensures images fill the box without distortion */
-  border-radius: 8px; /* Optional: rounded corners */
-  display: block;
+#popupImageContainer {
+  width: 400px;        /* fixed container width */
+  height: 300px;       /* fixed container height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;    /* hides overflow */
   margin: 0 auto;
+  background-color: #f2f2f2; /* optional: to show the box clearly */
 }
+
+.vote-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 
 /* Reset button */
 button.like_btn {
