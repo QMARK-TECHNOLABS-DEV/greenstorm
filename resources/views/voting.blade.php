@@ -4,6 +4,15 @@
 
         /* Enable box-sizing */
 
+.vote-image {
+  width: 100%; /* Makes it responsive inside the container */
+  max-width: 400px; /* Set a max width for uniformity */
+  height: 300px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensures images fill the box without distortion */
+  border-radius: 8px; /* Optional: rounded corners */
+  display: block;
+  margin: 0 auto;
+}
 
 /* Reset button */
 button.like_btn {
