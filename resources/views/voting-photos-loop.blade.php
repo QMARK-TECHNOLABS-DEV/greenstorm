@@ -1,47 +1,101 @@
-<ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-@foreach ($votingPhotos as $voting)
-    @if($voting->photograph)
-    <li class="votingListingImgSection_{{ $voting->photo_id }}" data-photo-id="{{ $voting->photo_id }}">
-        <a class="imagePopupTriggerButton"
-           data-photo-id="{{ $voting->photo_id }}"
-           data-ggpf-id="{{ $voting->photograph->photo_unique_id }}"
-           role="button">
+@php
+  $groupA = [];
+  $groupB = [];
 
-            <!-- Fixed size container 300x300 -->
-            <div class="relative w-full h-[300px] overflow-hidden rounded-md">
-                <img src="{{ $voting->photograph->image }}"
-                     alt=""
-                     class="w-full h-full object-cover block" />
+  foreach ($votingPhotos as $voting) {
+    if ($voting->photograph) {
+      $imgPath = public_path($voting->photograph->image); // adjust path if needed
+      if (file_exists($imgPath)) {
+        list($width, $height) = getimagesize($imgPath);
+        if ($height > 400) {
+          $groupB[] = $voting;
+        } else {
+          $groupA[] = $voting;
+        }
+      } else {
+        $groupA[] = $voting;
+      }
+    }
+  }
+@endphp
+
+<ul class="row">
+  @foreach ($groupA as $voting)
+    <li class="col-lg-4 col-md-6 votingListingImgSection_{{ $voting->photo_id }}" data-photo-id="{{ $voting->photo_id }}">
+      <a class="imagePopupTriggerButton"
+         data-photo-id="{{ $voting->photo_id }}"
+         data-ggpf-id="{{ $voting->photograph->photo_unique_id }}"
+         role="button">
+
+        <div style="width: 100%; height: 300px; overflow: hidden; border-radius: 8px; position: relative;">
+          <img src="{{ $voting->photograph->image }}"
+               alt=""
+               style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+
+          @if(Auth::check() && $voting->photograph->userVoted(Auth::user()->id))
+              <div style="position: absolute; top: 8px; right: 8px; background: white; color: green; font-size: 12px; padding: 4px 8px; border-radius: 4px; box-shadow: 0 0 5px rgba(0,0,0,0.2);">
+                  <i class="fa fa-thumbs-up"></i>
+              </div>
+          @endif
+
+          <div style="position: absolute; bottom: 8px; left: 8px; background: rgba(0,0,0,0.6); color: white; font-size: 12px; padding: 4px 8px; border-radius: 4px;">
+            Votes: {{ $voting->photograph->votes()->count() }}
+          </div>
+
+          @if(!Auth::check())
+            <div style="position: absolute; bottom: 32px; right: 8px; background: white; color: black; font-size: 12px; padding: 4px 8px; border-radius: 4px; box-shadow: 0 0 5px rgba(0,0,0,0.2);">
+              <a href="{{ route('login') }}" style="text-decoration: underline; color: black;">Please login to vote</a>
             </div>
+          @endif
 
-            <!-- Voted badge -->
-            @if(Auth::check() && $voting->photograph->userVoted(Auth::user()->id))
-                <div class="absolute top-2 right-2 bg-white text-green-600 text-xs px-2 py-1 rounded shadow">
-                    <i class="fa fa-thumbs-up"></i>
-                </div>
-            @endif
-
-            <!-- Votes count -->
-            <div class="absolute bottom-2 left-2 bg-black/60 text-white text-xs px-2 py-1 rounded">
-                Votes: {{ $voting->photograph->votes()->count() }}
+          @if(Auth::check() && $voting->photograph->userVoted(Auth::user()->id))
+            <div style="position: absolute; bottom: 8px; right: 8px; background: white; color: green; font-size: 12px; padding: 4px 8px; border-radius: 4px; box-shadow: 0 0 5px rgba(0,0,0,0.2);">
+              You already voted
             </div>
+          @endif
+        </div>
 
-            <!-- Login to vote -->
-            @if(!Auth::check())
-                <div class="absolute bottom-4 right-2 bg-white text-black text-xs px-2 py-1 rounded shadow">
-                    <a href="{{ route('login') }}" class="underline text-black">Please login to vote</a>
-                </div>
-            @endif
-
-            <!-- Already voted -->
-            @if(Auth::check() && $voting->photograph->userVoted(Auth::user()->id))
-                <div class="absolute bottom-2 right-2 bg-white text-green-600 text-xs px-2 py-1 rounded shadow">
-                    You already voted
-                </div>
-            @endif
-
-        </a>
+      </a>
     </li>
-    @endif
-@endforeach
+  @endforeach
+
+  @foreach ($groupB as $voting)
+    <li class="col-lg-4 col-md-6 votingListingImgSection_{{ $voting->photo_id }}" data-photo-id="{{ $voting->photo_id }}">
+      <a class="imagePopupTriggerButton"
+         data-photo-id="{{ $voting->photo_id }}"
+         data-ggpf-id="{{ $voting->photograph->photo_unique_id }}"
+         role="button">
+
+        <div style="width: 100%; height: 300px; overflow: hidden; border-radius: 8px; position: relative;">
+          <img src="{{ $voting->photograph->image }}"
+               alt=""
+               style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+
+          <!-- Same badges as above -->
+          @if(Auth::check() && $voting->photograph->userVoted(Auth::user()->id))
+              <div style="position: absolute; top: 8px; right: 8px; background: white; color: green; font-size: 12px; padding: 4px 8px; border-radius: 4px; box-shadow: 0 0 5px rgba(0,0,0,0.2);">
+                  <i class="fa fa-thumbs-up"></i>
+              </div>
+          @endif
+
+          <div style="position: absolute; bottom: 8px; left: 8px; background: rgba(0,0,0,0.6); color: white; font-size: 12px; padding: 4px 8px; border-radius: 4px;">
+            Votes: {{ $voting->photograph->votes()->count() }}
+          </div>
+
+          @if(!Auth::check())
+            <div style="position: absolute; bottom: 32px; right: 8px; background: white; color: black; font-size: 12px; padding: 4px 8px; border-radius: 4px; box-shadow: 0 0 5px rgba(0,0,0,0.2);">
+              <a href="{{ route('login') }}" style="text-decoration: underline; color: black;">Please login to vote</a>
+            </div>
+          @endif
+
+          @if(Auth::check() && $voting->photograph->userVoted(Auth::user()->id))
+            <div style="position: absolute; bottom: 8px; right: 8px; background: white; color: green; font-size: 12px; padding: 4px 8px; border-radius: 4px; box-shadow: 0 0 5px rgba(0,0,0,0.2);">
+              You already voted
+            </div>
+          @endif
+        </div>
+
+      </a>
+    </li>
+  @endforeach
 </ul>
