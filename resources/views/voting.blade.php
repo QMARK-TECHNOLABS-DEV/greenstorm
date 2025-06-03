@@ -335,25 +335,29 @@ button.like_btn {
                 <div class="col-lg-10 mx-auto ">
             <p class="first-paragraph text-start">Welcome to the 16th Greenstorm Photo Festival!
 
-ThisVotographyelebrates the breathtaking beauty of wetlands from across the world With
-            <b class="number-fontfamily">11,835</b> entries from <b class="number-fontfamily">155</b> countries, each photograph tells a powerful story of nature’s wonder and fragility.
+This year’s #Votography celebrates the breathtaking beauty of wetlands from around the world. With
+            <b class="number-fontfamily">11,835</b> entries from <b class="number-fontfamily">155</b> countries,  each photograph captures a powerful story of nature’s wonder and fragility.
+
 </p>
             <div class="read-more-content">
-               <p class="text-start">From this incredible collection, a panel of experts carried out a multi-level jury process to curate our finalists.
-Now, it’s your turn to be part of this global celebration of photography and nature. Vote for the image that speaks to you the most!
+               <p class="text-start">From this stunning global collection, a panel of experts conducted a multi-level jury process to curate our finalists. Now, it’s your turn to be part of this celebration of photography and conservation.
+Vote for the image that speaks to you the most!
+
 </p>
               <p>
                  <b>How to Vote:
 </b>
                <ul class="text-start">
-                 <li>Step 1: Log in with your email ID / Google</li>
-                  <li>Step 2: Click on any thumbnail to view the story and full-size image. Use the arrows to explore all finalist entries.</li>
+                 <li>Step 1: Click on any thumbnail to view the full-size image and its story.</li>
+                  <li>Step 2: Use the arrows to explore all finalist entries.</li>
                   <li>Step 3: Click the 👍 Vote button on your favourite photograph.</li>
-                     <li>Step 4: Love what you see? Click Grab Link and share it to gather more support!.</li>
+                     <li>Step 4: Log in using your Email ID or Google account.</li>
+                    <li> Step 5: Once logged in, click 👍 Vote again to confirm your selection.</li>
+                    <li>Step 6: Love what you see? Click "Grab Link" and share it to rally more support!</li>
                 </ul> 
                 <div class="text-start">
-                      <p></p>Let the stories of our wetlands move you.</p>
-                      <p>#Votography – Because Every Vote Tells a Story</p>
+                      <p></p>Let the stories of beautiful wetlands move you.</p>
+                      <p> #Votography – Because Every Vote Tells a Story</p>
                  
                 </div>
                 </p>
