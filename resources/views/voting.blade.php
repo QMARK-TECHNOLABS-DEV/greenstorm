@@ -4,23 +4,26 @@
 
         /* Enable box-sizing */
 
+
 #popupImageContainer {
-  width: 400px;        /* fixed container width */
-  height: 300px;       /* fixed container height */
+  width: 400px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;    /* hides overflow */
+  overflow: hidden;
   margin: 0 auto;
-  background-color: #f2f2f2; /* optional: to show the box clearly */
+  background-color: #f2f2f2;
 }
 
 .vote-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover;         /* Ensures image fills container */
+  object-position: bottom;   /* Crops from the top, shows bottom */
   display: block;
 }
+
 
 
 /* Reset button */
