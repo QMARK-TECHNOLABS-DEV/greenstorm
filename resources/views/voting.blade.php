@@ -335,15 +335,16 @@ button.like_btn {
     <section class="page-header vote-page-header text-white py-3  bg-light-one" style="background-image: url('{{ asset('web/img/voting-sub-banner.jpg') }}'); background-size: cover; background-position: center;">
         <div class="container" >
             <div class="row">
-               <div class="col-lg-8 mx-auto text-center py-4">
-  <h2 class="fw-semibold text-dark mb-2" style="font-size: 2.5rem;">#Votography</h2>
+              <div class="col-lg-8 mx-auto text-center py-4" style="background: rgba(0,0,0,0.5); border-radius: 8px;">
+  <h2 class="fw-bold text-white mb-2" style="font-size: 2.5rem;">#Votography</h2>
 
-  <div class="mx-auto mb-3" style="width: 60px; height: 3px; background-color: #3b82f6; border-radius: 2px;"></div>
+  <div class="mx-auto mb-3" style="width: 60px; height: 3px; background-color: #fff; border-radius: 2px;"></div>
 
-  <h5 class="text-muted fw-normal mb-0" style="font-size: 1.25rem;">
+  <h5 class="text-white fw-normal mb-0" style="font-size: 1.25rem;">
     16th Greenstorm Photo Festival
   </h5>
 </div>
+
 
 
             </div>
