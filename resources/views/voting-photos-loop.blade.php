@@ -7,12 +7,14 @@
            role="button">
 
             <!-- Image Container with Overlay -->
-            <div class="relative w-full h-[200px] overflow-hidden rounded-md">
+           <div class="relative w-full h-[250px] overflow-hidden rounded-md"> <!-- fixed height -->
 
-                <!-- Image -->
-                <img src="{{ $voting->photograph->image }}"
-                     alt=""
-                     class="w-full h-full object-cover block" />
+    <img src="{{ $voting->photograph->image }}"
+         alt=""
+         class="w-full h-full object-cover block" />
+
+</div>
+
 
                 <!-- Corner Badge if voted -->
                 @if(Auth::check() && $voting->photograph->userVoted(Auth::user()->id))
