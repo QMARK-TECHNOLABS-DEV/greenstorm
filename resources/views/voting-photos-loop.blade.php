@@ -19,7 +19,7 @@
   }
 @endphp
 
-<ul class="row">
+<ul class="row g-3">
   @foreach ($groupA as $voting)
     <li class="col-lg-4 col-md-6 votingListingImgSection_{{ $voting->photo_id }}" data-photo-id="{{ $voting->photo_id }}">
       <a class="imagePopupTriggerButton"
