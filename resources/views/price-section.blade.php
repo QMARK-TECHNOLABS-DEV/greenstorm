@@ -123,7 +123,7 @@
         <div class="col-lg-12 text-center">
             <!-- Submission Deadline -->
             <h5 class="mb-4" style="color: #333;font-family:Raleway, sans-serif; font-size: 25px; font-weight: bold; margin-top: -45px; transform: translateY(-80px);">
-                Submission ends on 
+                Voting ends on 
                 <span style="font-family:Raleway, sans-serif; font-size: 30px; color: black;">30</span> 
                 June <span style="font-family:Raleway, sans-serif; font-size: 30px; color: black;">2025</span>
             </h5>
