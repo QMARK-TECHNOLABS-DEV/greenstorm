@@ -157,7 +157,7 @@
                             <!-- cover end-->
                         </div>
                         <!-- mobile items -->
-<!--                         <div id="carouselExample" class="carousel slide d-block d-md-none slider_mobile" data-bs-ride="carousel">
+                        <div id="carouselExample" class="carousel slide d-block d-md-none slider_mobile" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="{{ asset('web/img/main-banners/1234.jpg') }}" class="banner_img w-100" alt="Slide 1">
@@ -176,9 +176,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
     </button>
 </div>
-                    </div> -->
-
-
+                    </div> 
 
                     <!-- item one -->
                     <?php /*
