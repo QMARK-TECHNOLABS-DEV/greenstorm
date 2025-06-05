@@ -71,7 +71,7 @@
                                 <ul class="dropdown-menu">
                                     <!--<li class="nav-item"> <a href="{{ route('contest.voting') }}" class="nav-link"> Voting </a>   </li>-->
                                     <li class="nav-item"> <a href="{{ route('contest.exhibition') }}" class="nav-link"> Exhibition </a>   </li>
-<!--                                      <li class="nav-item"> <a href="{{ route('getCamera') }}" class="nav-link"> Winners 2023 </a>   </li> -->
+                                     <li class="nav-item"> <a href="{{ route('getCamera') }}" class="nav-link"> Winners 2023 </a>   </li>
                                 </ul>
                                
                             </li>
