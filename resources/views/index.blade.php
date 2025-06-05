@@ -163,7 +163,7 @@
             <img src="{{ asset('web/img/main-banners/1234.jpg') }}" class="banner_img w-100" alt="Slide 1">
         </div>
         <div class="carousel-item">
-            <img src="{{ asset('web/img/main-banners/gs254.jpg') }}" class="banner_img w-100" alt="Slide 2">
+            <img src="{{ asset('web/img/main-banners/123456.jpg') }}" class="banner_img w-100" alt="Slide 2">
         </div>
         <div class="carousel-item">
             <img src="{{ asset('web/img/main-banners/667x887-GS-Web-banner4.jpg') }}" class="banner_img w-100" alt="Slide 3">
