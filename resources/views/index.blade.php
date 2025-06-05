@@ -80,7 +80,7 @@
 
    <section class="mainbanner main-banner-one">
     <div class="container-fluid">
-        <div class="home-main-slides">
+        <div class="home-main-slides d-none d-md-block">
             <div class="home-slides owl-carousel owl-theme">
                 <!-- Item 1 -->
                 <div class="item">
