@@ -102,7 +102,7 @@
                 <!-- Item 3 -->
                 <div class="item">
                     <div class="banner_slider">
-                        <img src="{{ asset('web/img/main-banners/gs256.jpg') }}" class="banner_img" alt="Image not found">
+                        <img src="{{ asset('web/img/GS1000.jpg') }}" class="banner_img" alt="Image not found">
                     </div>
                     <!-- CTA Button -->
                     <div class="cta-button" style="position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
@@ -166,7 +166,7 @@
             <img src="{{ asset('web/img/main-banners/123456.jpg') }}" class="banner_img w-100" alt="Slide 2">
         </div>
         <div class="carousel-item">
-            <img src="{{ asset('web/img/main-banners/667x887-GS-Web-banner4.jpg') }}" class="banner_img w-100" alt="Slide 3">
+            <img src="{{ asset('web/img/main-banners/1234.jpg') }}" class="banner_img w-100" alt="Slide 3">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
