@@ -87,6 +87,9 @@
                             <li class="nav-item">
                                 <a href="{{ route('contact') }}" class="nav-link {{  Request::segment(1) == 'contact-us' ? 'active' : '' }}"> Contact </a>
                             </li>
+                             <li class="nav-item">
+                                <a href="{{ route('exhibition') }}" class="nav-link {{  Request::segment(1) == 'festivals' ? 'active' : '' }}"> Exhibition </a>
+                            </li>
                             @if(Auth::check())
                             <li class="nav-item">
                                 <a href="#" class="nav-link ">
