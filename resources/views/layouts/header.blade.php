@@ -64,17 +64,12 @@
                             </li>
 
                          
-                            <li class="nav-item">
-                                <a href="{{ route('contest') }}" class="nav-link {{  Request::segment(1) == 'contests' ? 'active' : '' }}">Exhibition
-                                    <i class='ms-1 fa fa-chevron-down'></i>
-                                </a>
-                                <ul class="dropdown-menu">
-                                 
-                                    <li class="nav-item"> <a href="{{ route('contest.exhibition') }}" class="nav-link"> Exhibition </a>   </li>
-<!--                                      <li class="nav-item"> <a href="{{ route('getCamera') }}" class="nav-link"> Winners 2023 </a>   </li> -->
-                                </ul>
-                               
-                            </li>
+                           <li class="nav-item">
+    <a href="{{ route('contest.exhibition') }}" class="nav-link {{ Request::segment(1) == 'contests' ? 'active' : '' }}">
+        Exhibition
+    </a>
+</li>
+
                           
                             
                             <li class="nav-item">
