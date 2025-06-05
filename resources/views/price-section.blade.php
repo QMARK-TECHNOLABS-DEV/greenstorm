@@ -127,7 +127,7 @@
                 <span style="font-family:Raleway, sans-serif; font-size: 30px; color: black;">30</span> 
                 June <span style="font-family:Raleway, sans-serif; font-size: 30px; color: black;">2025</span>
             </h5>
-            CTA Button -->
+<!--             CTA Button  -->
             <a href="{{ url('/exhibition') }}" class="submit-btn" 
                style="background: linear-gradient(45deg, #b0d232, #36b348); color: #fff; padding: 15px 30px; 
                       border-radius: 50px; text-decoration: none; font-size: 18px; font-weight: bold; 
