@@ -1352,7 +1352,7 @@ Your image has the power to make a difference.
         <div class="floatingButtonInner">
             <a href="{{url('profile/upload-photograph')}}" class="floatingButton">
                <i class="fa fa-plus icon-default"></i>
-               Vote Now
+               Vote 
             </a>
         </div>
     </div>
