@@ -341,7 +341,7 @@ button.like_btn {
   </h2>
 
   <!-- Green line -->
-  <div class="mx-auto mb-3" style="width: 80px; height: 4px; background-color: #4CAF50; border-radius: 2px;"></div>
+<!--   <div class="mx-auto mb-3" style="width: 80px; height: 4px; background-color: #4CAF50; border-radius: 2px;"></div> -->
 
   <h4 class="text-white fw-normal mb-0" style="font-size: 1.5rem; text-shadow: 1px 1px 4px rgba(0,0,0,0.5);">
     16th Greenstorm Photo Festival
