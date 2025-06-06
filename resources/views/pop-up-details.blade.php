@@ -27,7 +27,12 @@
         <div class="row align-items-center">
             <div class="col-lg-9 " >
                 <button class="btn btn-sm rounded-3 text-white btn-success" id="shareButton" data-photo-id="{{ $photo->photo_unique_id }}" data-photo-category="{{ $photo->photo_category }}" ><i class="fa fa-share-alt"></i> Share via App</button>
-                <button class="btn btn-sm rounded-3 text-white btn-primary bg-blue" id="copyButton" data-photo-id="{{ $photo->photo_unique_id }}" data-photo-category="{{  $photo->photo_category }}"><i class="fa-regular fa-clipboard"></i> Grab Link </button>
+<button class="copyButton btn btn-sm rounded-3 text-white btn-primary bg-blue"
+        data-photo-id="{{ $photo->photo_unique_id }}"
+        data-photo-category="{{ $photo->photo_category }}">
+    <i class="fa-regular fa-clipboard"></i> Grab Link
+</button>
+
             </div>
             <div class="col-lg-3 res-order-1 text-center ">
                 <div class="like-btn-row active py-md-4 py-3 text-center">
