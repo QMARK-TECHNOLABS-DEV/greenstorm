@@ -94,13 +94,13 @@
                     </div> 
                 </div>
                 <!-- Item 2 -->
-                <div class="item">
+<!--                 <div class="item">
                     <div class="banner_slider">
                         <img src="{{ asset('web/img/main-banners/1234567.jpg') }}" class="banner_img" alt="Image not found">
                     </div>
-                </div>
+                </div> -->
                 <!-- Item 3 -->
-                <div class="item">
+<!--                 <div class="item">
                     <div class="banner_slider">
                         <img src="{{ asset('web/img/GS1000.jpg') }}" class="banner_img" alt="Image not found">
                     </div>
@@ -110,7 +110,7 @@
                         Vote Now
                         </a>
                     </div> 
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -162,12 +162,12 @@
         <div class="carousel-item active">
             <img src="{{ asset('web/img/main-banners/122.jpg') }}" class="banner_img w-100" alt="Slide 1">
         </div>
-        <div class="carousel-item">
+<!--         <div class="carousel-item">
             <img src="{{ asset('web/img/main-banners/12345678.jpg') }}" class="banner_img w-100" alt="Slide 2">
         </div>
         <div class="carousel-item">
             <img src="{{ asset('web/img/main-banners/1234.jpg') }}" class="banner_img w-100" alt="Slide 3">
-        </div>
+        </div> -->
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
