@@ -622,23 +622,24 @@ Vote for the image that speaks to you the most!
         });
     @endif
 
-    $(document).on('click','#copyButton', function() {
-       let photoID =  $(this).data('photo-id');
-       let photoCategoryID =  $(this).data('photo-category');
-       let __this = $(this);
-       let CopyURL = "{{ route('contest.exhibition') }}"+'?category=' +photoCategoryID+ '&ggpfImageId='+photoID;
-        navigator.clipboard.writeText(CopyURL)
-            .then(() => {
-                __this.html(`<i class="fa-solid fa-clipboard"></i>  Link Copied`);
-                setTimeout(() => {
-                    __this.html(`<i class="fa-regular fa-clipboard"></i>
-            Grab Link`);
-                }, 3000);
-            })
-            .catch(err => {
-                console.error('Error in copying text: ', err);
-            });
-    });
+   $(document).on('click', '.copyButton', function () {
+    let photoID = $(this).data('photo-id');
+    let photoCategoryID = $(this).data('photo-category');
+    let __this = $(this);
+    let CopyURL = "{{ route('contest.exhibition') }}" + '?category=' + photoCategoryID + '&ggpfImageId=' + photoID;
+
+    navigator.clipboard.writeText(CopyURL)
+        .then(() => {
+            __this.html('<i class="fa-solid fa-clipboard"></i> Link Copied');
+            setTimeout(() => {
+                __this.html('<i class="fa-regular fa-clipboard"></i> Grab Link');
+            }, 3000);
+        })
+        .catch(err => {
+            console.error('Error in copying text: ', err);
+        });
+});
+
 
 </script>
 
