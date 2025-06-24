@@ -4,7 +4,7 @@
 
         /* Enable box-sizing */
 .read-more-btn.less {
-        margin-top: 10px; /* Adjust as needed */
+        margin-top: 100px; /* Adjust as needed */
         display: inline-block;
     }
 
