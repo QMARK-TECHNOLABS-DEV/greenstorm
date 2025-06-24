@@ -3,7 +3,9 @@
     <style>
 
         /* Enable box-sizing */
-
+.read-more-btn.up {
+        margin-top: 10px; /* Adjust this value as needed */
+    }
 
 #popupImageContainer {
   width: 400px;
@@ -645,7 +647,7 @@ Vote for the image that speaks to you the most!
 </script>
 
 <script>
-    $('.read-more-btn').click(function() {
+    $('.read-more-btn').click(function () {
         $(this).prev().slideToggle();
         if ($(this).hasClass('up')) {
             $(this).removeClass('up').html('Read Less <i class="fas fa-angle-up"></i>');
