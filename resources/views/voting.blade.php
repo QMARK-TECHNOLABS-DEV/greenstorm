@@ -3,8 +3,9 @@
     <style>
 
         /* Enable box-sizing */
-.read-more-btn.up {
-        margin-top: 10px; /* Adjust this value as needed */
+.read-more-btn.less {
+        margin-top: 10px; /* Adjust as needed */
+        display: inline-block;
     }
 
 #popupImageContainer {
