@@ -650,10 +650,17 @@ Vote for the image that speaks to you the most!
 <script>
     $('.read-more-btn').click(function () {
         $(this).prev().slideToggle();
-        if ($(this).hasClass('up')) {
-            $(this).removeClass('up').html('Read Less <i class="fas fa-angle-up"></i>');
+
+        if ($(this).hasClass('read-less')) {
+           
+            $(this)
+                .removeClass('read-less')
+                .html('Read More <i class="fas fa-angle-down"></i>');
         } else {
-            $(this).addClass('up').html('Read More <i class="fas fa-angle-down"></i>');
+            // Show Read Less and move button down
+            $(this)
+                .addClass('read-less')
+                .html('Read Less <i class="fas fa-angle-up"></i>');
         }
     });
 </script>
