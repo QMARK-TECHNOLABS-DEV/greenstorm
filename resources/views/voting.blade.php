@@ -386,7 +386,8 @@ Vote for the image that speaks to you the most!
                 <div class="text-start">
                       <p></p>Let the stories of beautiful wetlands move you.</p>
                       <p> #Votography – Because Every Vote Tells a Story</p>
-                 
+                 <p><strong>Note: Votes generated through bots or other unfair means will be identified and disqualified. Only genuine votes will be considered for the final selection of the winner.</strong></p>
+
                 </div>
                 </p>
             </div>
