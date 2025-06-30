@@ -87,11 +87,11 @@
                     <div class="banner_slider">
                         <img src="{{ asset('web/img/main-banners/123321.jpg') }}" class="banner_img" alt="Image not found">
                     </div>
-                    <div class="cta-button" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+<!--                     <div class="cta-button" style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                         <a href="{{url('/exhibition')}}" class="submit-btn" style="background: linear-gradient(45deg, #b0d232, #36b348); color: #fff; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-size: 18px; font-weight: bold; border: 3px solid #badcb2; box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);">
                             Vote Now
                         </a>
-                    </div> 
+                    </div>  -->
                 </div>
                 <!-- Item 2 -->
 <!--                 <div class="item">
@@ -162,11 +162,11 @@
         <div class="carousel-item active">
             <img src="{{ asset('web/img/main-banners/1232.jpg') }}" class="banner_img w-100" alt="Slide 1">
         </div>
-         <div class="cta-button" style="position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+<!--          <div class="cta-button" style="position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                         <a href="{{url('/exhibition')}}" class="submit-btn" style="background: linear-gradient(45deg, #b0d232, #36b348); color: #fff; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-size: 18px; font-weight: bold; border: 3px solid #badcb2; box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);">
                         Vote Now
                         </a>
-                    </div>
+                    </div> -->
 <!--         <div class="carousel-item">
             <img src="{{ asset('web/img/main-banners/12345678.jpg') }}" class="banner_img w-100" alt="Slide 2">
         </div>
@@ -1349,12 +1349,12 @@ Your image has the power to make a difference.
 
 
     <div class="floatingButtonWrap">
-        <div class="floatingButtonInner">
+<!--         <div class="floatingButtonInner">
             <a href="{{url('profile/upload-photograph')}}" class="floatingButton">
                <i class="fa fa-plus icon-default"></i>
                Vote 
             </a>
-        </div>
+        </div> -->
     </div>
 
 
