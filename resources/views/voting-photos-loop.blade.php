@@ -43,9 +43,9 @@
           </div>
 
           @if(!Auth::check())
-            <div style="position: absolute; bottom: 32px; right: 8px; background: white; color: black; font-size: 12px; padding: 4px 8px; border-radius: 4px; box-shadow: 0 0 5px rgba(0,0,0,0.2);">
+<!--             <div style="position: absolute; bottom: 32px; right: 8px; background: white; color: black; font-size: 12px; padding: 4px 8px; border-radius: 4px; box-shadow: 0 0 5px rgba(0,0,0,0.2);">
               <a href="{{ route('login') }}" style="text-decoration: underline; color: black;">Please login to vote</a>
-            </div>
+            </div> -->
           @endif
 
           @if(Auth::check() && $voting->photograph->userVoted(Auth::user()->id))
