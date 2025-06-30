@@ -538,8 +538,8 @@ This year’s #Votography celebrates the breathtaking beauty of wetlands from ar
                                 showCancelButton: false,
                             });
                         }
-                        __this.next('p').text('Votes - ' + (data.voteCount ?? 0));
-                        $('.votingListing__' +photo_id).html('<i class="fa-regular fa-thumbs-up" ></i>  Votes - <span> ' + data.voteCount + '</span>');
+                        // __this.next('p').text('Votes - ' + (data.voteCount ?? 0));
+                        // $('.votingListing__' +photo_id).html('<i class="fa-regular fa-thumbs-up" ></i>  Votes - <span> ' + data.voteCount + '</span>');
             }).fail(function (xhr, status, error) {
                             Swal.fire({
                                 title: 'Thank You!',
