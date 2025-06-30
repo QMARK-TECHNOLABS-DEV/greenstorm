@@ -366,17 +366,17 @@ button.like_btn {
                 <div class="col-lg-10 mx-auto ">
             <p class="first-paragraph text-start">Welcome to the 16th Greenstorm Photo Festival!
 
-This year’s #Votography celebrates the breathtaking beauty of wetlands from around the world. With
-            <b class="number-fontfamily">11,835</b> entries from <b class="number-fontfamily">155</b> countries,  each photograph captures a powerful story of nature’s wonder and fragility.
+This year’s #Votography celebrates the breathtaking beauty of wetlands from around the world. This Edition Recieved an Overwhelming
+            <b class="number-fontfamily">11,835</b> entries from <b class="number-fontfamily">155</b> countries. After a rigorous multi-level jury process, the top 30 finalists were carefully curated.
+
 
 </p>
             <div class="read-more-content">
-               <p class="text-start">From this stunning global collection, a panel of experts conducted a multi-level jury process to curate our finalists. Now, it’s your turn to be part of this celebration of photography and conservation.
-Vote for the image that speaks to you the most!
+               <p class="text-start">Stay tuned for the award ceremony!
 
 </p>
               <p>
-                 <b>How to Vote:
+<!--                  <b>How to Vote:
 </b>
                <ul class="text-start">
                  <li>Step 1: Click on any thumbnail to view the full-size image and its story.</li>
@@ -385,13 +385,13 @@ Vote for the image that speaks to you the most!
                      <li>Step 4: Log in using your Email ID or Google account.</li>
                     <li> Step 5: Once logged in, click 👍 Vote again to confirm your selection.</li>
                     <li>Step 6: Love what you see? Click "Grab Link" and share it to rally more support!</li>
-                </ul> 
-                <div class="text-start">
+                </ul>  -->
+<!--                 <div class="text-start">
                       <p></p>Let the stories of beautiful wetlands move you.</p>
                       <p> #Votography – Because Every Vote Tells a Story</p>
                  <p><strong>Note: Votes generated through bots or other unfair means will be identified and disqualified. Only genuine votes will be considered for the final selection of the winner.</strong></p>
 
-                </div>
+                </div> -->
                 </p>
             </div>
             <p class="read-more-btn text-green text-start fw-700 m-0 p-0 up cursor-pointer" onclick="toggleReadMore()" role="button"> Read More <i class="fas fa-angle-down"></i></p>
