@@ -77,10 +77,10 @@
                   <i class="fa fa-thumbs-up"></i>
               </div>
           @endif
-
+<!-- 
           <div style="position: absolute; bottom: 8px; left: 8px; background: rgba(0,0,0,0.6); color: white; font-size: 12px; padding: 4px 8px; border-radius: 4px;">
             Votes: {{ $voting->photograph->votes()->count() }}
-          </div>
+          </div> -->
 
           @if(!Auth::check())
             <div style="position: absolute; bottom: 32px; right: 8px; background: white; color: black; font-size: 12px; padding: 4px 8px; border-radius: 4px; box-shadow: 0 0 5px rgba(0,0,0,0.2);">
