@@ -40,7 +40,7 @@
                     <button class="like_btn button thumb rounded likeButtonAction @if(Auth::check() && $photo->userVoted(Auth::user()->id)) is-active @endif" data-photo-id="{{ $photo->id }}">
                         <i class="fa fa-thumbs-up"></i>
                     </button>
-                    <p class="mb-0 text-center">  Votes -  {{ $photo->userVotes->count() }}    </p> 
+<!--                     <p class="mb-0 text-center">  Votes -  {{ $photo->userVotes->count() }}    </p>  -->
                 </div>
             </div>
         </div>
