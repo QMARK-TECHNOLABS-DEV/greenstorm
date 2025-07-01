@@ -37,9 +37,9 @@
             <div class="col-lg-3 res-order-1 text-center ">
                 <div class="like-btn-row active py-md-4 py-3 text-center">
                     <p class="mb-0 outline-icon ">   <i class="fa-regular fa-thumbs-up"></i>  </p>
-                    <button class="like_btn button thumb rounded likeButtonAction @if(Auth::check() && $photo->userVoted(Auth::user()->id)) is-active @endif" data-photo-id="{{ $photo->id }}">
+<!--                     <button class="like_btn button thumb rounded likeButtonAction @if(Auth::check() && $photo->userVoted(Auth::user()->id)) is-active @endif" data-photo-id="{{ $photo->id }}">
                         <i class="fa fa-thumbs-up"></i>
-                    </button>
+                    </button> -->
 <!--                     <p class="mb-0 text-center">  Votes -  {{ $photo->userVotes->count() }}    </p>  -->
                 </div>
             </div>
