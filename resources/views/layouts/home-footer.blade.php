@@ -68,7 +68,7 @@
                     <a title="CONTEST" class="nav-link" href="{{ route('contest') }}#faq-section">FAQ</a>
                 </li>
                 <li class="nav-item">
-                    <a title="PRESS RELEASE" class="nav-link" href="{{ route('press.release') }}">PRESS RELEASE</a>
+                    <a title="BLOG" class="nav-link" href="{{ route('press.release') }}">BLOG</a>
                 </li>
                 <li class="nav-item">
                     <a title="CONTACT" class="nav-link " href="{{ route('contact') }}">CONTACT</a>
