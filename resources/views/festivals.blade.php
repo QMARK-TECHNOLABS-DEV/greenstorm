@@ -229,7 +229,7 @@
                            </div>
                        </div>
                                               <!-- tab-pane end -->
-                       <div class="tab-pane fade " id="nav-two" role="tabpanel" aria-labelledby="nav-two">
+                       <div class="tab-pane fade " id="nav-five" role="tabpanel" aria-labelledby="nav-five">
                            <div class="row ">
                                <div class="col-lg-12 img-gallery-magnific">                                   
                                        @include('festival-partials.2023')
