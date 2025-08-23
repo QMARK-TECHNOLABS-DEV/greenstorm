@@ -36,11 +36,12 @@
                        <div class="col-lg-12 wow animate__animated animate__fadeInRight" data-wow-delay=".3s">
                            <nav>
                                <div class="nav nav-tabs gallery-nav mb-3 mt-3  mb-lg-4 mt-lg-4 justify-content-end " id="nav-tab" role="tablist">
-                                   <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-five" type="button" role="tab" aria-controls="nav-five" aria-selected="true"> 2023 </a>
-                                   <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-one" type="button" role="tab" aria-controls="nav-one" aria-selected="true"> 2022 </a>
-                                   <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-two" type="button" role="tab" aria-controls="nav-two" aria-selected="false"> 2021 </a>
-                                   <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-three" type="button" role="tab" aria-controls="nav-three" aria-selected="false"> 2020 </a>
-                                   <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-four" type="button" role="tab" aria-controls="nav-four" aria-selected="false"> 2019 </a>
+                                   <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-five" type="button" role="tab" aria-controls="nav-five" aria-selected="true"> 16th </a>
+                                   <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-one" type="button" role="tab" aria-controls="nav-one" aria-selected="true"> 15th </a>
+                                   <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-two" type="button" role="tab" aria-controls="nav-two" aria-selected="false"> 14th </a>
+                                   <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-three" type="button" role="tab" aria-controls="nav-three" aria-selected="false"> 13th </a>
+                                   <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-four" type="button" role="tab" aria-controls="nav-four" aria-selected="false"> 12th </a>
+                                                                      <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-six" type="button" role="tab" aria-controls="nav-six" aria-selected="false"> 11th </a>
                                </div>
                            </nav>
                        </div>
