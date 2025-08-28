@@ -14,6 +14,11 @@
        align-items: center;
        justify-content: center;
        }
+    .nav-link .ord {
+  text-transform: lowercase !important;
+  font-size: 0.8em; /* optional: makes "th" slightly smaller */
+}
+
        .mfp-title {
        text-align: left;
        line-height: 18px;
@@ -36,12 +41,13 @@
                        <div class="col-lg-12 wow animate__animated animate__fadeInRight" data-wow-delay=".3s">
                            <nav>
                                <div class="nav nav-tabs gallery-nav mb-3 mt-3  mb-lg-4 mt-lg-4 justify-content-end " id="nav-tab" role="tablist">
-                                  <a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-six">16<sup>th</sup></a>
-<a class="nav-link active" data-bs-toggle="tab" data-bs-target="#nav-five">15<sup>th</sup></a>
-<a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-one">14<sup>th</sup></a>
-<a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-two">13<sup>th</sup></a>
-<a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-three">12<sup>th</sup></a>
-<a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-four">11<sup>th</sup></a>
+<a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-six">16<span class="ord">th</span></a>
+<a class="nav-link active" data-bs-toggle="tab" data-bs-target="#nav-five">15<span class="ord">th</span></a>
+<a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-one">14<span class="ord">th</span></a>
+<a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-two">13<span class="ord">th</span></a>
+<a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-three">12<span class="ord">th</span></a>
+<a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-four">11<span class="ord">th</span></a>
+
 
                                </div>
                            </nav>
