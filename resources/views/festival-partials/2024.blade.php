@@ -10,28 +10,28 @@
     </li>
 
     <li class="col-lg-4 col-md-6">
-        <a class="image-popup-vertical-fit" href="https://drive.google.com/file/d/1s6zzt_PGkHG8cuVeWy2hi0_ckLh9qkCA/view?usp=sharing" title="ANDREA CURZI">
+        <a class="image-popup-vertical-fit" href="https://greenstorm.blob.core.windows.net/greenstormc/photo-uploads-2025/1738586377azr_5.jpg" title="Yevhen Samuchenko">
             <div class='box-4'>
-                <figure><img src="https://drive.google.com/thumbnail?id=1s6zzt_PGkHG8cuVeWy2hi0_ckLh9qkCA" alt="Andrea Curzi" /></figure>
-                <div class='lupa text-center'><p class="phto_owner_name">ANDREA CURZI</p><p class="phto_owner_place">Italy</p></div>
+                <figure><img src="https://greenstorm.blob.core.windows.net/greenstormc/photo-uploads-2025/1738586377azr_5.jpg" alt="Yevhen Samuchenko" /></figure>
+                <div class='lupa text-center'><p class="phto_owner_name">Yevhen Samuchenko</p><p class="phto_owner_place">UKRAINE</p></div>
             </div>
         </a>
     </li>
 
     <li class="col-lg-4 col-md-6">
-        <a class="image-popup-vertical-fit" href="https://drive.google.com/file/d/1DBuaNnEe4JZgbbUtt9WvdIG5G4QHBZql/view?usp=sharing" title="ANOOP KRISHNA (ANOOP PS)">
+        <a class="image-popup-vertical-fit" href="https://greenstorm.blob.core.windows.net/greenstormc/photo-uploads-2025/1738588035azr_Ariel Gitana_Bohol.jpg" title="Ariel Aguilar Gitana">
             <div class='box-4'>
-                <figure><img src="https://drive.google.com/thumbnail?id=1DBuaNnEe4JZgbbUtt9WvdIG5G4QHBZql" alt="ANOOP KRISHNA" /></figure>
-                <div class='lupa text-center'><p class="phto_owner_name">ANOOP KRISHNA (ANOOP PS)</p><p class="phto_owner_place">India</p></div>
+                <figure><img src="https://greenstorm.blob.core.windows.net/greenstormc/photo-uploads-2025/1738588035azr_Ariel Gitana_Bohol.jpg" alt="Ariel Aguilar Gitana" /></figure>
+                <div class='lupa text-center'><p class="phto_owner_name">Ariel Aguilar Gitana</p><p class="phto_owner_place">PHILIPPINES</p></div>
             </div>
         </a>
     </li>
 
     <li class="col-lg-4 col-md-6">
-        <a class="image-popup-vertical-fit" href="https://drive.google.com/file/d/1D8rr6xPZIAlYb2u-yUVZlXL-VjHptMdm/view?usp=sharing" title="CAO KY NHAN">
+        <a class="image-popup-vertical-fit" href="https://greenstorm.blob.core.windows.net/greenstormc/photo-uploads-2025/1738589351azr_OLYM3874-2.jpg" title="Antonis Giakoumakis">
             <div class='box-4'>
-                <figure><img src="https://drive.google.com/thumbnail?id=1D8rr6xPZIAlYb2u-yUVZlXL-VjHptMdm" alt="Cao Ky Nhan" /></figure>
-                <div class='lupa text-center'><p class="phto_owner_name">CAO KY NHAN</p><p class="phto_owner_place">Vietnam</p></div>
+                <figure><img src="https://greenstorm.blob.core.windows.net/greenstormc/photo-uploads-2025/1738589351azr_OLYM3874-2.jpg" alt="Antonis Giakoumakis" /></figure>
+                <div class='lupa text-center'><p class="phto_owner_name">Antonis Giakoumakis</p><p class="phto_owner_place">GREECE</p></div>
             </div>
         </a>
     </li>
