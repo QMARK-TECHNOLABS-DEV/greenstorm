@@ -36,13 +36,13 @@
                        <div class="col-lg-12 wow animate__animated animate__fadeInRight" data-wow-delay=".3s">
                            <nav>
                                <div class="nav nav-tabs gallery-nav mb-3 mt-3  mb-lg-4 mt-lg-4 justify-content-end " id="nav-tab" role="tablist">
-                                   <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-six" type="button" role="tab" aria-controls="nav-six" aria-selected="false"> 16th </a>
-                                   <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-five" type="button" role="tab" aria-controls="nav-five" aria-selected="true"> 15th </a>
-                                   <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-one" type="button" role="tab" aria-controls="nav-one" aria-selected="true"> 14th </a>
-                                   <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-two" type="button" role="tab" aria-controls="nav-two" aria-selected="false"> 13th </a>
-                                   <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-three" type="button" role="tab" aria-controls="nav-three" aria-selected="false"> 12th </a>
-                                   <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-four" type="button" role="tab" aria-controls="nav-four" aria-selected="false"> 11th </a>
-                                                     
+                                  <a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-six">16<sup>th</sup></a>
+<a class="nav-link active" data-bs-toggle="tab" data-bs-target="#nav-five">15<sup>th</sup></a>
+<a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-one">14<sup>th</sup></a>
+<a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-two">13<sup>th</sup></a>
+<a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-three">12<sup>th</sup></a>
+<a class="nav-link" data-bs-toggle="tab" data-bs-target="#nav-four">11<sup>th</sup></a>
+
                                </div>
                            </nav>
                        </div>
