@@ -1,10 +1,10 @@
 <ul class="gallery_list row mb-0 p-0">
 
     <li class="col-lg-4 col-md-6">
-        <a class="image-popup-vertical-fit" href="https://drive.google.com/file/d/1xVpEzwWe4uKRumimW25WmVJHPFuZHAVe/view?usp=sharing" title="MORTEZA SALEHI">
+        <a class="image-popup-vertical-fit" href="https://greenstorm.blob.core.windows.net/greenstormc/photo-uploads-2025/1738585782azr_2.jpg" title="Yevhen Samuchenko">
             <div class='box-4'>
-                <figure><img src="https://drive.google.com/thumbnail?id=1xVpEzwWe4uKRumimW25WmVJHPFuZHAVe" alt="Morteza Salehi" /></figure>
-                <div class='lupa text-center'><p class="phto_owner_name">MORTEZA SALEHI</p><p class="phto_owner_place">Iran</p></div>
+                <figure><img src="https://greenstorm.blob.core.windows.net/greenstormc/photo-uploads-2025/1738585782azr_2.jpg" alt="Yevhen Samuchenko" /></figure>
+                <div class='lupa text-center'><p class="phto_owner_name">Yevhen Samuchenko</p><p class="phto_owner_place">UKRAINE</p></div>
             </div>
         </a>
     </li>
