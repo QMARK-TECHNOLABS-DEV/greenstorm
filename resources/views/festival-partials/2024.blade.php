@@ -136,18 +136,18 @@
         </a>
     </li>
   <li class="col-lg-4 col-md-6">
-        <a class="image-popup-vertical-fit" href="https://drive.google.com/file/d/1gc5MCnzulbZaBjewSV_jWoktlWvsiA0H/view?usp=sharing" title="ARJUN SASI">
+        <a class="image-popup-vertical-fit" href="https://greenstorm.blob.core.windows.net/greenstormc/photo-uploads-2025/1738664280azr__K6A8720 copy.jpg" title="Mainak Ray">
             <div class='box-4'>
-                <figure><img src="https://drive.google.com/thumbnail?id=1gc5MCnzulbZaBjewSV_jWoktlWvsiA0H" alt="Arjun Sasi" /></figure>
-                <div class='lupa text-center'><p class="phto_owner_name">ARJUN SASI</p><p class="phto_owner_place">United Arab Emirates</p></div>
+                <figure><img src="hhttps://greenstorm.blob.core.windows.net/greenstormc/photo-uploads-2025/1738664280azr__K6A8720 copy.jpg" alt="Mainak Ray" /></figure>
+                <div class='lupa text-center'><p class="phto_owner_name">Mainak Ray</p><p class="phto_owner_place">India</p></div>
             </div>
         </a>
     </li>
   <li class="col-lg-4 col-md-6">
-        <a class="image-popup-vertical-fit" href="https://drive.google.com/file/d/1gc5MCnzulbZaBjewSV_jWoktlWvsiA0H/view?usp=sharing" title="ARJUN SASI">
+        <a class="image-popup-vertical-fit" href="https://greenstorm.blob.core.windows.net/greenstormc/photo-uploads-2025/1738666406azr_PT1_0378.jpg" title="Tran Ngoc Anh">
             <div class='box-4'>
-                <figure><img src="https://drive.google.com/thumbnail?id=1gc5MCnzulbZaBjewSV_jWoktlWvsiA0H" alt="Arjun Sasi" /></figure>
-                <div class='lupa text-center'><p class="phto_owner_name">ARJUN SASI</p><p class="phto_owner_place">United Arab Emirates</p></div>
+                <figure><img src="https://greenstorm.blob.core.windows.net/greenstormc/photo-uploads-2025/1738666406azr_PT1_0378.jpg" alt="Tran Ngoc Anh" /></figure>
+                <div class='lupa text-center'><p class="phto_owner_name">Tran Ngoc Anh</p><p class="phto_owner_place">United Arab Emirates</p></div>
             </div>
         </a>
     </li>
